@@ -1,0 +1,19 @@
+- name: GitHub
+  href: https://github.com/ekzhang
+  icon: fab fa-github
+  color: "#24292e"
+
+- name: Facebook
+  href: https://fb.me/ekzhang
+  icon: fab fa-facebook
+  color: "#3b5998"
+
+- name: Quora
+  href: https://www.quora.com/profile/Eric-Zhang-99
+  icon: fab fa-quora
+  color: "#aa2200"
+
+- name: Mail
+  href: mailto:ekzhang@college.harvard.edu
+  icon: fas fa-envelope
+  color: "#333"

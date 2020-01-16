@@ -1,0 +1,54 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ page.title }}</title>
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+    ></script>
+
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Eric Zhang</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+        <a href="mailto:ekzhang@college.harvard.edu">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="container">{{ content }}</div>
+    </main>
+    <footer>
+      <ul class="icon-list list-unstyled">
+        {% for link in site.data.links %}
+        <li>
+          <a style="color: {{ link.color }}" href="{{ link.href }}"
+            ><i class="{{ link.icon }}"></i
+          ></a>
+        </li>
+        {% endfor %}
+      </ul>
+    </footer>
+  </body>
+</html>
