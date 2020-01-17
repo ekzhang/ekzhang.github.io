@@ -4,5 +4,61 @@ title: Eric Zhang - Projects
 permalink: /projects
 ---
 
-<h2>Projects</h2>
-<p>Here are some of the projects I've worked on.</p>
+<section class="container">
+  <h2>Projects</h2>
+  <h5>
+    Here are some programming projects I've worked on. Hopefully you find them
+    interesting.
+  </h5>
+</section>
+
+<div class="spacer"></div>
+
+<section class="container">
+  <h4>Set with Friends <small>January 2020</small></h4>
+  {% include tags.html repo="ekzhang/setwithfriends"
+  tags="JavaScript,Web,React,Firebase" %}
+  <div class="row">
+    <div class="col-md-8">
+      <p class="lead">A real-time, multiplayer online card game.</p>
+      <p>
+        This is a web-based implementation of a real-time pattern matching card
+        game called
+        <a href="https://en.wikipedia.org/wiki/Set_(card_game)">Set</a>. The
+        idea of this project originated at SPARC 2019, when I was thinking about
+        how I could bridge the 3000 mile gap between some of the friends I'd
+        made, after we part ways. This web application lets you play Set online
+        with minimal overhead (no login); it's as simple as sharing a link to
+        invite players to join the game.
+      </p>
+      <p>
+        In the process of designing this application, I heard great things about
+        Firebase (a database service provided by Google), so this app ended up
+        serving as my introduction to serverless databases, as well as an
+        exercise in live interface design. I used animations and colors to
+        provide visual cues that made the application much more usable, without
+        becoming distracting.
+      </p>
+      <h5>Links:</h5>
+      <ul>
+        <li><a href="https://github.com/ekzhang/setwithfriends">GitHub</a></li>
+        <li><a href="https://setwithfriends.com/">Website</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <a href="/assets/images/setwithfriends.png">
+        <img
+          class="img-fluid"
+          alt="Set with Friends"
+          src="/assets/images/setwithfriends.png"
+        />
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr />
+
+<section class="container">
+  <h4>Julia Fractal Renderer</h4>
+</section>

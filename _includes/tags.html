@@ -1,0 +1,12 @@
+<div class="tags">
+  <a class="link-unstyled" href="https://github.com/{{ include.repo }}">
+    <span class="badge badge-gold">
+      <i class="fas fa-star"></i>
+      <span class="star-count" data-repo="{{ include.repo }}"></span>
+    </span>
+  </a>
+  {% assign taglist = include.tags | split: "," %}
+  {% for tag in taglist %}
+  <span class="badge badge-secondary">{{ tag }}</span>
+  {% endfor %}
+</div>

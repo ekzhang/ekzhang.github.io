@@ -42,7 +42,7 @@ layout: compress
       </nav>
     </header>
     <main>
-      <div class="container">{{ content }}</div>
+      {{ content }}
     </main>
     <footer>
       <ul class="icon-list list-unstyled">
@@ -54,6 +54,10 @@ layout: compress
         </li>
         {% endfor %}
       </ul>
+      <p class="footnote">
+        made by eric zhang, design inspired by michael fogleman
+      </p>
     </footer>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
