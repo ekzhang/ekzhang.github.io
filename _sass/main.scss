@@ -56,6 +56,16 @@ nav {
   margin-bottom: 18px;
   > a {
     margin: 0 8px;
+    border-bottom: 1px solid;
+    border-color: transparent;
+    transition: border-color 0.5s;
+    &:hover {
+      text-decoration: none;
+      border-color: inherit;
+    }
+    &.active {
+      border-color: inherit;
+    }
   }
 }
 

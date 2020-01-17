@@ -35,10 +35,13 @@ layout: compress
     <header>
       <h1>Eric Zhang</h1>
       <nav>
-        <a href="/">Home</a>
-        <a href="/projects">Projects</a>
-        <a href="/resume">Resume</a>
-        <a href="mailto:ekzhang@college.harvard.edu">Contact</a>
+        {% for link in site.data.links.nav %}
+        <a
+          href="{{ link.href }}"
+          class="{% if page.url == link.href %}active{% endif %}"
+          >{{ link.name }}</a
+        >
+        {% endfor %}
       </nav>
     </header>
     <main>
@@ -46,7 +49,7 @@ layout: compress
     </main>
     <footer>
       <ul class="icon-list list-unstyled">
-        {% for link in site.data.links %}
+        {% for link in site.data.links.social %}
         <li>
           <a style="color: {{ link.color }}" href="{{ link.href }}"
             ><i class="{{ link.icon }}"></i
