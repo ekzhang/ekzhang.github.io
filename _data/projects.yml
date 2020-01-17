@@ -1,0 +1,55 @@
+- title: Set with Friends
+  date: January 2020
+  repo: ekzhang/setwithfriends
+  tags: JavaScript,Game,React,Firebase
+  summary: setwithfriends.html
+
+- title: Competitive Programming Workspace
+  date: September 2019
+  repo: ekzhang/wkspace
+  tags: JavaScript,CP,React,Express
+
+- title: Polygon Triangulation with Holes
+  date: May 2019
+  repo: ekzhang/triangulate
+  tags: C++,Algorithms,Emscripten,Graphics
+
+- title: Procedural Harmony
+  date: February 2019
+  repo: ekzhang/harmony
+  tags: Python,Music,Algorithms,Flask
+
+- title: Algorithm and Data Structure Library
+  date: January 2019
+  repo: ekzhang/library
+  tags: C++,CP,Algorithms,Angular
+
+- title: Hashlife
+  date: December 2018
+  repo: ekzhang/game-of-life
+  tags: JavaScript,Algorithms,Graphics,Vue
+
+- title: Char-RNN Keras
+  date: October 2018
+  repo: ekzhang/char-rnn-keras
+  tags: Python,Machine Learning,Music
+
+- title: Handwriting Generator
+  date: August 2018
+  repo: ekzhang/vae-cnn-mnist
+  tags: Python,Machine Learning,Graphics
+
+- title: Estimation Markets
+  date: July 2018
+  repo: ekzhang/market-game
+  tags: JavaScript,Game,Angular,Sails
+
+- title: Multithreaded Julia Fractal Plotters
+  date: April 2018
+  repo: ekzhang/julia-fractal
+  tags: C++,Graphics,TypeScript,OpenGL
+
+- title: Universal Gravity Simulator
+  date: May 2016
+  repo: ekzhang/gravity
+  tags: JavaScript,Graphics
