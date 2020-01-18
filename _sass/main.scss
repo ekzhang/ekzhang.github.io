@@ -97,13 +97,19 @@ hr {
 
 .tags {
   font-size: 1.25rem;
-  margin-top: -0.25rem;
   margin-bottom: 0.75rem;
+  display: flex;
+  .badge {
+    margin-right: 5px;
+  }
 }
 
 .badge-gold {
   background-color: #ffb03b;
   color: white;
+  &:hover {
+    color: white;
+  }
 }
 
 footer {
