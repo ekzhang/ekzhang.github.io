@@ -90,17 +90,14 @@ hr {
   margin-bottom: 1.5rem;
 }
 
-.lead {
-  font-weight: 300;
-  font-size: 1.25rem;
-}
-
 .tags {
   font-size: 1.25rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   display: flex;
+  flex-wrap: wrap;
   .badge {
     margin-right: 5px;
+    margin-bottom: 5px;
   }
 }
 
