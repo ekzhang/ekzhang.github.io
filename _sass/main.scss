@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400,500&display=swap");
 
 $background: #fafafa;
 $foreground: #ffffff;
@@ -110,6 +110,13 @@ hr {
   &:hover {
     color: white;
   }
+}
+
+.dates {
+  margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
+  font-family: $heading;
+  font-size: 1.1rem;
 }
 
 footer {
