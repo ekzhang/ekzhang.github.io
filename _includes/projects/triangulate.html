@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="col-md-8">
+    <p class="lead">Fast computational geometry algorithms in WebAssembly.</p>
+    <p>
+      This was an experiment in implementing the "ear clipping" algorithm from
+      computational geometry for
+      <a href="https://en.wikipedia.org/wiki/Polygon_triangulation"
+        >polygon triangulation</a
+      >. This implementation works even for polygons with multiple holes and
+      nested polygons, using some clever techniques due to
+      <a
+        href="https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf"
+        >David Eberly</a
+      >. The problem is surprisingly difficult, as concave polygons can be
+      arbitrarily ill-behaved, and holes create a tree of polygons.
+    </p>
+    <p>
+      Although this O(N<sup>2</sup>) implementation is better than a naive
+      O(N<sup>3</sup>) algorithm, it is not the best possible in theory, as
+      there exists a randomized O(N log<sup>*</sup> N) approach (<a
+        href="https://www.sciencedirect.com/science/article/pii/0925772191900124"
+        >Seidel 1991</a
+      >). However, for most practical applications, ear clipping is fast enough
+      and produces more robust results, while also handling holes.
+    </p>
+    <p>
+      The algorithm was implemented in C++ from scratch, then compiled to
+      WebAssembly using <a href="https://emscripten.org/">Emscripten</a> to
+      produce code that could be run in the browser.
+    </p>
+    <p class="font-weight-bold">
+      Links:
+      <a href="https://github.com/ekzhang/triangulate">GitHub</a>,
+      <a href="https://triangulate.surge.sh/">Website</a>
+    </p>
+  </div>
+  <div class="col-md-4">
+    <a href="/assets/images/triangulate-1.png">
+      <img
+        class="img-fluid"
+        alt="Set with Friends"
+        src="/assets/images/triangulate-1.png"
+      />
+    </a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 d-none d-md-block">
+    <a href="/assets/images/triangulate-1.png">
+      <img
+        class="img-fluid img-thumbnail"
+        alt="Set with Friends"
+        src="/assets/images/triangulate-2.png"
+      />
+    </a>
+  </div>
+  <div class="col-md-4 d-none d-md-block">
+    <a href="/assets/images/triangulate-1.png">
+      <img
+        class="img-fluid img-thumbnail"
+        alt="Set with Friends"
+        src="/assets/images/triangulate-3.png"
+      />
+    </a>
+  </div>
+  <div class="col-md-4 d-none d-md-block">
+    <a href="/assets/images/triangulate-1.png">
+      <img
+        class="img-fluid img-thumbnail"
+        alt="Set with Friends"
+        src="/assets/images/triangulate-4.png"
+      />
+    </a>
+  </div>
+</div>

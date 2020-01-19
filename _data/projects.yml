@@ -14,11 +14,13 @@
   date: May 2019
   repo: ekzhang/triangulate
   tags: C++,Algorithms,Emscripten,Graphics
+  summary: triangulate.html
 
 - title: Procedural Harmony
   date: February 2019
   repo: ekzhang/harmony
   tags: Python,Music,Algorithms,Flask
+  summary: harmony.html
 
 - title: Algorithm and Data Structure Library
   date: January 2019
