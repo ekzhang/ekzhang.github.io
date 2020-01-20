@@ -10,12 +10,20 @@ permalink: /projects
     Here are some programming projects I've worked on. Hopefully you find them
     interesting.
   </p>
+  <ul class="list-unstyled">
+    {% assign sorted_projects = site.data.projects | sort: 'title' %}
+    {% for project in sorted_projects %}
+    <li>
+      <a href="#{{ project.title | url_encode }}">{{ project.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </section>
 
 <div class="spacer"></div>
 
 {% for project in site.data.projects %}
-<section class="container">
+<section class="container" id="{{ project.title | url_encode }}">
   <h4>{{ project.title }} <small>{{ project.date }}</small></h4>
   {% assign repo = project.repo %}
   {% assign tags = project.tags %}
