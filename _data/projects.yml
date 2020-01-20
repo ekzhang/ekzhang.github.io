@@ -28,7 +28,7 @@
   tags: C++,CP,Algorithms,Angular
   summary: library.html
 
-- title: Canvas Hashlife Viewer
+- title: Canvas Hashlife
   date: December 2018
   repo: ekzhang/game-of-life
   tags: JavaScript,Algorithms,Graphics,Vue
@@ -52,7 +52,7 @@
   tags: JavaScript,Game,Angular,Sails
   summary: market-game.html
 
-- title: Multithreaded Julia Fractal Renderers
+- title: Julia Fractal Renderers
   date: April 2018
   repo: ekzhang/julia-fractal
   tags: C++,Java,Graphics,TypeScript,OpenGL

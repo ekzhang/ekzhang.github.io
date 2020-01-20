@@ -2,7 +2,28 @@
   <div class="col-md-8">
     <p class="lead">Dynamic programming applied to four-part harmony.</p>
     <p>
-      Placeholder for harmony.
+      This is a Python program that takes as input a string containing
+      <a href="https://en.wikipedia.org/wiki/Key_signature">keys</a>
+      and
+      <a href="https://en.wikipedia.org/wiki/Roman_numeral_analysis"
+        >roman numerals</a
+      >
+      representing a chord progression, and voices the resulting chords
+      according to common practice four-part SATB
+      <a href="https://en.wikipedia.org/wiki/Voice_leading">voice leading</a>
+      conventions. This can be used to compose a chorale&mdash;or quickly solve
+      exercises on homework for your music theory class.
+    </p>
+    <p>
+      Parsing and interpreting the roman numerals was done with
+      <a href="https://web.mit.edu/music21/">Music21</a>. The primary difficulty
+      was finding an algorithm to satisfy the most out of a complex set of
+      <a href="http://derekremes.com/wp-content/uploads/voiceleadingsummary.pdf"
+        >voice leading constraints</a
+      >. I chose to frame this as an optimization problem, and although the set
+      of possible chorales is exponential in size, you can actually solve this
+      by using DP on intermediate states for a relatively fast algorithm. See
+      the website below for a web version deployed with Flask.
     </p>
     <p class="font-weight-bold">
       Links:
