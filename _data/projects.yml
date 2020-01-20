@@ -26,33 +26,40 @@
   date: January 2019
   repo: ekzhang/library
   tags: C++,CP,Algorithms,Angular
+  summary: library.html
 
 - title: Hashlife
   date: December 2018
   repo: ekzhang/game-of-life
   tags: JavaScript,Algorithms,Graphics,Vue
+  summary: game-of-life.html
 
 - title: Char-RNN Keras
   date: October 2018
   repo: ekzhang/char-rnn-keras
   tags: Python,Machine Learning,Music
+  summary: char-rnn-keras.html
 
 - title: Handwriting Generator
   date: August 2018
   repo: ekzhang/vae-cnn-mnist
   tags: Python,Machine Learning,Graphics
+  summary: vae-cnn-mnist.html
 
 - title: Estimation Markets
   date: July 2018
   repo: ekzhang/market-game
   tags: JavaScript,Game,Angular,Sails
+  summary: market-game.html
 
-- title: Multithreaded Julia Fractal Plotters
+- title: Multithreaded Julia Fractal Renderers
   date: April 2018
   repo: ekzhang/julia-fractal
-  tags: C++,Graphics,TypeScript,OpenGL
+  tags: C++,Java,Graphics,TypeScript,OpenGL
+  summary: julia-fractal.html
 
 - title: Universal Gravity Simulator
   date: May 2016
   repo: ekzhang/gravity
-  tags: JavaScript,Graphics
+  tags: JavaScript,Graphics,Physics
+  summary: gravity.html
