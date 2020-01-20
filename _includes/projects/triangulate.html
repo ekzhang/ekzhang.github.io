@@ -6,22 +6,23 @@
       computational geometry for
       <a href="https://en.wikipedia.org/wiki/Polygon_triangulation"
         >polygon triangulation</a
-      >. This implementation works even for polygons with multiple holes and
-      nested polygons, using some clever techniques due to
+      >. Although easy to state, triangulation is surprisingly difficult, as
+      concave polygons can be arbitrarily ill-behaved, and holes create a tree
+      structure. This implementation works even for polygons with multiple holes
+      and nested polygons, using some clever techniques due to
       <a
         href="https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf"
         >David Eberly</a
-      >. The problem is surprisingly difficult, as concave polygons can be
-      arbitrarily ill-behaved, and holes create a tree of polygons.
+      >.
     </p>
     <p>
       Although this O(N<sup>2</sup>) implementation is better than a naive
-      O(N<sup>3</sup>) algorithm, it is not the best possible in theory, as
-      there exists a randomized O(N log<sup>*</sup> N) approach (<a
+      O(N<sup>3</sup>) approach, it is not the best possible in theory, as there
+      exists a randomized O(N log<sup>*</sup> N) algorithm (<a
         href="https://www.sciencedirect.com/science/article/pii/0925772191900124"
         >Seidel 1991</a
       >). However, for most practical applications, ear clipping is fast enough
-      and produces more robust results, while also handling holes.
+      and produces more robust results.
     </p>
     <p>
       The algorithm was implemented in C++ from scratch, then compiled to
