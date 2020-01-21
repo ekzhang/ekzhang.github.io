@@ -4,7 +4,26 @@
       Variational autoencoder that learns latent features in handwriting.
     </p>
     <p>
-      Placeholder for vae-cnn-mnist.
+      This is a neural network that encodes 28&times;28 images of handwritten
+      characters in a labeled, 6-dimensional latent space using unsupervised
+      learning. It consists of two parts: an encoder network that puts the input
+      through several convolutional and downsampling layers to extract latent
+      variables, and a decoder network that takes latent variables and a label
+      to reconstruct the original image, minimizing mean squared error. This is
+      called an
+      <a href="https://en.wikipedia.org/wiki/Autoencoder">autoencoder</a>, but
+      to make it work as a generative model, we we add some noise to the latent
+      variables to make it a
+      <a href="http://kvfrans.com/variational-autoencoders-explained/"
+        >variational autoencoder</a
+      >.
+    </p>
+    <p>
+      I implemented the model in Keras and trained it on a dataset of over
+      400,000 handwritten characters, and you can see the results in the web
+      demo below, which stitches the outputs together on a canvas. Without any
+      prior knowledge, the model is able to detect and separate out the six most
+      important distinguishing characteristics of a person's handwriting.
     </p>
     <p class="font-weight-bold">
       Links:
