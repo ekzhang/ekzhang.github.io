@@ -16,14 +16,15 @@
     </p>
     <p>
       Parsing and interpreting the roman numerals was done with
-      <a href="https://web.mit.edu/music21/">Music21</a>. The primary difficulty
-      was finding an algorithm to satisfy the most out of a complex set of
+      <a href="https://web.mit.edu/music21/">Music21</a>. To handle a very
+      technical set of
       <a href="http://derekremes.com/wp-content/uploads/voiceleadingsummary.pdf"
         >voice leading constraints</a
-      >. I chose to frame this as an optimization problem, and although the set
-      of possible chorales is exponential in size, you can actually solve this
-      by using DP on intermediate states for a relatively fast algorithm. See
-      the website below for a web version deployed with Flask.
+      >, I chose to frame this as a combinatorial optimization problem. Although
+      the set of possible chorale voicings is exponential in size, you can solve
+      this quickly using dynamic programming on intermediate states for a
+      relatively fast algorithm. See the website below for a web version
+      deployed with Flask.
     </p>
     <p class="font-weight-bold">
       Links:

@@ -2,32 +2,32 @@
   <div class="col-md-8">
     <p class="lead">Fast computational geometry algorithms in WebAssembly.</p>
     <p>
-      This was an experiment to implement the "ear clipping" algorithm from
-      computational geometry for
+      This was an experiment to implement the <em>ear clipping</em> algorithm
+      from computational geometry for
       <a href="https://en.wikipedia.org/wiki/Polygon_triangulation"
         >polygon triangulation</a
-      >. Although easy to state, triangulation is surprisingly difficult, as
-      concave polygons can be arbitrarily ill-behaved, and holes create a tree
-      structure. This implementation works even for polygons with multiple holes
-      and nested polygons, using some clever techniques due to
+      >. Although easy to describe, triangulation is a surprisingly difficult
+      problem, as you can draw weird concave polygons that can pretty much
+      approximate any 2D shape. My implementation works even for polygons with
+      multiple holes and nested polygons, using some
       <a
         href="https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf"
-        >David Eberly</a
+        >clever techniques</a
       >.
     </p>
     <p>
-      Although this O(N<sup>2</sup>) implementation is better than a naive
-      O(N<sup>3</sup>) approach, it is not the best possible in theory, as there
-      exists a randomized O(N log<sup>*</sup> N) algorithm (<a
+      Note that there is also a randomized O(N log<sup>*</sup> N) algorithm for
+      this problem (<a
         href="https://www.sciencedirect.com/science/article/pii/0925772191900124"
         >Seidel 1991</a
       >). However, for most practical applications, ear clipping is fast enough
-      and produces more robust results.
+      and produces more robust results, while having a lower constant-factor
+      overhead from using simpler data structures.
     </p>
     <p>
-      The algorithm was implemented in C++ from scratch, then compiled to
+      I implemented the algorithm in C++ from scratch, then compiled it to
       WebAssembly using <a href="https://emscripten.org/">Emscripten</a> to
-      produce code that could be run in the browser.
+      produce code that could be run in the browser at the link below.
     </p>
     <p class="font-weight-bold">
       Links:
