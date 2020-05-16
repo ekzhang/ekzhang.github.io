@@ -24,15 +24,29 @@ h2 {
   margin-top: 1.5rem;
 }
 
-h3,
+h3 {
+  font-family: $heading;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+}
+
 h4 {
   font-family: $heading;
-  margin-top: 1.2rem;
-  small {
-    font-size: 70%;
-    color: rgba(0, 0, 0, 0.6);
-    white-space: nowrap;
-  }
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+h3 small,
+h4 small {
+  font-size: 70%;
+  color: rgba(0, 0, 0, 0.6);
+  white-space: nowrap;
+}
+
+dl,
+ol,
+ul {
+  padding-inline-start: 30px;
 }
 
 p {
@@ -114,7 +128,6 @@ hr {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
   font-family: $heading;
-  font-size: 1.1rem;
 }
 
 footer {
@@ -130,7 +143,7 @@ footer {
   }
   a {
     color: black;
-    opacity: 0.65;
+    opacity: 0.75;
     transition: opacity 0.5s;
     &:hover {
       opacity: 1;
