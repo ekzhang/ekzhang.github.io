@@ -1,3 +1,9 @@
+- title: Fast Semantic Segmentation
+  date: August 2020
+  repo: ekzhang/fastseg
+  tags: Python,Machine Learning,Vision
+  summary: fastseg.html
+
 - title: Set with Friends
   date: January 2020
   repo: ekzhang/setwithfriends
