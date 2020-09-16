@@ -7,13 +7,14 @@
       <a href="https://en.wikipedia.org/wiki/Polygon_triangulation"
         >polygon triangulation</a
       >. Although easy to describe, triangulation is a surprisingly difficult
-      problem, as you can draw weird concave polygons that can pretty much
-      approximate any 2D shape. My implementation works even for polygons with
-      multiple holes and nested polygons, using some
+      problem, as there's a lot of corner cases involving concave polygons,
+      holes, and nested polygons, which show up in practice. Luckily there are
+      some
       <a
         href="https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf"
         >clever techniques</a
-      >.
+      >
+      to make this easier.
     </p>
     <p>
       Note that there is also a randomized O(N log<sup>*</sup> N) algorithm for
@@ -27,7 +28,7 @@
     <p>
       I implemented the algorithm in C++ from scratch, then compiled it to
       WebAssembly using <a href="https://emscripten.org/">Emscripten</a> to
-      produce code that could be run in the browser at the link below.
+      produce code that could be run by the browser in the demo below.
     </p>
     <p class="font-weight-bold">
       Links:
