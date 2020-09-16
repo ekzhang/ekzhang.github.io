@@ -1,3 +1,9 @@
+- title: Crepe – Logic Programming in Rust
+  date: September 2020
+  repo: ekzhang/crepe
+  tags: Rust,Programming Languages,Datalog
+  summary: crepe.html
+
 - title: Fast Semantic Segmentation
   date: August 2020
   repo: ekzhang/fastseg
