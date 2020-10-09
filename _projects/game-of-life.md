@@ -1,3 +1,10 @@
+---
+title: Canvas Hashlife
+date: December 2018
+repo: ekzhang/game-of-life
+topics: JavaScript,Algorithms,Graphics,Vue
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

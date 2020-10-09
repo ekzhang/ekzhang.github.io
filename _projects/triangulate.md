@@ -1,3 +1,10 @@
+---
+title: Polygon Triangulation with Holes
+date: May 2019
+repo: ekzhang/triangulate
+topics: C++,Algorithms,Emscripten,Graphics
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">Fast computational geometry algorithms in WebAssembly.</p>

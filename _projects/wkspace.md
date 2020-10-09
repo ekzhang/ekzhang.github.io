@@ -1,3 +1,10 @@
+---
+title: Competitive Programming Workspace
+date: September 2019
+repo: ekzhang/wkspace
+topics: JavaScript,CP,React,Express
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

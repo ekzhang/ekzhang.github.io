@@ -1,3 +1,10 @@
+---
+title: Set with Friends
+date: January 2020
+repo: ekzhang/setwithfriends
+topics: JavaScript,Game,React,Firebase
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">An online, real-time multiplayer card game.</p>

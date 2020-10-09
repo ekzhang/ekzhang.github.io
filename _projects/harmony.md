@@ -1,3 +1,10 @@
+---
+title: Procedural Harmony
+date: February 2019
+repo: ekzhang/harmony
+topics: Python,Music,Algorithms,Flask
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">Dynamic programming applied to four-part harmony.</p>

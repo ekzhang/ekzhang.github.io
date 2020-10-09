@@ -1,3 +1,10 @@
+---
+title: Estimation Markets
+date: July 2018
+repo: ekzhang/market-game
+topics: JavaScript,Game,Angular,Sails
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

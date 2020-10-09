@@ -1,3 +1,10 @@
+---
+title: Julia Fractal Renderers
+date: April 2018
+repo: ekzhang/julia-fractal
+topics: C++,Java,Graphics,TypeScript,OpenGL
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

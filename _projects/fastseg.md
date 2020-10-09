@@ -1,3 +1,10 @@
+---
+title: Fast Semantic Segmentation
+date: August 2020
+repo: ekzhang/fastseg
+topics: Python,Machine Learning,Vision
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

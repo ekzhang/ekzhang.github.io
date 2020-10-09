@@ -1,9 +1,9 @@
-<div class="tags">
+<div class="topics">
   <a class="badge badge-gold" href="https://github.com/{{ include.repo }}">
     <i class="fas fa-star"></i>
     <span class="star-count" data-repo="{{ include.repo }}"></span>
   </a>
-  {% assign taglist = include.tags | split: "," %}
+  {% assign taglist = include.topics | split: "," %}
   {% for tag in taglist %}
   <span class="badge badge-secondary">{{ tag }}</span>
   {% endfor %}

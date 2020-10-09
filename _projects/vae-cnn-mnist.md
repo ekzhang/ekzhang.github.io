@@ -1,3 +1,10 @@
+---
+title: Handwriting Generator
+date: August 2018
+repo: ekzhang/vae-cnn-mnist
+topics: Python,Machine Learning,Graphics
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

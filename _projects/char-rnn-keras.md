@@ -1,3 +1,10 @@
+---
+title: Char-RNN Keras
+date: October 2018
+repo: ekzhang/char-rnn-keras
+topics: Python,Machine Learning,Music
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

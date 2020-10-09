@@ -1,3 +1,10 @@
+---
+title: Algorithm and Data Structure Library
+date: January 2019
+repo: ekzhang/library
+topics: C++,CP,Algorithms,Angular
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">

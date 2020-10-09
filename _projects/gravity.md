@@ -1,3 +1,10 @@
+---
+title: Universal Gravity Simulator
+date: May 2016
+repo: ekzhang/gravity
+topics: JavaScript,Graphics,Physics
+---
+
 <div class="row">
   <div class="col-md-8">
     <p class="lead">Control hundreds of tiny planets with gravity.</p>
