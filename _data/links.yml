@@ -5,11 +5,11 @@ nav:
   - name: Projects
     href: /projects
 
+  - name: Posts
+    href: /blog
+
   - name: Resume
     href: /resume
-
-  - name: Contact
-    href: /contact
 
 social:
   - name: GitHub
@@ -28,6 +28,6 @@ social:
     color: "#aa2200"
 
   - name: Mail
-    href: mailto:ekzhang@college.harvard.edu
+    href: mailto:ekzhang1@gmail.com
     icon: fas fa-envelope
     color: "#333"
