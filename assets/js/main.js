@@ -4,7 +4,9 @@
   Array.prototype.forEach.call(els, (el) => {
     const [user, name] = el.dataset.repo.split("/");
     if (!cache.hasOwnProperty(user)) {
-      cache[user] = fetch(`https://api.github.com/users/${user}/repos`)
+      cache[user] = fetch(
+        `https://api.github.com/users/${user}/repos?per_page=100`
+      )
         .then((r) => r.json())
         .then((repoList) => {
           const stars = {};
