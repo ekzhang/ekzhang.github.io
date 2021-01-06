@@ -27,7 +27,7 @@ topics: C++,CP,Algorithms,Angular
     <p class="font-weight-bold">
       Links:
       <a href="https://github.com/ekzhang/library">GitHub</a>,
-      <a href="https://ekzlib.herokuapp.com/">Website</a>
+      <a href="https://ekzlib.netlify.app/">Website</a>
     </p>
   </div>
   <div class="col-md-4">
