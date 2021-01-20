@@ -33,6 +33,9 @@ topics: Python,Music,Algorithms,Flask
       algorithm. See the website below for an interactive version deployed with
       Flask.
     </p>
+    <p markdown="1">
+      The open-source code and idea behind this project was independently used as the basis for a [research paper published in ISMIR 2020](https://program.ismir2020.net/lbd_432.html), by researchers at McGill University working in computational music theory and deep learning.
+    </p>
     <p class="font-weight-bold">
       Links:
       <a href="https://github.com/ekzhang/harmony">GitHub</a>,
