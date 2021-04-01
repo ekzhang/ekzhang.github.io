@@ -83,6 +83,13 @@ nav {
       border-color: inherit;
     }
   }
+
+  @media (max-width: 370px) {
+    font-size: 1.2rem;
+    > a {
+      margin: 0 6px;
+    }
+  }
 }
 
 main {
@@ -128,6 +135,44 @@ hr {
   margin-top: -0.25rem;
   margin-bottom: 0.25rem;
   font-family: $heading;
+}
+
+a.writing-inner {
+  height: 164px;
+  display: flex;
+  border: 1px solid #e0e0e0;
+  padding: 12px 0;
+  color: inherit;
+  text-decoration: none;
+  background-color: #f8f8f8;
+  transition: background-color 0.15s;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+
+  > .writing-icon {
+    width: 48px;
+    padding-top: 4px;
+    flex-shrink: 0;
+    text-align: center;
+  }
+
+  > .writing-description {
+    padding-right: 12px;
+    overflow-y: auto;
+
+    > .writing-header {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin-bottom: 0.1rem;
+    }
+
+    > .writing-date {
+      font-weight: 300;
+      margin-bottom: 0.2rem;
+    }
+  }
 }
 
 footer {

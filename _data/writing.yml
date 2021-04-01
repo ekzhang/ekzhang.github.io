@@ -1,0 +1,99 @@
+papers:
+  - title: 3-Inflatable Permutations
+    date: January 29, 2021
+    summary: |
+      Mathematics research paper, published in the
+      Electronic Journal of Combinatorics (E-JC).
+    link: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf
+
+  - title: Taint Analysis for Browser Fingerprinting
+    date: December 11, 2020
+    summary: |
+      Dynamic taint analysis for user privacy on the web. Final project for CS 263.
+    link: /assets/pdf/Browser_Fingerprinting.pdf
+
+  - title: Generative Music Modeling
+    date: December 8, 2020
+    summary: |
+      Composing music by annealed Langevin dynamics and noise-conditional score networks.
+      Final project for CS 252r.
+    link: /assets/pdf/Generative_Music_Modeling.pdf
+
+  - title: Lorenz Attractor Bifurcations
+    date: November 23, 2020
+    summary: |
+      Presentation on chaos theory of the Lorenz system, local and global bifurcations.
+      Final project for Math 118r.
+    link: /assets/pdf/Lorenz_System_Bifurcations.pdf
+
+  - title: DeepCoder
+    date: October 15, 2020
+    summary: |
+      Seminar presentation on learned inductive program synthesis (published in ICLR 2017)
+      for CS 252r.
+    link: /assets/pdf/DeepCoder.pdf
+
+  - title: Compression-Based Generalization Bounds
+    date: May 14, 2020
+    summary: |
+      Survey of modern research in deep learning theory.
+      Final project for CS 228.
+    link: /assets/pdf/Compression_Based_Generalization_Bounds.pdf
+
+  - title: Single Bidder Auctions
+    date: December 10, 2019
+    summary: |
+      Survey of research in mechanism design and optimal transport theory.
+      Final project for CS 223.
+    link: /assets/pdf/Single_Bidder_Multi_Item_Auctions.pdf
+
+  - title: On Quasirandom Permutations
+    date: May 20, 2018
+    summary: |
+      Talk introducing new forcing results on quasirandom permutations.
+      This solved an open problem in combinatorics.
+    link: https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf
+
+notes:
+  - title: Programming Langauges + AI
+    date: December 10, 2020
+    summary: |
+      Graduate seminar class on topics at the intersection
+      of programming languages and artificial intelligence.
+    link: /assets/pdf/CS_252r_Notes.pdf
+
+  - title: Probability
+    date: December 3, 2020
+    summary: |
+      Graduate-level probability class providing
+      foundational material for statistics PhD students.
+    link: /assets/pdf/Stat_210_Notes.pdf
+
+  - title: Kinetic Tournaments
+    date: August 30, 2020
+    summary: |
+      A fast, kinetic data structure that offers flexibility, a simple implementation,
+      and interesting combinatorial analysis.
+    link: https://codeforces.com/blog/entry/82094
+
+  - title: Computational Learning Theory
+    date: July 12, 2020
+    summary: |
+      Graduate-level class on computational learning theory taught by Leslie Valiant,
+      Turing award laureate.
+    link: /assets/pdf/CS_228_Notes.pdf
+
+  - title: Analysis and Topology
+    date: April 29, 2020
+    summary: |
+      The second semester of Math 55.
+      Point-set and algebraic topology, real analysis, and complex analysis.
+    link: /assets/pdf/Math_55b_Notes.pdf
+
+  - title: Abstract and Linear Algebra
+    date: December 21, 2019
+    summary: |
+      The first semester of Math 55.
+      Group theory, abstract linear algebra, and representation theory.
+    link: /assets/pdf/Math_55a_Notes.pdf
+
