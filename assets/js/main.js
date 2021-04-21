@@ -11,7 +11,7 @@
         .then((repoList) => {
           const stars = {};
           for (const obj of repoList) {
-            stars[obj.name] = obj.stargazers_count;
+            stars[obj.name] = obj.stargazers_count.toLocaleString();
           }
           return stars;
         });
