@@ -1,4 +1,18 @@
 papers:
+  - title: Pencil Sketch Rendering
+    date: May 21, 2021
+    summary: |
+      Real-time stylized rendering of meshes and SDFs using geometry processing
+      techniques. Final project for 6.838.
+    link: https://pencil-sketching.vercel.app/Pencil-Sketching.pdf
+  
+  - title: Time-Space Lower Bounds
+    date: May 6, 2021
+    summary: |
+      An technical exposition of Ran Raz's strong hardness result for learning problems.
+      Final project for CS 221.
+    link: /assets/pdf/Learning_Space_Cryptography.pdf
+
   - title: 3-Inflatable Permutations
     date: January 29, 2021
     summary: |
@@ -55,6 +69,13 @@ papers:
     link: https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf
 
 notes:
+  - title: Differential Topology
+    date: April 21, 2021
+    summary: |
+      Smooth manifolds, transversality, intersection theory, differential forms,
+      Stokes' theorem, and cohomology.
+    link: /assets/pdf/Math_132_Notes.pdf
+
   - title: Programming Langauges + AI
     date: December 10, 2020
     summary: |
