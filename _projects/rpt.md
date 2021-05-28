@@ -11,7 +11,7 @@ topics: Rust,Graphics,Rendering
       A physically-based path tracer in Rust.
     </p>
     <p markdown="1">
-      This a physically based, CPU-only rendering engine written in Rust. It implements a Monte Carlo path tracing algorithm for global illumination. There's a lot of features, including kd-tree mesh acceleration, physical material properties (microfacet BSDF with multiple importance sampling), HDRI environment maps, OBJ/MTL/STL files, depth of field, and particle physics simulation.
+      This a physically based, CPU-only rendering engine written in Rust. It implements a Monte Carlo path tracing algorithm for global illumination. There's a lot of features, including k-d tree mesh acceleration, physical material properties (microfacet BSDF with multiple importance sampling), HDRI environment maps, OBJ/MTL/STL files, depth of field, and particle physics simulation.
     </p>
     <p markdown="1">
       It's also parallelized with [rayon](https://github.com/rayon-rs/rayon) and available as a library on [crates.io](https://crates.io/). The entire source code, including code for the example images and more, is very short (~3K SLOC). We're still looking to extend it with bidirectional path tracing and other features.

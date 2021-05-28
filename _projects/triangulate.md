@@ -14,28 +14,27 @@ topics: C++,Algorithms,Emscripten,Graphics
       <a href="https://en.wikipedia.org/wiki/Polygon_triangulation"
         >polygon triangulation</a
       >. Although easy to describe, triangulation is a surprisingly difficult
-      problem, as there's a lot of corner cases involving concave polygons,
-      holes, and nested polygons, which show up in practice. Luckily there are
-      some
+      problem, as there are many corner cases involving concave polygons,
+      holes, and nested polygons. Therefore, we need to use some
       <a
         href="https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf"
         >clever techniques</a
       >
-      to make this easier.
+      to make the problem tractable.
     </p>
     <p>
-      Note that there is also a randomized O(N log<sup>*</sup> N) algorithm for
-      this problem (<a
+      Note that there is a randomized O(N log<sup>*</sup> N) algorithm for this
+      problem (<a
         href="https://www.sciencedirect.com/science/article/pii/0925772191900124"
         >Seidel 1991</a
       >). However, for most practical applications, ear clipping is fast enough
-      and produces more robust results, while having a lower constant-factor
-      overhead from using simpler data structures.
+      and produces more robust results, while having lower constant-factor
+      overhead due to the use of simpler data structures.
     </p>
     <p>
       I implemented the algorithm in C++ from scratch, then compiled it to
       WebAssembly using <a href="https://emscripten.org/">Emscripten</a> to
-      produce code that could be run by the browser in the demo below.
+      produce code that could be run by the browser.
     </p>
     <p class="font-weight-bold">
       Links:

@@ -12,25 +12,24 @@ topics: Python,Machine Learning,Graphics
     </p>
     <p>
       This is a neural network that encodes 28&times;28 images of handwritten
-      characters in a 6-dimensional latent space using unsupervised learning. It
-      consists of two parts: an encoder network that puts the input through
+      characters in a 6-dimensional latent space using deep learning. It
+      consists of two parts: an encoder block that puts the input through
       several convolutional and downsampling layers to extract latent variables,
-      and a decoder network that takes latent variables and a label to
-      reconstruct the original image, minimizing mean squared error. After
-      adding some trained Gaussian noise to the latent space, the result is
-      sometimes called a
+      and a decoder block that takes latent variables and a label to
+      reconstruct the original image, minimizing mean squared error. During the
+      training process, we add some Gaussian noise to the latent space, which is
+      the so-called "reparameterization trick" of a
       <a
         href="https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional"
-        >conditional variational autoencoder</a
+        >variational autoencoder</a
       >.
     </p>
     <p>
       I implemented the model in Keras and trained it on a dataset of over
       400,000 handwritten characters. You can see the results in the web demo
-      below, which stitches the outputs together on a canvas. Without any prior
-      knowledge, we can isolate the six most important distinguishing
-      characteristics of a person's handwriting. You could use this to copy
-      anyone's writing style given a sample!
+      below, which stitches the outputs together onto a canvas. Without any
+      prior knowledge, the model is able to isolate six of the most important
+      characteristics in human handwriting.
     </p>
     <p class="font-weight-bold">
       Links:

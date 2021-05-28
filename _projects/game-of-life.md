@@ -16,17 +16,16 @@ topics: JavaScript,Algorithms,Graphics,Vue
       milliseconds without any specialized software, right in your browser!
     </p>
     <p>
-      How is it possible to simulate such a massive pattern? The wonderful
-      secret is Bill Gosper's
+      How is it possible to simulate such a massive pattern without running out
+      of CPU or memory? The secret is Bill Gosper's
       <a href="https://en.wikipedia.org/wiki/Hashlife">Hashlife</a> algorithm,
       which combines quadtrees and memoization to
       <a
         href="https://www.drdobbs.com/jvm/an-algorithm-for-compressing-space-and-t/184406478"
-        >"compress space and time"</a
-      >. In the image, you can see the web application computing the
-      498,913,509,376<sup>th</sup>
-      generation of a Turing machine pattern in Conway's Game of Life, in just
-      under a millisecond. Try it yourself at the link below!
+        >compress space and time</a
+      >. In the image, you can see a frontend web application computing the
+      498,913,509,376<sup>th</sup> generation of a Turing machine pattern in
+      just under a millisecond.
     </p>
     <p class="font-weight-bold">
       Links:

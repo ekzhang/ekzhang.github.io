@@ -13,16 +13,15 @@ topics: C++,CP,Algorithms,Angular
     </p>
     <p>
       I maintain an open-source library of about thirty-five C++ templates for
-      algorithms and data structures. These are not your typical algorithms from
-      school; I focused on complex algorithms useful for advanced competitive
-      programmers. These include fast implementations of FFT, Aho-Corasick, and
-      Dinic, as well as data structures like Link-Cut Trees and Centroid
-      Decomposition.
+      algorithms and data structures. These are fairly advanced tricks targeted
+      toward top competitive programmers, including fast implementations of FFT,
+      Aho-Corasick string search, and Dinic's blocking flow algorithm, as well
+      as data structures like link-cut trees and centroid decomposition.
     </p>
     <p>
-      This is accessible on a website, which I developed using Angular and the
-      GitHub API. The website also includes a searchable collection of more than
-      600 templates from other open-source competitive programming libraries.
+      This is accessible on a static website, which I developed using Angular.
+      The website also includes a searchable collection of more than 600
+      code samples from other open-source libraries.
     </p>
     <p class="font-weight-bold">
       Links:

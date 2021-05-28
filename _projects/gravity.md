@@ -9,13 +9,13 @@ topics: JavaScript,Graphics,Physics
   <div class="col-md-8">
     <p class="lead">Control hundreds of tiny planets with gravity.</p>
     <p>
-      This was one of my first fun programming projects, a visual experiment of
-      simulating gravity in a system with hundreds of interacting planets. The
-      calculations are done with simple physics formulas, with a bit of tweaking
-      and damping to make them more robust. Clicking adds an invisible mass that
-      makes all objects move towards the cursor. Everything is rendered on a
-      <code>&lt;canvas&gt;</code> element, and it's quite satisfying to move the
-      colorful balls around!
+      This was one of my first fun programming projects, a visual experiment
+      simulating gravity in a system with hundreds of interacting objects.
+      Calculations are done using simple physics formulas, with a bit of damping
+      to make them more robust. The user can click to add an invisible mass that
+      attracts all objects to the cursor. Everything is rendered in real time on
+      a <code>&lt;canvas&gt;</code> element, and it's quite satisfying to move
+      the colorful balls around!
     </p>
     <p class="font-weight-bold">
       Links:

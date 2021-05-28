@@ -11,22 +11,22 @@ topics: C++,Java,Graphics,TypeScript,OpenGL
       Fast, interactive fractal renderers in C++, Java, and WebGL.
     </p>
     <p>
-      This project started out as a multithreaded Julia fractal renderer in C++,
-      which I used to create high-quality static renders and animations. This
-      worked alright, but I also wanted to be able to interactively explore the
-      fractals (zooming and panning), so I created a Java Swing app with similar
-      multithreaded optimizations.
+      Originally, this project started out as a multithreaded Julia fractal
+      renderer in C++, which I used to create high-quality static images and
+      animations. However, I also wanted to interactively explore the fractals
+      by zooming and panning, so I created a Java Swing app with similar
+      multithreaded performance.
     </p>
     <p>
-      The performance of the Java version was a little disappointing though, so
-      I finally implemented an
+      The speed of these implementations was heavily CPU-bound though, so I
+      finally implemented an
       <a href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language"
-        >OpenGL Shader</a
+        >OpenGL shader</a
       >
-      that could render Julia fractals with blazing speed, fast enough to be
-      explored interactively with almost no delay. I deployed this with WebGL
-      and connected it to mobile-friendly controls using TypeScript. You can
-      play with this fractal explorer in the website linked below.
+      that could render Julia fractals with blazing-fast speed, fast enough to
+      be explored interactively with almost no lag. I rendered using WebGL and
+      connected it to mobile-friendly controls with TypeScript. You can play
+      with this fractal explorer in the website linked below.
     </p>
     <p class="font-weight-bold">
       Links:

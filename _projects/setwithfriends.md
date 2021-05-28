@@ -20,12 +20,11 @@ topics: JavaScript,Game,React,Firebase
       link and having fun!
     </p>
     <p>
-      During the design process, I learned about Firebase (a service offered by
-      Google), so for me this became an introduction to serverless
-      architectures, as well as an exercise in creating live interfaces. We
-      completely overhauled the design in May and released version 2.0 in June.
-      At the time of writing (July 2020), the website has over 40000 monthly
-      active users and 5000 games played every day.
+      During the design process, I learned about Firebase, so working on this
+      app introduced me to serverless architectures and provided a good exercise
+      in creating live interfaces. We completely overhauled the design in May
+      and released version 2.0 in June. At the time of writing (May 2021), the
+      website has over 40,000 monthly active users and 1.9 million games played.
     </p>
     <p class="font-weight-bold">
       Links:
