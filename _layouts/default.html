@@ -29,6 +29,10 @@ layout: compress
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
+    {% for link in site.data.links.nav %}
+    <link rel="prefetch" href="{{ link.href }}" />
+    {% endfor %}
+
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
