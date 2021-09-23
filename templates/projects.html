@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% import "macros.html" as macros %}
+
+<!-- Title -->
+{% block title %}Eric Zhang - Projects{% endblock %}
+
+<!-- Content -->
+{% block content %}
+<section class="container">
+  <h2>Projects</h2>
+  <p>
+    I view building software in the open as a medium of
+    <em>creative exploration</em>. It allows me to discover fascinating new
+    topics while inspiring others and hopefully improving their lives. I welcome
+    collaborations &mdash; if you find anything below particularly interesting,
+    let me know!
+  </p>
+  <h4>Table of Contents</h4>
+  <ul class="list-unstyled">
+    {% set sorted_projects = section.pages | sort(attribute="title") %}
+    {% for project in sorted_projects %}
+    <li>
+      <a href="#{{ project.title | urlencode }}">{{ project.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<div class="spacer"></div>
+
+{% for project in section.pages %}
+<section class="container" id="{{ project.title | urlencode }}">
+  <h3>
+    {{ project.title }} <small>{{ project.date | date(format="%B %Y") }}</small>
+  </h3>
+  {{ macros::project_topics(repo=project.extra.repo, topics=project.extra.topics) }}
+  <div class="row">
+    <div class="col-md-8">
+      <p class="lead">{{ project.extra.lead }}</p>
+      {{ project.content | safe }}
+    </div>
+    <div class="col-md-4">
+      <a href="/projects/{{ project.extra.image }}">
+        <img
+          class="img-fluid {{ project.extra.image_class | default(value="") }}"
+          alt="{{ project.title }} preview image"
+          src="/projects/{{ project.extra.image }}"
+        />
+      </a>
+    </div>
+  </div>
+  {% if project.extra.subimages %}
+  <div class="row">
+    {% for image in project.extra.subimages %}
+    <div class="col-md-4">
+      <a href="/projects/{{ image }}">
+        <img
+          class="img-fluid mt-2 {{ project.extra.subimages_class | default(value="") }}"
+          alt="{{ project.title }} subimage"
+          src="/projects/{{ image }}"
+        />
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>
+{% if loop.last == false %}
+<hr />
+{% endif %}
+{% endfor %}
+{% endblock %}

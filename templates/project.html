@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% import "macros.html" as macros %}
+
+{% block title %}Eric Zhang - Projects{% endblock %}
+
+{% block content %}
+<!-- We don't support individual project pages, so for now, just redirect. -->
+<script>
+  window.location.href = "/projects#{{ page.title | urlencode }}";
+</script>
+{% endblock %}

@@ -1,0 +1,39 @@
+[[nav]]
+name = "Home"
+href = "/"
+
+[[nav]]
+name = "Projects"
+href = "/projects"
+
+[[nav]]
+name = "Writing"
+href = "/writing"
+
+[[nav]]
+name = "Resume"
+href = "/resume"
+
+[[social]]
+name = "GitHub"
+href = "https://github.com/ekzhang"
+icon = "fab fa-github"
+color = "#24292e"
+
+[[social]]
+name = "Facebook"
+href = "https://fb.me/ekzhang"
+icon = "fab fa-facebook"
+color = "#3b5998"
+
+[[social]]
+name = "Quora"
+href = "https://www.quora.com/profile/Eric-Zhang-99"
+icon = "fab fa-quora"
+color = "#aa2200"
+
+[[social]]
+name = "Mail"
+href = "mailto:ekzhang1@gmail.com"
+icon = "fas fa-envelope"
+color = "#333"

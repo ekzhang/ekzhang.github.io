@@ -1,0 +1,39 @@
+<!-- Writing list -->
+{% macro writing_list(category) %}
+<!-- Load data -->
+{% set writing = load_data(path="data/writing.toml") %}
+<div class="row">
+  {% for item in writing[category] %}
+  <div class="col-12 col-md-6 col-xl-4 mt-3 mb-2">
+    <a
+      class="writing-inner"
+      target="_blank"
+      rel="noopener noreferrer"
+      href="{{ item.link }}"
+    >
+      <div class="writing-icon">
+        <i class="far fa-file-alt" data-fa-transform="grow-4"></i>
+      </div>
+      <div class="writing-description">
+        <p class="writing-header">{{ item.title }}</p>
+        <p class="writing-date">{{ item.date | date(format="%B %-d, %Y") }}</p>
+        <p class="m-0">{{ item.summary }}</p>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro writing_list %}
+
+<!-- Project topics -->
+{% macro project_topics(repo, topics) %}
+<div class="topics">
+  <a class="badge badge-gold" href="https://github.com/{{ repo }}/stargazers">
+    <i class="fas fa-star"></i>
+    <span class="star-count" data-repo="{{ repo }}"></span>
+  </a>
+  {% for tag in topics | split(pat=",") %}
+  <span class="badge badge-secondary">{{ tag }}</span>
+  {% endfor %}
+</div>
+{% endmacro project_topics %}
