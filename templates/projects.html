@@ -20,7 +20,7 @@
     {% set sorted_projects = section.pages | sort(attribute="title") %}
     {% for project in sorted_projects %}
     <li>
-      <a href="#{{ project.title | urlencode }}">{{ project.title }}</a>
+      <a href="#{{ project.slug }}">{{ project.title }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -29,7 +29,7 @@
 <div class="spacer"></div>
 
 {% for project in section.pages %}
-<section class="container" id="{{ project.title | urlencode }}">
+<section class="container" id="{{ project.slug }}">
   <h3>
     {{ project.title }} <small>{{ project.date | date(format="%B %Y") }}</small>
   </h3>

@@ -5,7 +5,12 @@
 
 {% block content %}
 <!-- We don't support individual project pages, so for now, just redirect. -->
-<script>
-  window.location.href = "/projects#{{ page.title | urlencode }}";
-</script>
+<div class="container">
+  <p class="mt-4 text-center font-italic">
+    Redirecting you to the project page&hellip;
+  </p>
+  <script>
+    window.location.href = "/projects#{{ page.slug }}";
+  </script>
+</div>
 {% endblock %}

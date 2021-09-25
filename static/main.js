@@ -26,9 +26,9 @@
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
-      const elem = document.getElementById(
-        this.getAttribute("href").substring(1)
-      );
+      const href = this.getAttribute("href");
+      window.history.replaceState(null, "", href);
+      const elem = document.querySelector(href);
       if (elem) {
         elem.scrollIntoView({ behavior: "smooth" });
       }
