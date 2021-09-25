@@ -19,5 +19,5 @@ This is accessible on a static website, which I developed using Angular. The
 website also includes a searchable collection of more than 600 code samples from
 other open-source libraries.
 
-Links: [GitHub](https://github.com/ekzhang/library),
-[Website](https://ekzlib.netlify.app/)
+**Links: [GitHub](https://github.com/ekzhang/library),
+[Website](https://ekzlib.netlify.app/)**

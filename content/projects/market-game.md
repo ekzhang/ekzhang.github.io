@@ -19,5 +19,5 @@ I used this app to run estimation markets in classes at
 [MIT Splash](https://esp.mit.edu/learn/Splash/index.html), with great feedback
 from the participants.
 
-Links: [GitHub](https://github.com/ekzhang/market-game),
-[Website](https://estimation-markets.herokuapp.com/)
+**Links: [GitHub](https://github.com/ekzhang/market-game),
+[Website](https://estimation-markets.herokuapp.com/)**
