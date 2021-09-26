@@ -4,7 +4,7 @@
 {% set writing = load_data(path="data/writing.toml") %}
 <div class="row">
   {% for item in writing[category] %}
-  <div class="col-12 col-md-6 col-xl-4 mt-3 mb-2">
+  <div class="col-12 col-md-6 col-xl-4 mt-2 mb-2">
     <a
       class="writing-inner"
       target="_blank"
@@ -28,12 +28,12 @@
 <!-- Project topics -->
 {% macro project_topics(repo, topics) %}
 <div class="topics">
-  <a class="badge badge-gold" href="https://github.com/{{ repo }}/stargazers">
+  <a class="badge badge-star" href="https://github.com/{{ repo }}/stargazers">
     <i class="fas fa-star"></i>
     <span class="star-count" data-repo="{{ repo }}"></span>
   </a>
   {% for tag in topics | split(pat=",") %}
-  <span class="badge badge-secondary">{{ tag }}</span>
+  <span class="badge bg-secondary">{{ tag }}</span>
   {% endfor %}
 </div>
 {% endmacro project_topics %}

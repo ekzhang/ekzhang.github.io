@@ -10,6 +10,12 @@ body {
   font-family: $body;
 }
 
+.container {
+  // For compatibility with Bootstrap v4, set the default container to have
+  // max-width equal to the `xl`-breakpoint width.
+  max-width: 1140px;
+}
+
 h1 {
   font-family: $heading;
   font-size: 2.8rem;
@@ -55,6 +61,10 @@ p {
 
 a {
   color: #3056c5;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .link-unstyled,
@@ -118,16 +128,18 @@ hr {
   display: flex;
   flex-wrap: wrap;
   .badge {
+    padding: 0.25em 0.4em;
     margin-right: 5px;
     margin-bottom: 5px;
   }
 }
 
-.badge-gold {
+.badge-star {
   background-color: #ffb03b;
   color: white;
   &:hover {
     color: white;
+    text-decoration: none;
   }
 }
 
@@ -200,6 +212,6 @@ footer {
 
 .footnote {
   text-align: center;
-  color: lightgrey;
+  color: #a0a0a0;
   font-weight: 300;
 }
