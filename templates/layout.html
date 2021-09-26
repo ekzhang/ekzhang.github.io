@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{% block title %}{% endblock %}</title>
 
+    <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -22,11 +24,6 @@
       gtag("js", new Date());
       gtag("config", "UA-156644599-1");
     </script>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
 
     {% for link in links.nav %}
     <link rel="prefetch" href="{{ link.href }}" />
