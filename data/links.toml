@@ -21,6 +21,12 @@ icon = "fab fa-github"
 color = "#24292e"
 
 [[social]]
+name = "Twitter"
+href = "https://twitter.com/ekzhang1"
+icon = "fab fa-twitter"
+color = "#00acee"
+
+[[social]]
 name = "Facebook"
 href = "https://fb.me/ekzhang"
 icon = "fab fa-facebook"
