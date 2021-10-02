@@ -18,9 +18,9 @@ each other's work in real time (just like Google Docs), with instant sheet music
 rendering and live audio playback.
 
 This project originated at [HackMIT 2021](https://hackmit.org/) (we won a grand
-prize), where I pitched the idea and led a team of four programmer-musicians.
-Although we hadn't previously known each other, we shared a goal to explore this
-creative space as much as possible in 1 day, and the results look promising.
+prize), where I pitched the idea and formed a team of four programmer-musicians.
+Although we hadn't previously known each other, we all shared the goal of
+exploring this creative space, and the results are promising.
 
 **Links: [GitHub](https://github.com/ekzhang/composing.studio),
 [Website](https://composing.studio/)**

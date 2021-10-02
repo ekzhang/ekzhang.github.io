@@ -14,7 +14,7 @@ language. See the original Scheme implementation
 [here](http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf) for
 reference. Just like how functional programming focuses on functions as the unit
 of abstraction, relational programming focuses on representing mathematical
-concepts as _relations_, an idea from logic programming.
+concepts as _logical relations_.
 
 The library was originally implemented as an exercise for a graduate programming
 languages design seminar at Harvard, but I made the code available to the open
