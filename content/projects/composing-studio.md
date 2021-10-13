@@ -19,8 +19,8 @@ rendering and live audio playback.
 
 This project originated at [HackMIT 2021](https://hackmit.org/) (we won a grand
 prize), where I pitched the idea and formed a team of four programmer-musicians.
-Although we hadn't previously known each other, we all shared the same goals of
-exploring this creative space and interacting with the global music community.
+Although we hadn't previously known each other, we all shared the same goal of
+exploring collaborative music with the global community.
 
 **Links: [GitHub](https://github.com/ekzhang/composing.studio),
 [Website](https://composing.studio/)**

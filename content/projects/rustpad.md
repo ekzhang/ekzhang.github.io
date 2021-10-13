@@ -17,8 +17,8 @@ in a tiny Docker image, no database required.
 Architecturally, client-side code communicates via WebSocket with a central
 server that stores in-memory data structures. This makes the editor very fast,
 allows us to avoid provisioning a database, and makes testing much easier. It
-showcases the power of distributed systems and concurrent network programming,
-designing while taking the entire stack into consideration.
+demonstrates the power of distributed systems and concurrent network
+programming, designing with consideration for the entire stack.
 
 **Links: [GitHub](https://github.com/ekzhang/rustpad),
 [Website](https://rustpad.io/)**
