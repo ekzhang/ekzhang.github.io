@@ -1,4 +1,13 @@
 [[papers]]
+title = "Pressure Field Models"
+date = "2021-12-08"
+summary = """
+Efficient simulation of contact dynamics using a hydroelastic
+intersection model. Final project for 6.834.
+"""
+link = "/assets/pdf/Hydroelastics.pdf"
+
+[[papers]]
 title = "Pencil Sketch Rendering"
 date = "2021-05-21"
 summary = """
@@ -86,6 +95,24 @@ Talk introducing new forcing results on quasirandom permutations.
 This solved an open problem in combinatorics.
 """
 link = "https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf"
+
+[[notes]]
+title = "Statistical Inference"
+date = "2021-12-01"
+summary = """
+Graduate-level class discussing inference on statistical models,
+frequentist and Bayesian perspectives.
+"""
+link = "/assets/pdf/Stat_211_Notes.pdf"
+
+[[notes]]
+title = "PL Design Studio"
+date = "2021-11-16"
+summary = """
+Graduate seminar class exploring programming languages for verification,
+differentiation, compilation, logic, etc.
+"""
+link = "/assets/pdf/CS_252r_Notes_PL_Studio.pdf"
 
 [[notes]]
 title = "Differential Topology"
