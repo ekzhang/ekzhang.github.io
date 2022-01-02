@@ -1,3 +1,2 @@
-/templates/project.html
-/templates/projects.html
-/templates/writing.html
+build/
+.svelte-kit/

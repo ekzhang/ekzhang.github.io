@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ul:not(.list-unstyled) {
+    @apply list-disc pl-8;
+  }
+  ol:not(.list-unstyled) {
+    @apply list-decimal pl-8;
+  }
+
+  hr {
+    @apply border-zinc-200;
+  }
+}
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-zinc-50;
+}

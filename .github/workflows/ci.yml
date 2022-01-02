@@ -12,7 +12,20 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: shalzz/zola-deploy-action@v0.14.1
-        env:
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "16.13.0"
+
+      - run: npm ci
+
+      - run: npm run check
+
+      - run: npm run lint
+
+      - run: npm run build
+
+      - uses: JamesIves/github-pages-deploy-action@4.1.8
+        with:
+          branch: gh-pages
+          folder: build
+          single-commit: true
