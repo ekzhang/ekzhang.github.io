@@ -1,11 +1,11 @@
-+++
-title = "Graphics Workshop"
-date = 2021-04-23
-repo = "ekzhang/graphics-workshop"
-topics = ["OpenGL", "Graphics", "Shaders"]
-lead = "Learn computer graphics by writing GPU shaders!"
-image = "graphics-workshop.png"
-+++
+---
+title: Graphics Workshop
+date: 2021-04-23
+repo: ekzhang/graphics-workshop
+topics: ["OpenGL", "Graphics", "Shaders"]
+lead: Learn computer graphics by writing GPU shaders!
+image: graphics-workshop.png
+---
 
 This workshop contains a selection of self-guided projects designed to teach the
 basics of computer graphics. Each project introduces an important graphics

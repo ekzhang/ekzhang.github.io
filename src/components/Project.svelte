@@ -6,7 +6,7 @@
 
   type Project = {
     title: string;
-    date: Date;
+    date: string;
     content: string;
     repo: string;
     topics: string[];

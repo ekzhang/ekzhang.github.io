@@ -1,11 +1,11 @@
-+++
-title = "Rustpad"
-date = 2021-06-23
-repo = "ekzhang/rustpad"
-topics = ["Rust", "Systems", "TypeScript", "React"]
-lead = "A self-hosted online collaborative code editor."
-image = "rustpad.png"
-+++
+---
+title: Rustpad
+date: 2021-06-23
+repo: ekzhang/rustpad
+topics: ["Rust", "Systems", "TypeScript", "React"]
+lead: A self-hosted online collaborative code editor.
+image: rustpad.png
+---
 
 Rustpad is an efficient and minimal collaborative text editor based on the
 _operational transformation_ algorithm. It lets users collaborate in real time

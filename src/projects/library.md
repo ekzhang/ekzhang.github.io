@@ -1,11 +1,12 @@
-+++
-title = "Algorithm and Data Structure Library"
-date = 2019-01-23
-repo = "ekzhang/library"
-topics = ["C++", "CP", "Algorithms", "Angular"]
-lead = "A competitive programmer's library of algorithms and data structures in C++."
-image = "library.png"
-+++
+---
+title: Algorithm and Data Structure Library
+date: 2019-01-23
+repo: ekzhang/library
+topics: ["C++", "CP", "Algorithms", "Angular"]
+lead:
+  A competitive programmer's library of algorithms and data structures in C++.
+image: library.png
+---
 
 I maintain an open-source library of about thirty-five C++ templates for
 algorithms and data structures. These are fairly advanced tricks targeted toward

@@ -1,12 +1,12 @@
-+++
-title = "Julia Fractal Renderers"
-date = 2018-04-23
-repo = "ekzhang/julia-fractal"
-topics = ["C++", "Java", "Graphics", "TypeScript", "OpenGL"]
-lead = "Fast, interactive fractal renderers in C++, Java, and WebGL."
-image = "julia-1.jpg"
-subimages = ["julia-2.jpg", "julia-3.jpg", "julia-4.jpg"]
-+++
+---
+title: Julia Fractal Renderers
+date: 2018-04-23
+repo: ekzhang/julia-fractal
+topics: ["C++", "Java", "Graphics", "TypeScript", "OpenGL"]
+lead: Fast, interactive fractal renderers in C++, Java, and WebGL.
+image: julia-1.jpg
+subimages: ["julia-2.jpg", "julia-3.jpg", "julia-4.jpg"]
+---
 
 Originally, this project started out as a multithreaded Julia fractal renderer
 in C++, which I used to create high-quality static images and animations.

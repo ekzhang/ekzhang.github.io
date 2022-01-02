@@ -1,11 +1,11 @@
-+++
-title = "Estimation Markets"
-date = 2018-07-23
-repo = "ekzhang/market-game"
-topics = ["JavaScript", "Game", "Angular", "Sails"]
-lead = "Run interactive, simulated markets on estimation problems."
-image = "market-game.png"
-+++
+---
+title: Estimation Markets
+date: 2018-07-23
+repo: ekzhang/market-game
+topics: ["JavaScript", "Game", "Angular", "Sails"]
+lead: Run interactive, simulated markets on estimation problems.
+image: market-game.png
+---
 
 Inspired by online prediction markets like
 [PredictIt](https://www.predictit.org/), the _Estimation Markets_ website allows

@@ -1,11 +1,11 @@
-+++
-title = "Char-RNN Keras"
-date = 2018-10-23
-repo = "ekzhang/char-rnn-keras"
-topics = ["Python", "Machine Learning", "Music"]
-lead = "Character-level language models with recurrent neural networks in Keras."
-image = "char-rnn-keras.png"
-+++
+---
+title: Char-RNN Keras
+date: 2018-10-23
+repo: ekzhang/char-rnn-keras
+topics: ["Python", "Machine Learning", "Music"]
+lead: Character-level language models with recurrent neural networks in Keras.
+image: char-rnn-keras.png
+---
 
 Inspired by Andrej Karpathy's
 [blog post](https://karpathy.github.io/2015/05/21/rnn-effectiveness/), this is

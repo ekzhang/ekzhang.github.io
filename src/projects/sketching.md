@@ -1,12 +1,12 @@
-+++
-title = "Pencil Sketch Rendering"
-date = 2021-05-23
-repo = "ekzhang/sketching"
-topics = ["OpenGL", "Graphics", "Geometry", "Algorithms"]
-lead = "Geometry processing for real-time pencil sketching."
-image = "sketching.png"
-image_border = true
-+++
+---
+title: Pencil Sketch Rendering
+date: 2021-05-23
+repo: ekzhang/sketching
+topics: ["OpenGL", "Graphics", "Geometry", "Algorithms"]
+lead: Geometry processing for real-time pencil sketching.
+image: sketching.png
+image_border: true
+---
 
 This research project explores the task of drawing 3D objects, either triangle
 meshes or implicitly represented as signed distance fields (SDFs), in the art

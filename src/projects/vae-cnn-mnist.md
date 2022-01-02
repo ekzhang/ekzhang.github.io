@@ -1,11 +1,11 @@
-+++
-title = "Handwriting Generator"
-date = 2018-08-23
-repo = "ekzhang/vae-cnn-mnist"
-topics = ["Python", "Machine Learning", "Graphics"]
-lead = "Variational autoencoder that learns latent features in handwriting."
-image = "vae-cnn-mnist.png"
-+++
+---
+title: Handwriting Generator
+date: 2018-08-23
+repo: ekzhang/vae-cnn-mnist
+topics: ["Python", "Machine Learning", "Graphics"]
+lead: Variational autoencoder that learns latent features in handwriting.
+image: vae-cnn-mnist.png
+---
 
 This is a neural network that encodes 28&times;28 images of handwritten
 characters in a 6-dimensional latent space using deep learning. It consists of

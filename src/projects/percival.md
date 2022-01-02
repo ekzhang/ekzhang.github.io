@@ -1,12 +1,12 @@
-+++
-title = "Percival"
-date = 2021-11-30
-repo = "ekzhang/percival"
-topics = ["Rust", "Svelte", "Datalog", "Visualization"]
-lead = "Web-based, reactive Datalog notebooks."
-image = "percival.png"
-image_border = true
-+++
+---
+title: Percival
+date: 2021-11-30
+repo: ekzhang/percival
+topics: ["Rust", "Svelte", "Datalog", "Visualization"]
+lead: Web-based, reactive Datalog notebooks.
+image: percival.png
+image_border: true
+---
 
 [Percival](https://percival.ink/) is a **declarative data query and
 visualization language**. It provides a reactive, web-based notebook environment

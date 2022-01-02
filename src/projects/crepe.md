@@ -1,11 +1,11 @@
-+++
-title = "Crepe – Logic Programming in Rust"
-date = 2020-09-23
-repo = "ekzhang/crepe"
-topics = ["Rust", "Programming Languages", "Datalog"]
-lead = "Fast, compiled Datalog for static analysis, with Rust integration."
-image = "crepe.png"
-+++
+---
+title: Crepe – Logic Programming in Rust
+date: 2020-09-23
+repo: ekzhang/crepe
+topics: ["Rust", "Programming Languages", "Datalog"]
+lead: Fast, compiled Datalog for static analysis, with Rust integration.
+image: crepe.png
+---
 
 _Crepe_ is a library that allows you to write declarative logic programs in
 Rust, with a [Datalog](https://en.wikipedia.org/wiki/Datalog)-like syntax. It

@@ -1,11 +1,11 @@
-+++
-title = "Set with Friends"
-date = 2020-01-23
-repo = "ekzhang/setwithfriends"
-topics = ["JavaScript", "Game", "React", "Firebase"]
-lead = "An online, real-time multiplayer card game."
-image = "setwithfriends.png"
-+++
+---
+title: Set with Friends
+date: 2020-01-23
+repo: ekzhang/setwithfriends
+topics: ["JavaScript", "Game", "React", "Firebase"]
+lead: An online, real-time multiplayer card game.
+image: setwithfriends.png
+---
 
 _Set with Friends_ is a web implementation of a real-time pattern matching card
 game called [Set](<https://en.wikipedia.org/wiki/Set_(card_game)>). Originally,

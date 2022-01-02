@@ -1,8 +1,8 @@
 import { resolve } from "path";
 import adapter from "@sveltejs/adapter-static";
 import preprocess from "svelte-preprocess";
-import yaml from "@rollup/plugin-yaml";
-import TOML from "@iarna/toml";
+import pluginYaml from "@rollup/plugin-yaml";
+import yaml from "js-yaml";
 import { dataToEsm } from "@rollup/pluginutils";
 
 /** A custom Markdown plugin for Vite, with TOML frontmatter support. */
@@ -14,12 +14,12 @@ function markdown() {
       if (/\.md$/.test(id)) {
         let frontmatter = {};
         let content = src;
-        if (src.startsWith("+++")) {
-          const end = src.indexOf("+++", 3);
+        if (src.startsWith("---")) {
+          const end = src.indexOf("---", 3);
           if (end === -1) {
             throw new Error(`Unclosed TOML frontmatter in ${id}`);
           }
-          frontmatter = TOML.parse(src.substring(3, end).trim());
+          frontmatter = yaml.load(src.substring(3, end).trim());
           content = src.substring(end + 3).trim();
         }
         return {
@@ -39,7 +39,7 @@ const config = {
     adapter: adapter(),
     target: "#svelte",
     vite: {
-      plugins: [yaml(), markdown()],
+      plugins: [pluginYaml(), markdown()],
       resolve: {
         alias: {
           "@": resolve("src"),

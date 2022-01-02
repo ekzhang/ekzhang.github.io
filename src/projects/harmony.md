@@ -1,12 +1,12 @@
-+++
-title = "Procedural Harmony"
-date = 2019-02-23
-repo = "ekzhang/harmony"
-topics = ["Python", "Music", "Algorithms", "Flask"]
-lead = "Dynamic programming applied to four-part harmony."
-image = "harmony.png"
-image_border = true
-+++
+---
+title: Procedural Harmony
+date: 2019-02-23
+repo: ekzhang/harmony
+topics: ["Python", "Music", "Algorithms", "Flask"]
+lead: Dynamic programming applied to four-part harmony.
+image: harmony.png
+image_border: true
+---
 
 This is a Python program that takes as input a string containing
 [keys](https://en.wikipedia.org/wiki/Key_signature) and

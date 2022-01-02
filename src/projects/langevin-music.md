@@ -1,11 +1,11 @@
-+++
-title = "Langevin Dynamics for Composition"
-date = 2020-11-23
-repo = "ekzhang/langevin-music"
-topics = ["Python", "Machine Learning", "Music", "Transformers"]
-lead = "Generative modeling of Bach chorales by gradient estimation."
-image = "langevin-music.png"
-+++
+---
+title: Langevin Dynamics for Composition
+date: 2020-11-23
+repo: ekzhang/langevin-music
+topics: ["Python", "Machine Learning", "Music", "Transformers"]
+lead: Generative modeling of Bach chorales by gradient estimation.
+image: langevin-music.png
+---
 
 This research project introduces a new generative model for music composition,
 based on annealed Langevin dynamics and a noise-conditional score matching

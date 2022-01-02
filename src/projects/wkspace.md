@@ -1,11 +1,11 @@
-+++
-title = "Competitive Programming Workspace"
-date = 2019-09-23
-repo = "ekzhang/wkspace"
-topics = ["JavaScript", "CP", "React", "Express"]
-lead = "An online, cloud-synchronized workspace for competitive programmers."
-image = "wkspace.png"
-+++
+---
+title: Competitive Programming Workspace
+date: 2019-09-23
+repo: ekzhang/wkspace
+topics: ["JavaScript", "CP", "React", "Express"]
+lead: An online, cloud-synchronized workspace for competitive programmers.
+image: wkspace.png
+---
 
 Top competitive programmers have dedicated setups on their local machines that
 let them quickly creating new programs from templates, generate input files, and

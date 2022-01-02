@@ -1,11 +1,11 @@
-+++
-title = "Composing Studio"
-date = 2021-09-22
-repo = "ekzhang/composing.studio"
-topics = ["TypeScript", "Rust", "Music", "React"]
-lead = "Collaborative music composition for everyone."
-image = "composing-studio.png"
-+++
+---
+title: Composing Studio
+date: 2021-09-22
+repo: ekzhang/composing.studio
+topics: ["TypeScript", "Rust", "Music", "React"]
+lead: Collaborative music composition for everyone.
+image: composing-studio.png
+---
 
 _Composing Studio_ is a free and easy-to-use online music notation editor that
 lets anyone collaborate in real time on short musical pieces. To use it, just go

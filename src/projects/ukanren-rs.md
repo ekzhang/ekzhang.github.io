@@ -1,11 +1,11 @@
-+++
-title = "µKanren-rs"
-date = 2021-09-11
-repo = "ekzhang/ukanren-rs"
-topics = ["Rust", "Programming Languages", "Systems"]
-lead = "A featherweight relational programming language."
-image = "ukanren-rs.png"
-+++
+---
+title: µKanren-rs
+date: 2021-09-11
+repo: ekzhang/ukanren-rs
+topics: ["Rust", "Programming Languages", "Systems"]
+lead: A featherweight relational programming language.
+image: ukanren-rs.png
+---
 
 This is a Rust implementation of µKanren, a very minimal language in the
 miniKanren family. See the original Scheme implementation

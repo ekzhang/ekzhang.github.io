@@ -1,11 +1,11 @@
-+++
-title = "Polygon Triangulation with Holes"
-date = 2019-05-23
-repo = "ekzhang/triangulate"
-topics = ["C++", "Algorithms", "Emscripten", "Graphics"]
-lead = "Fast computational geometry algorithms in WebAssembly."
-image = "triangulate.png"
-+++
+---
+title: Polygon Triangulation with Holes
+date: 2019-05-23
+repo: ekzhang/triangulate
+topics: ["C++", "Algorithms", "Emscripten", "Graphics"]
+lead: Fast computational geometry algorithms in WebAssembly.
+image: triangulate.png
+---
 
 This was an experiment to implement the <em>ear clipping</em> algorithm from
 computational geometry for

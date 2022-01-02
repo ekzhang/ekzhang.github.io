@@ -1,11 +1,11 @@
-+++
-title = "Path Tracer"
-date = 2020-12-23
-repo = "ekzhang/rpt"
-topics = ["Rust", "Graphics", "Rendering"]
-lead = "A physically-based path tracer in Rust."
-image = "rpt.jpg"
-+++
+---
+title: Path Tracer
+date: 2020-12-23
+repo: ekzhang/rpt
+topics: ["Rust", "Graphics", "Rendering"]
+lead: A physically-based path tracer in Rust.
+image: rpt.jpg
+---
 
 This a physically based, CPU-only rendering engine written in Rust. It
 implements a Monte Carlo path tracing algorithm for global illumination. There's

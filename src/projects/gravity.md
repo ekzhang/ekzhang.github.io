@@ -1,11 +1,11 @@
-+++
-title = "Universal Gravity Simulator"
-date = 2016-05-23
-repo = "ekzhang/gravity"
-topics = ["JavaScript", "Graphics", "Physics"]
-lead = "Control hundreds of tiny planets with gravity."
-image = "gravity.png"
-+++
+---
+title: Universal Gravity Simulator
+date: 2016-05-23
+repo: ekzhang/gravity
+topics: ["JavaScript", "Graphics", "Physics"]
+lead: Control hundreds of tiny planets with gravity.
+image: gravity.png
+---
 
 This was one of my first fun programming projects, a visual experiment
 simulating gravity in a system with hundreds of interacting objects.

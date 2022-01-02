@@ -1,11 +1,11 @@
-+++
-title = "Fast Semantic Segmentation"
-date = 2020-08-23
-repo = "ekzhang/fastseg"
-topics = ["Python", "Machine Learning", "Vision"]
-lead = "State-of-the-art, real-time semantic segmentation with MobileNetV3."
-image = "fastseg.jpg"
-+++
+---
+title: Fast Semantic Segmentation
+date: 2020-08-23
+repo: ekzhang/fastseg
+topics: ["Python", "Machine Learning", "Vision"]
+lead: State-of-the-art, real-time semantic segmentation with MobileNetV3.
+image: fastseg.jpg
+---
 
 While working at Nvidia, I open sourced PyTorch code and pretrained weights for
 real-time semantic segmentation of street images. The goal was to make it easy
