@@ -12,7 +12,7 @@ Inspired by Andrej Karpathy's
 an implementation of a multi-layer long short-term memory (LSTM) network in
 Keras, for learning and sampling from character-level patterns in text. This was
 trained to generate writing in the style of historical authors, like
-Shakespeare, Hugo, and Caroll.
+Shakespeare, Hugo, and Carroll.
 
 A really interesting application was training this model on a text-based corpus
 of folk music, from which it could compose fairly convincing new music samples.
