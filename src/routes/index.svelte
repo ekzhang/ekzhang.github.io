@@ -20,12 +20,12 @@
         I am a software engineer, designer, and math enthusiast. I research and
         develop better <em>interactive software</em> that empowers individuals. My
         work combines ideas from several fields—programming languages, graphics,
-        machine learning, and systems. Past projects include:
+        machine learning, and systems. Notable projects include:
       </p>
       <ul>
         <li>
           <Link to="/projects#percival"><strong>Percival</strong></Link>,
-          reactive notebooks for exploratory data analysis.
+          reactive notebooks designed for exploratory data analysis.
         </li>
         <li>
           <Link to="/projects#rustpad"><strong>Rustpad</strong></Link>,
