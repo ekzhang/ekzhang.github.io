@@ -79,9 +79,9 @@
       platform for dynamic serverless applications using Rust and TypeScript.
     </li>
     <li>
-      Contributed to the MVP and advised on web developer experience. Described
-      by the CEO as an "early core team member" who "played a real architectural
-      hand in the design of the product."
+      Wrote significant components of the MVP and advised on web developer
+      experience. Described by the CEO as an "early core team member" who
+      "played a real architectural hand in the design of the product."
     </li>
   </ul>
 
