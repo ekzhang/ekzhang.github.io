@@ -1,5 +1,7 @@
 <script context="module" lang="ts">
-  export const hydrate = false;
+  import { dev } from "$app/env";
+
+  export const hydrate = dev;
 </script>
 
 <script lang="ts">

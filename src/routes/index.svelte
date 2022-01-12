@@ -1,5 +1,7 @@
 <script context="module" lang="ts">
-  export const hydrate = false;
+  import { dev } from "$app/env";
+
+  export const hydrate = dev;
 </script>
 
 <script lang="ts">
@@ -15,19 +17,19 @@
   <div class="grid grid-cols-3 gap-4 lg:gap-6 mb-4">
     <section class="col-span-3 sm:col-span-2 space-y-2">
       <p>
-        I am a student at Harvard University studying computer science and
-        mathematics. I aim to develop better <em>interactive software</em> that empowers
-        individuals. To that end, I research programming languages, graphics, machine
-        learning, and systems. Past projects include:
+        I am a software engineer, designer, and math enthusiast. I research and
+        develop better <em>interactive software</em> that empowers individuals. My
+        work combines ideas from several fields—programming languages, graphics,
+        machine learning, and systems. Past projects include:
       </p>
       <ul>
         <li>
-          <Link to="/projects#rustpad"><strong>Rustpad</strong></Link>,
-          self-hosted online collaborative code editor (1M+ downloads).
+          <Link to="/projects#percival"><strong>Percival</strong></Link>,
+          reactive notebooks for exploratory data analysis.
         </li>
         <li>
-          <Link to="/projects#rpt"><strong>Rpt</strong></Link>, photorealistic
-          path tracer for rendering 3D scenes.
+          <Link to="/projects#rustpad"><strong>Rustpad</strong></Link>,
+          self-hosted online collaborative code editor (1M+ downloads).
         </li>
         <li>
           <Link to="/projects#crepe"><strong>Crepe</strong></Link>, compiled
@@ -45,28 +47,30 @@
         </li>
       </ul>
       <p>
-        I have worked at
-        <Link to="https://www.jumptrading.com/">Jump Trading</Link>, developing
-        trading strategies for traditional and decentralized markets;
-        <Link to="https://scale.com/">Scale AI</Link>, building infrastructure
-        for a world-class ML team; <Link to="https://www.nvidia.com/en-us/"
-          >Nvidia</Link
-        >, researching state-of-the-art computer vision algorithms; and
-        <Link to="https://hms.harvard.edu/">Harvard Medical School</Link>,
-        analyzing clinical data to identify patients at risk of suicide. I have
-        also written a
+        I am currently in London building a startup, on a leave of absence from
+        Harvard. Previously, I was an engineer and researcher at <Link
+          to="https://convex.dev/">Convex</Link
+        >,
+        <Link to="https://www.jumptrading.com/">Jump Trading</Link>,
+        <Link to="https://scale.com/">Scale AI</Link>, <Link
+          to="https://www.nvidia.com/en-us/">Nvidia</Link
+        >, and
+        <Link to="https://hms.harvard.edu/">Harvard Medical School</Link>. I
+        also wrote a
         <Link to="https://aip.scitation.org/doi/pdf/10.1063/9780735421646"
           >physics book</Link
-        >
-        and published
+        >, published
         <Link
           to="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf"
-          >peer-reviewed math research</Link
-        >.
+          >math research</Link
+        >, and made <Link to="https://github.com/ekzhang/graphics-workshop"
+          >graphics tutorials</Link
+        > used by thousands.
       </p>
       <p>
-        At Harvard, I am a teaching fellow for upper-level computer science
-        classes. I also play viola in the
+        At Harvard, I was a distinguished teaching fellow for upper-level
+        computer science classes, and I found my home in music. I play viola in
+        the
         <Link to="https://www.harvardradcliffeorchestra.org/"
           >Harvard-Radcliffe Orchestra</Link
         >
@@ -94,8 +98,8 @@
           >competitive programmer</Link
         >. I won two gold medals representing the US at the International
         Olympiad in Informatics (IOI), placing 7<sup>th</sup>
-        globally. I also ranked highly in the USAMO and USAPhO, and I currently compete
-        on Harvard's ICPC team.
+        globally. I also ranked highly in the USAMO and USAPhO, and I competed on
+        Harvard's championship-winning ICPC team.
       </p>
       <p>
         I have written and tested problems for large national and international
