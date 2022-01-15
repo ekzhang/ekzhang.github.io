@@ -18,7 +18,7 @@
       <a
         href={link.href}
         class="nav-link"
-        class:active={$page.path === link.href}
+        class:active={$page.url.pathname === link.href}
       >
         {link.name}
       </a>

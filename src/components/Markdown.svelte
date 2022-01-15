@@ -3,7 +3,7 @@
 
   export let source: string;
 
-  $: html = marked.parse(source);
+  $: html = marked.parse(source, { smartLists: true, smartypants: true });
 </script>
 
 <div class="md-output">
