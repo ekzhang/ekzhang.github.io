@@ -6,11 +6,17 @@
 
 <script lang="ts">
   import Link from "@/components/Link.svelte";
+  import Seo from "@/components/Seo.svelte";
 </script>
 
 <svelte:head>
   <title>Eric Zhang</title>
 </svelte:head>
+
+<Seo
+  title="Eric Zhang"
+  description="Eric Zhang is a software engineer, designer, and math enthusiast, who researches and develops better interactive software that empowers individuals."
+/>
 
 <div class="container py-6">
   <h2 class="text-3xl font-serif mb-2">About</h2>

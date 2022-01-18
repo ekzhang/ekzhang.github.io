@@ -6,11 +6,13 @@
 
 <script lang="ts">
   import Link from "@/components/Link.svelte";
+  import Seo from "@/components/Seo.svelte";
 </script>
 
-<svelte:head>
-  <title>Eric Zhang – Resume</title>
-</svelte:head>
+<Seo
+  title="Eric Zhang – Resume"
+  description="Eric Zhang's online resume: professional experneices, education, awards, and other general information."
+/>
 
 <section class="container py-6 space-y-3.5">
   <h2>Education</h2>

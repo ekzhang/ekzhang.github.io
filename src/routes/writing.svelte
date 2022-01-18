@@ -5,13 +5,15 @@
 </script>
 
 <script lang="ts">
+  import Seo from "@/components/Seo.svelte";
   import WritingList from "@/components/WritingList.svelte";
   import writing from "@/lib/writing.yaml";
 </script>
 
-<svelte:head>
-  <title>Eric Zhang – Writing</title>
-</svelte:head>
+<Seo
+  title="Eric Zhang – Writing"
+  description="Past writing by Eric Zhang, including academic papers, presentations, notes, tutorials, and technical blog posts."
+/>
 
 <section class="container py-6">
   <h2 class="text-3xl font-serif mb-4">Academic Writing</h2>

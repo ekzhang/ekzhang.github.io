@@ -3,6 +3,7 @@
   import Link from "@/components/Link.svelte";
   import Project from "@/components/Project.svelte";
   import Spacer from "@/components/Spacer.svelte";
+  import Seo from "@/components/Seo.svelte";
 
   const projects = import.meta.globEager("../projects/*.md") as any;
   const images = import.meta.globEager("../projects/*.{png,jpg}") as any;
@@ -33,9 +34,10 @@
   });
 </script>
 
-<svelte:head>
-  <title>Eric Zhang – Projects</title>
-</svelte:head>
+<Seo
+  title="Eric Zhang – Projects"
+  description="Open-source programming projects created by Eric Zhang, in web development, computer graphics, music, programming languages, machine learning, systems, and more."
+/>
 
 <div class="container py-6 space-y-4">
   <section class="space-y-2">
