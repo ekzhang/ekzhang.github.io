@@ -31,7 +31,7 @@
       <ul>
         <li>
           <Link to="/projects#percival"><strong>Percival</strong></Link>,
-          reactive notebooks designed for exploratory data analysis.
+          reactive notebooks for exploratory data analysis.
         </li>
         <li>
           <Link to="/projects#rustpad"><strong>Rustpad</strong></Link>,
