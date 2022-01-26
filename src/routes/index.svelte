@@ -15,7 +15,7 @@
 
 <Seo
   title="Eric Zhang"
-  description="Eric Zhang is a software engineer, designer, and math enthusiast, who researches and develops better interactive software that empowers individuals."
+  description="Eric Zhang is a software engineer, researcher, and math enthusiast, who designs and develops better interactive software that empowers individuals."
 />
 
 <div class="container py-6">
@@ -23,7 +23,7 @@
   <div class="grid grid-cols-3 gap-4 lg:gap-6 mb-4">
     <section class="col-span-3 sm:col-span-2 space-y-2">
       <p>
-        I am a software engineer, designer, and math enthusiast. I research and
+        I am a software engineer, researcher, and math enthusiast. I design and
         develop better <em>interactive software</em> that empowers individuals. My
         work combines ideas from several fields—programming languages, graphics,
         machine learning, and systems. Notable projects include:
@@ -53,16 +53,14 @@
         </li>
       </ul>
       <p>
-        I am currently in London building a startup, on a leave of absence from
-        Harvard. Previously, I was an engineer and researcher at <Link
-          to="https://convex.dev/">Convex</Link
-        >,
+        I currently live in New York where I am building a startup, on a leave
+        of absence from Harvard. Previously, I worked at <Link
+          to="https://prosper.org/">Prosper Robotics</Link
+        >, <Link to="https://convex.dev/">Convex</Link>,
         <Link to="https://www.jumptrading.com/">Jump Trading</Link>,
-        <Link to="https://scale.com/">Scale AI</Link>, <Link
+        <Link to="https://scale.com/">Scale AI</Link>, and <Link
           to="https://www.nvidia.com/en-us/">Nvidia</Link
-        >, and
-        <Link to="https://hms.harvard.edu/">Harvard Medical School</Link>. I
-        also wrote a
+        >. I also wrote a
         <Link to="https://aip.scitation.org/doi/pdf/10.1063/9780735421646"
           >physics book</Link
         >, published
