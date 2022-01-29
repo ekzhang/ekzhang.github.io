@@ -81,6 +81,27 @@
 
   <div>
     <h3>
+      Software Engineering Intern at
+      <Link to="https://prosper.org/">Prosper Robotics</Link>
+    </h3>
+    <p class="dates">January 2021</p>
+    <ul>
+      <li>
+        Early-stage startup developing VR-teleoperated household robots. Worked
+        with electrical and mechanical engineers.
+      </li>
+      <li>
+        I wrote real-time (&lt;10 μs) embedded microcontrollers in C++,
+        developed new network services and robot control systems in Go.
+        Refactored a lot of code, fixed many bugs, ported software to a new
+        robot, introduced continuous integration, tests, static type checking
+        for Python.
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>
       Software Engineer at
       <Link to="https://convex.dev/">Convex</Link>
     </h3>
