@@ -84,7 +84,7 @@
     title="Software Engineering Intern"
     company="Prosper Robotics"
     url="https://prosper.org/"
-    dates="January 2021"
+    dates="January 2022"
     location="London, UK"
   >
     <li>
