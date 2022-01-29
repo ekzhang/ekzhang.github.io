@@ -7,6 +7,7 @@
 <script lang="ts">
   import Link from "@/components/Link.svelte";
   import Seo from "@/components/Seo.svelte";
+  import Workplace from "@/components/Workplace.svelte";
 </script>
 
 <Seo
@@ -29,12 +30,12 @@
         <b>Teaching:</b>
         <ul>
           <li>
-            TF for CS 124 (Data Structures and Algorithms), Spring 2020 -
+            TF for CS 124 (Data Structures and Algorithms), Spring 2020 —
             <em>Commendation for Extraordinary Teaching</em>
           </li>
           <li>TF for CS 182 (Artificial Intelligence), Fall 2020</li>
           <li>
-            TF for CS 161 (Operating Systems), Spring 2021 -
+            TF for CS 161 (Operating Systems), Spring 2021 —
             <em>Certificate of Distinction in Teaching</em>
           </li>
           <li>
@@ -79,220 +80,199 @@
 <section class="container py-6 space-y-3.5">
   <h2>Work Experience</h2>
 
-  <div>
-    <h3>
-      Software Engineering Intern at
-      <Link to="https://prosper.org/">Prosper Robotics</Link>
-    </h3>
-    <p class="dates">January 2021</p>
-    <ul>
-      <li>
-        Early-stage startup developing VR-teleoperated household robots. Worked
-        with electrical and mechanical engineers.
-      </li>
-      <li>
-        I wrote real-time (&lt;10 μs) embedded microcontrollers in C++,
-        developed new network services and robot control systems in Go.
-        Refactored a lot of code, fixed many bugs, ported software to a new
-        robot, introduced continuous integration, tests, static type checking
-        for Python.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Software Engineering Intern"
+    company="Prosper Robotics"
+    url="https://prosper.org/"
+    dates="January 2021"
+    location="London, UK"
+  >
+    <li>
+      Early-stage startup developing VR-teleoperated household robots. Worked
+      with electrical and mechanical engineers.
+    </li>
+    <li>
+      I wrote real-time (&lt;10 μs) embedded microcontrollers in C++, developed
+      new network services and robot control systems in Go. Refactored a lot of
+      code, fixed many bugs, ported software to a new robot, introduced
+      continuous integration, tests, static type checking for Python.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Software Engineer at
-      <Link to="https://convex.dev/">Convex</Link>
-    </h3>
-    <p class="dates">June 2021 – October 2021</p>
-    <ul>
-      <li>
-        First hired engineer at a seed-stage startup. Worked with three highly
-        experienced technical cofounders (ex-Dropbox) to build a next-generation
-        platform for dynamic serverless applications using Rust and TypeScript.
-      </li>
-      <li>
-        Wrote significant components of the MVP and advised on web developer
-        experience. Described by the CEO as an "early core team member" who
-        "played a real architectural hand in the design of the product."
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Software Engineer"
+    company="Convex"
+    url="https://convex.dev/"
+    dates="June 2021 – October 2021"
+    location="San Francisco, CA"
+  >
+    <li>
+      First hired engineer at a seed-stage startup. Worked with three highly
+      experienced technical cofounders (ex-Dropbox) to build a next-generation
+      platform for dynamic serverless applications using Rust and TypeScript.
+    </li>
+    <li>
+      Wrote significant components of the MVP and advised on web developer
+      experience. Described by the CEO as an "early core team member" who
+      "played a real architectural hand in the design of the product."
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Quantitative Research Intern at
-      <Link to="https://jumptrading.com/">Jump Trading</Link>
-    </h3>
-    <p class="dates">June 2021 – August 2021</p>
-    <ul>
-      <li>
-        Won the intern trading strategies competition and rotated on a trading
-        team to research algorithmic signals in US equities.
-      </li>
-      <li>
-        Developed decentralized apps on the Ethereum blockchain for the
-        cryptocurrency team, including new trading algorithms on DEXs.
-        Contributed to the open source Ethereum ecosystem in Rust, Go, and
-        Python.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Quantitative Research Intern"
+    company="Jump Trading"
+    url="https://jumptrading.com/"
+    dates="June 2021 – August 2021"
+    location="Chicago, IL"
+  >
+    <li>
+      Won the intern trading strategies competition and rotated on a trading
+      team to research algorithmic signals in US equities.
+    </li>
+    <li>
+      Developed decentralized apps on the Ethereum blockchain for the
+      cryptocurrency team, including new trading algorithms on DEXs. Contributed
+      to the open source Ethereum ecosystem in Rust, Go, and Python.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Software Engineering Intern at <Link to="https://scale.com/"
-        >Scale AI</Link
-      >
-    </h3>
-    <p class="dates">December 2020 – January 2021</p>
-    <ul>
-      <li>
-        Worked on machine learning infrastructure for a fast-growing startup
-        using Terraform, Kubernetes, and AWS.
-      </li>
-      <li>
-        Developed an in-house system to unify the ML training workflow, allowing
-        the team to quickly iterate on models, share results on a tracking
-        server, and launch Kubernetes distributed training jobs, saving “hours”
-        of time on each experiment.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Software Engineering Intern"
+    company="Scale AI"
+    url="https://scale.com/"
+    dates="December 2020 – January 2021"
+    location="San Francisco, CA"
+  >
+    <li>
+      Worked on machine learning infrastructure for a fast-growing startup using
+      Terraform, Kubernetes, and AWS.
+    </li>
+    <li>
+      Developed an in-house system to unify the ML training workflow, allowing
+      the team to quickly iterate on models, share results on a tracking server,
+      and launch Kubernetes distributed training jobs, saving “hours” of time on
+      each experiment.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Architecture Intern at
-      <Link to="https://www.nvidia.com">Nvidia</Link>
-    </h3>
-    <p class="dates">June 2020 – August 2020</p>
-    <ul>
-      <li>
-        Worked with the Applied Deep Learning Research (ADLR) group on
-        <Link to="https://arxiv.org/abs/2005.10821">deep learning models</Link> for
-        street image segmentation.
-      </li>
-      <li>
-        Individually developed and released
-        <Link to="https://github.com/ekzhang/fastseg">FastSeg</Link>, an
-        open-source library containing state-of-the-art PyTorch implementations
-        of MobileNetV3 LR-ASPP for real-time semantic segmentation,
-        significantly more accurate than existing public implementations.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Architecture Intern"
+    company="Nvidia"
+    url="https://www.nvidia.com"
+    dates="June 2020 – August 2020"
+    location="Santa Clara, CA"
+  >
+    <li>
+      Worked with the Applied Deep Learning Research (ADLR) group on
+      <Link to="https://arxiv.org/abs/2005.10821">deep learning models</Link> for
+      street image segmentation.
+    </li>
+    <li>
+      Individually developed and released
+      <Link to="https://github.com/ekzhang/fastseg">FastSeg</Link>, an
+      open-source library containing state-of-the-art PyTorch implementations of
+      MobileNetV3 LR-ASPP for real-time semantic segmentation, significantly
+      more accurate than existing public implementations.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Research Assistant at
-      <Link to="https://pl.seas.harvard.edu/"
-        >Harvard Programming Languages Group</Link
-      >
-    </h3>
-    <p class="dates">June 2020 – August 2020</p>
-    <ul>
-      <li>
-        Worked on a C++ compiler for
-        <Link to="https://github.com/HarvardPL/formulog">Formulog</Link>, a
-        variant of Datalog that supports ML-like syntax extension and SMT
-        queries.
-      </li>
-      <li>
-        Generated highly parallel templatized C++17 code, used caching in B-Tree
-        comparisons to speed up Datalog evaluation by 16x, and optimized
-        existing OpenMP code using lockless data structures for an additional 4x
-        speedup.
-      </li>
-      <li>
-        Wrote a handwritten parser that was 30x faster than the ANTLR-generated
-        LL(*) parser and used 20x less memory (80 GB to 4 GB).
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Research Assistant"
+    company="Harvard Programming Languages Group"
+    url="https://pl.seas.harvard.edu/"
+    dates="June 2020 – August 2020"
+    location="Cambridge, MA"
+  >
+    <li>
+      Worked on a C++ compiler for
+      <Link to="https://github.com/HarvardPL/formulog">Formulog</Link>, a
+      variant of Datalog that supports ML-like syntax extension and SMT queries.
+    </li>
+    <li>
+      Generated highly parallel templatized C++17 code, used caching in B-Tree
+      comparisons to speed up Datalog evaluation by 16x, and optimized existing
+      OpenMP code using lockless data structures for an additional 4x speedup.
+    </li>
+    <li>
+      Wrote a handwritten parser that was 30x faster than the ANTLR-generated
+      LL(*) parser and used 20x less memory (80 GB to 4 GB).
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Undergraduate Researcher at
-      <Link to="https://www.predmed.org/">Predictive Medicine Group</Link>
-    </h3>
-    <p class="dates">December 2019 – June 2020</p>
-    <ul>
-      <li>
-        Conducted research in statistics & medical informatics advised by Ben
-        Reis (Harvard Medical School), developing temporal models to identify
-        patients at high risk of suicide based on medical histories obtained
-        from Massachusetts General Hospital.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Undergraduate Researcher"
+    company="Predictive Medicine Group"
+    url="https://www.predmed.org/"
+    dates="December 2019 – June 2020"
+    location="Boston, MA"
+  >
+    <li>
+      Conducted research in statistics & medical informatics advised by Ben Reis
+      (Harvard Medical School), developing temporal models to identify patients
+      at high risk of suicide based on medical histories obtained from
+      Massachusetts General Hospital.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Coauthor at
-      <Link to="https://aapt.org/"
-        >American Association of Physics Teachers</Link
-      >
-    </h3>
-    <p class="dates">April 2018 – October 2020</p>
-    <ul>
-      <li>
-        Co-wrote a physics book with Branislav Kisačanin,
-        <em>F=ma Contests: 2011-2019 Solutions Manual</em>.
-      </li>
-      <li>
-        Provided detailed solutions for nine years of past <em>F=ma</em> contests
-        to encourage physics interest among high school students.
-      </li>
-      <li>
-        Published with the American Association of Physics Teachers (AAPT) and
-        AIP Publishing, preprint available
-        <Link to="https://www.aapt.org/physicsteam/2020/pastexams.cfm"
-          >online</Link
-        >.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Coauthor"
+    company="American Association of Physics Teachers"
+    url="https://aapt.org/"
+    dates="April 2018 – October 2020"
+    location="College Park, MD"
+  >
+    <li>
+      Co-wrote a physics book with Branislav Kisačanin,
+      <em>F=ma Contests: 2011-2019 Solutions Manual</em>.
+    </li>
+    <li>
+      Provided detailed solutions for nine years of past <em>F=ma</em> contests to
+      encourage physics interest among high school students.
+    </li>
+    <li>
+      Published with the American Association of Physics Teachers (AAPT) and AIP
+      Publishing, preprint available
+      <Link to="https://www.aapt.org/physicsteam/2020/pastexams.cfm"
+        >online</Link
+      >.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Computer Science Instructor at
-      <Link to="https://alphastar.academy/">AlphaStar Academy</Link>
-    </h3>
-    <p class="dates">December 2017 – April 2020</p>
-    <ul>
-      <li>
-        Taught advanced algorithms and data structures (USACO Platinum) and
-        AIME-level (national math competition) mathematics to talented high
-        school students across the nation.
-      </li>
-      <li>
-        Developed detailed lesson plans and recorded lectures for future summer
-        programs and online courses.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Computer Science Instructor"
+    company="AlphaStar Academy"
+    url="https://alphastar.academy/"
+    dates="December 2017 – April 2020"
+    location="Santa Clara, CA"
+  >
+    <li>
+      Taught advanced algorithms and data structures (USACO Platinum) and
+      AIME-level (national math competition) mathematics to talented high school
+      students across the nation.
+    </li>
+    <li>
+      Developed detailed lesson plans and recorded lectures for future summer
+      programs and online courses.
+    </li>
+  </Workplace>
 
-  <div>
-    <h3>
-      Mathematics Researcher at
-      <Link to="https://math.mit.edu/research/highschool/primes/index.php"
-        >PRIMES-USA</Link
-      >
-    </h3>
-    <p class="dates">January 2018 – December 2018</p>
-    <ul>
-      <li>
-        Conducted research on quasirandom permutations, using flag algebras and
-        semidefinite programming.
-      </li>
-      <li>
-        Published a paper in the
-        <em>Electronic Journal of Combinatorics 28(1)</em>, and won the
-        Regeneron STS competition.
-      </li>
-    </ul>
-  </div>
+  <Workplace
+    title="Mathematics Researcher"
+    company="PRIMES-USA"
+    url="https://math.mit.edu/research/highschool/primes/index.php"
+    dates="January 2018 – December 2018"
+    location="Cambridge, MA"
+  >
+    <li>
+      Conducted research on quasirandom permutations, using flag algebras and
+      semidefinite programming.
+    </li>
+    <li>
+      Published a paper in the
+      <em>Electronic Journal of Combinatorics 28(1)</em>, and won the Regeneron
+      STS competition.
+    </li>
+  </Workplace>
 </section>
 
 <hr />
