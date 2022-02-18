@@ -15,7 +15,7 @@
 
 <Seo
   title="Eric Zhang"
-  description="Eric Zhang is a software engineer, researcher, and math enthusiast, who designs and develops better interactive software that empowers individuals."
+  description="Eric Zhang is a software engineer, researcher, and designer, who develops better interactive software that empowers individuals."
 />
 
 <div class="container py-6">
@@ -23,10 +23,10 @@
   <div class="grid grid-cols-3 gap-4 lg:gap-6 mb-4">
     <section class="col-span-3 sm:col-span-2 space-y-2">
       <p>
-        I am a software engineer, researcher, and math enthusiast. I design and
-        develop better <em>interactive software</em> that empowers individuals. My
-        work combines ideas from several fields—programming languages, graphics,
-        machine learning, and systems. Notable projects include:
+        I am a software engineer, researcher, and designer. I develop better <em
+          >interactive software</em
+        > that empowers individuals. My work combines ideas from several fields—programming
+        languages, graphics, machine learning, and systems. Notable projects include:
       </p>
       <ul>
         <li>
