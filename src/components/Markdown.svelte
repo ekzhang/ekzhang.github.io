@@ -3,7 +3,23 @@
 
   export let source: string;
 
-  $: html = marked.parse(source, { smartLists: true, smartypants: true });
+  marked.use({
+    renderer: {
+      link(href: string, title: string | null, text: string) {
+        let out = `<a rel="external" href="${encodeURI(href)}"`;
+        if (title) {
+          out += ' title="' + title + '"';
+        }
+        out += ">" + text + "</a>";
+        return out;
+      },
+    },
+  });
+
+  $: html = marked.parse(source, {
+    smartLists: true,
+    smartypants: true,
+  });
 </script>
 
 <div class="md-output">
