@@ -149,7 +149,7 @@
           <em>CS 252r:</em> PL Design Graduate Seminar (<Link
             external
             to="/assets/pdf/CS_252r_Notes_PL_Studio.pdf">notes</Link
-          >)
+          >, <Link to="https://github.com/ekzhang/percival">project</Link>)
         </li>
         <li>
           <em>MIT 6.843:</em> Robotic Manipulation (<Link
