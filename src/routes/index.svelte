@@ -143,7 +143,7 @@
     <section class="col-span-2 md:col-span-1 space-y-2">
       <h2 class="text-2xl font-serif">Coursework</h2>
 
-      <h3 class="text-xl">Current (Fall 2021)</h3>
+      <h3 class="text-xl">Recent (Fall 2021)</h3>
       <ul>
         <li>
           <em>CS 252r:</em> PL Design Graduate Seminar (<Link
