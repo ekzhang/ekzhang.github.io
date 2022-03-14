@@ -81,6 +81,16 @@
   <h2>Work Experience</h2>
 
   <Workplace
+    title="Software Engineer"
+    company="Modal Labs"
+    url="https://modal.com/"
+    dates="February 2022 – Current"
+    location="New York, NY"
+  >
+    <li>Founding engineer at a seed-stage startup.</li>
+  </Workplace>
+
+  <Workplace
     title="Software Engineering Intern"
     company="Prosper Robotics"
     url="https://prosper.org/"
