@@ -117,9 +117,9 @@
     location="San Francisco, CA"
   >
     <li>
-      First hired engineer at a seed-stage startup. Worked with three highly
-      experienced technical cofounders (ex-Dropbox) to build a next-generation
-      platform for dynamic serverless applications using Rust and TypeScript.
+      First hired engineer at a seed-stage startup. Worked with three
+      experienced technical cofounders (ex-Dropbox) to build a reactive,
+      serverless database platform using Rust and TypeScript.
     </li>
     <li>
       Wrote significant components of the MVP and advised on web developer
