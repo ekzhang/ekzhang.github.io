@@ -44,7 +44,10 @@
               >Summer Geometry Institute (SGI)</Link
             >, Summer 2021
           </li>
-          <li>TF for CS 153 (Compilers), Fall 2021</li>
+          <li>
+            TF for CS 153 (Compilers), Fall 2021 —
+            <em>Certificate of Distinction in Teaching</em>
+          </li>
         </ul>
       </li>
       <li>
