@@ -301,8 +301,9 @@
         2019), 7<sup>th</sup> place globally
       </li>
       <li>
-        <b>Google Hash Code:</b> World Finalist (2020, 2021), 7<sup>th</sup> place
-        team out of over 100,000 students and professionals
+        <b>Google Hash Code:</b> World Finalist (2020, 2021, 2022), 6<sup
+          >th</sup
+        > place team out of over 100,000 students and professionals
       </li>
       <li>
         <b>Google Code Jam:</b> Round 3 Finalist (2020), placed 34<sup>th</sup>
