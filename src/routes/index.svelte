@@ -53,8 +53,9 @@
         </li>
       </ul>
       <p>
-        I currently live in New York where I am building a startup, on a leave
-        of absence from Harvard. Previously, I worked at <Link
+        I currently live in New York where I am building <Link
+          to="https://modal.com/">a startup</Link
+        >, on a leave of absence from Harvard. Previously, I worked at <Link
           to="https://prosper.org/">Prosper Robotics</Link
         >, <Link to="https://convex.dev/">Convex</Link>,
         <Link to="https://www.jumptrading.com/">Jump Trading</Link>,
