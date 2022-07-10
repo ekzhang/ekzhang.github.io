@@ -12,7 +12,7 @@
 
 <Seo
   title="Eric Zhang – Writing"
-  description="Past writing by Eric Zhang, including academic papers, presentations, notes, tutorials, and technical blog posts."
+  description="Past writing: academic papers, presentations, notes, tutorials, and technical blog posts."
 />
 
 <section class="container py-6">

@@ -36,7 +36,7 @@
 
 <Seo
   title="Eric Zhang – Projects"
-  description="Open-source programming projects created by Eric Zhang, in web development, computer graphics, music, programming languages, machine learning, systems, and more."
+  description="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."
 />
 
 <div class="container py-6 space-y-4">
