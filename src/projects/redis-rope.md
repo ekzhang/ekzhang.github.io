@@ -13,10 +13,12 @@ large strings in [Redis](https://redis.io), distributed as a native
 [module](https://redis.io/docs/reference/modules/). It's primarily written in
 Zig and tested with Rust.
 
-Ropes are a more efficient data structure for large strings (indexed sequences
-of bytes). Unlike ordinary strings, ropes let you do some operations up to
-exponentially faster than their counterparts, and they're particularly good at
-speeding up complex operations on large strings.
+The ropes in this module are backed by
+[splay trees](https://en.wikipedia.org/wiki/Splay_tree), which are a
+self-adjusting data structure that has logarithmic amortized worst-case
+performance, while recently-accessed indices are also quick to access in
+subsequent operations. Each splay tree node stores between 64 and 127 bytes of
+data.
 
 More than just being theoretically interesting, this module also tries to be
 somewhat _practical_ by caring about safety, correctness, and speed. It
