@@ -6,7 +6,7 @@
   import Seo from "@/components/Seo.svelte";
 
   const projects = import.meta.globEager("../projects/*.md") as any;
-  const images = import.meta.globEager("../projects/*.{png,jpg}") as any;
+  const images = import.meta.globEager("../projects/*.{png,jpg,svg}") as any;
 
   function trimName(id: string) {
     return id.match(/\.\.\/projects\/(.*)\.md$/)?.[1];
