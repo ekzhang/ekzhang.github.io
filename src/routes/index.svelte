@@ -5,8 +5,8 @@
 </script>
 
 <script lang="ts">
-  import Link from "@/components/Link.svelte";
-  import Seo from "@/components/Seo.svelte";
+  import Link from "$lib/components/Link.svelte";
+  import Seo from "$lib/components/Seo.svelte";
 </script>
 
 <svelte:head>

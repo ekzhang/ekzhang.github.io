@@ -1,12 +1,14 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import Link from "@/components/Link.svelte";
-  import Project from "@/components/Project.svelte";
-  import Spacer from "@/components/Spacer.svelte";
-  import Seo from "@/components/Seo.svelte";
+  import Link from "$lib/components/Link.svelte";
+  import Project from "$lib/components/Project.svelte";
+  import Spacer from "$lib/components/Spacer.svelte";
+  import Seo from "$lib/components/Seo.svelte";
 
-  const projects = import.meta.globEager("../projects/*.md") as any;
-  const images = import.meta.globEager("../projects/*.{png,jpg,svg}") as any;
+  const projects = import.meta.glob("../projects/*.md", { eager: true }) as any;
+  const images = import.meta.glob("../projects/*.{png,jpg,svg}", {
+    eager: true,
+  }) as any;
 
   function trimName(id: string) {
     return id.match(/\.\.\/projects\/(.*)\.md$/)?.[1];

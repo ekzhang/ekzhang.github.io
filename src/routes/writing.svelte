@@ -5,9 +5,9 @@
 </script>
 
 <script lang="ts">
-  import Seo from "@/components/Seo.svelte";
-  import WritingList from "@/components/WritingList.svelte";
-  import writing from "@/lib/writing.yaml";
+  import Seo from "$lib/components/Seo.svelte";
+  import WritingList from "$lib/components/WritingList.svelte";
+  import writing from "$lib/writing.yaml";
 </script>
 
 <Seo

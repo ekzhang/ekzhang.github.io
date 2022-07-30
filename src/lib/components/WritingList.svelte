@@ -1,7 +1,7 @@
 <script lang="ts">
   import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
   import Fa from "svelte-fa";
-  import { formatTime } from "@/lib/utils";
+  import { formatTime } from "$lib/utils";
 
   type Writing = {
     title: string;

@@ -8,11 +8,11 @@
   import "@fontsource/roboto/400-italic.css";
   import "@fontsource/roboto/700.css";
   import "@fontsource/roboto/700-italic.css";
-  import "@/app.css";
+  import "../app.css";
 
   import { dev } from "$app/env";
-  import Header from "@/components/Header.svelte";
-  import Footer from "@/components/Footer.svelte";
+  import Header from "$lib/components/Header.svelte";
+  import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <svelte:head>
