@@ -12,5 +12,5 @@
     property="og:image"
     content="https://www.ekzhang.com/assets/images/hudson-landscape.jpg"
   />
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
 </svelte:head>

@@ -15,7 +15,7 @@
 
 <Seo
   title="Eric Zhang"
-  description="Software engineer, researcher, and designer with an open-source ethos at heart. Thinking about how we can develop better systems and interfaces to empower individuals."
+  description="Software engineer, researcher, and designer with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
 />
 
 <div class="container py-6">
