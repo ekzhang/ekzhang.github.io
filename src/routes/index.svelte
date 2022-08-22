@@ -15,18 +15,20 @@
 
 <Seo
   title="Eric Zhang"
-  description="Software engineer, researcher, and designer with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
+  description="Software engineer and researcher with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
 />
 
 <div class="container py-6">
   <h2 class="text-3xl font-serif mb-2">About</h2>
-  <div class="grid grid-cols-3 gap-4 lg:gap-6 mb-4">
+  <div class="grid grid-cols-3 gap-4 lg:gap-8 mb-4">
     <section class="col-span-3 sm:col-span-2 space-y-2">
       <p>
-        I am a software engineer, researcher, and designer. I develop better <em
-          >interactive software</em
-        > that empowers individuals. My work combines ideas from several fields—programming
-        languages, graphics, machine learning, and systems. Notable projects include:
+        I am a software engineer and researcher. I design better <em
+          >computer systems</em
+        >
+        and <em>human interactions</em> to empower individuals. My work draws inspiration
+        from diverse fields such as programming languages, distributed systems, graphics,
+        and interface design. Notable projects include:
       </p>
       <ul>
         <li>
@@ -74,15 +76,14 @@
       </p>
       <p>
         At Harvard, I was a distinguished teaching fellow for upper-level
-        computer science classes, and I found my home in music. I play viola in
-        the
-        <Link to="https://www.harvardradcliffeorchestra.org/"
-          >Harvard-Radcliffe Orchestra</Link
+        computer science classes. I enjoy playing viola with various <Link
+          to="https://www.harvardradcliffeorchestra.org/">classical</Link
         >
-        and chamber music groups. I was a
-        <Link to="https://youngarts.org/">YoungArts</Link> award winner in classical
-        music, served as principal viola of the Texas All-State Symphony Orchestra,
-        and have been invited as a soloist with a professional orchestra.
+        <Link to="https://youtu.be/rYrVFTzP4sw">music</Link>
+        <Link to="https://youngarts.org/">groups</Link> (along with <Link
+          to="https://news.harvard.edu/gazette/story/2019/11/west-side-story-explores-racial-ethnic-political-complications/"
+          >other music</Link
+        >).
       </p>
     </section>
     <section class="col-span-3 sm:col-span-1">
