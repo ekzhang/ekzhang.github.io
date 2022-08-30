@@ -55,10 +55,10 @@
         </li>
       </ul>
       <p>
-        I currently live in New York where I am building <Link
+        I currently go to school at Harvard and simultaneously work part-time on <Link
           to="https://modal.com/">a startup</Link
-        >, on a leave of absence from Harvard. Previously, I worked at <Link
-          to="https://prosper.org/">Prosper Robotics</Link
+        >. Previously, I worked at <Link to="https://prosper.org/"
+          >Prosper Robotics</Link
         >, <Link to="https://convex.dev/">Convex</Link>,
         <Link to="https://www.jumptrading.com/">Jump Trading</Link>,
         <Link to="https://scale.com/">Scale AI</Link>, and <Link
@@ -82,7 +82,7 @@
         <Link to="https://youtu.be/rYrVFTzP4sw">music</Link>
         <Link to="https://youngarts.org/">groups</Link> (along with <Link
           to="https://news.harvard.edu/gazette/story/2019/11/west-side-story-explores-racial-ethnic-political-complications/"
-          >other music</Link
+          >other art</Link
         >).
       </p>
     </section>
