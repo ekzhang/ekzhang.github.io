@@ -30,10 +30,16 @@
 
 <style lang="postcss">
   .nav-link {
-    @apply border-b border-transparent transition-colors text-blue-700;
+    @apply relative inline-block text-blue-600;
   }
 
-  .nav-link:is(:hover, .active) {
-    @apply border-blue-700;
+  .nav-link::after {
+    @apply absolute inset-x-0 bottom-0 h-0.5 bg-transparent;
+    content: "";
+    transition: background 0.15s;
+  }
+
+  .nav-link:is(:hover, .active)::after {
+    @apply bg-blue-600/75;
   }
 </style>
