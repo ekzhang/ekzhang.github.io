@@ -9,7 +9,7 @@ function markdown() {
   return {
     name: "markdown",
 
-    transform(src, id) {
+    transform(src: string, id: string) {
       if (/\.md$/.test(id)) {
         let frontmatter = {};
         let content = src;
@@ -18,7 +18,7 @@ function markdown() {
           if (end === -1) {
             throw new Error(`Unclosed TOML frontmatter in ${id}`);
           }
-          frontmatter = yaml.load(src.substring(3, end).trim());
+          frontmatter = yaml.load(src.substring(3, end).trim()) as any;
           content = src.substring(end + 3).trim();
         }
         return {
@@ -31,7 +31,7 @@ function markdown() {
 }
 
 const config: UserConfig = {
-  plugins: [sveltekit(), pluginYaml(), markdown()],
+  plugins: [sveltekit(), pluginYaml() as any, markdown()],
   ssr: {
     noExternal: [
       "@fortawesome/free-brands-svg-icons",

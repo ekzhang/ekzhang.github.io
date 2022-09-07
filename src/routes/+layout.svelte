@@ -10,7 +10,7 @@
   import "@fontsource/roboto/700-italic.css";
   import "../app.css";
 
-  import { dev } from "$app/env";
+  import { dev } from "$app/environment";
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
 </script>

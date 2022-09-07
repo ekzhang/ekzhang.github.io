@@ -49,9 +49,9 @@
       <Markdown source={data.content} />
     </div>
     <div class="col-span-3 md:col-span-1">
-      <a rel="external" href={images[`../projects/${data.image}`]?.default}>
+      <a rel="external" href={images[`../../projects/${data.image}`]?.default}>
         <img
-          src={images[`../projects/${data.image}`]?.default}
+          src={images[`../../projects/${data.image}`]?.default}
           alt="{data.title} preview image"
           class:border={data.image_border}
         />
@@ -63,9 +63,9 @@
     <div class="grid grid-cols-3 gap-4 md:gap-6">
       {#each data.subimages as image}
         <div class="col-span-full md:col-span-1">
-          <a rel="external" href={images[`../projects/${image}`]?.default}>
+          <a rel="external" href={images[`../../projects/${image}`]?.default}>
             <img
-              src={images[`../projects/${image}`]?.default}
+              src={images[`../../projects/${image}`]?.default}
               alt="{data.title} subimage"
             />
           </a>

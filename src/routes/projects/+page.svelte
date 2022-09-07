@@ -5,8 +5,10 @@
   import Spacer from "$lib/components/Spacer.svelte";
   import Seo from "$lib/components/Seo.svelte";
 
-  const projects = import.meta.glob("../projects/*.md", { eager: true }) as any;
-  const images = import.meta.glob("../projects/*.{png,jpg,svg}", {
+  const projects = import.meta.glob("../../projects/*.md", {
+    eager: true,
+  }) as any;
+  const images = import.meta.glob("../../projects/*.{png,jpg,svg}", {
     eager: true,
   }) as any;
 

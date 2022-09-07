@@ -1,9 +1,3 @@
-<script context="module" lang="ts">
-  import { dev } from "$app/env";
-
-  export const hydrate = dev;
-</script>
-
 <script lang="ts">
   import Seo from "$lib/components/Seo.svelte";
   import WritingList from "$lib/components/WritingList.svelte";
