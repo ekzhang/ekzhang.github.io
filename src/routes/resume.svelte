@@ -12,7 +12,7 @@
 
 <Seo
   title="Eric Zhang – Resume"
-  description="Software engineer and researcher with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
+  description="Software engineer, researcher, and designer with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
 />
 
 <section class="container py-6 space-y-3.5">

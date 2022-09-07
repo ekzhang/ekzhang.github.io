@@ -15,7 +15,7 @@
 
 <Seo
   title="Eric Zhang"
-  description="Software engineer and researcher with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
+  description="Software engineer, researcher, and designer with an open-source ethos. Thinking about how we can develop better systems and interfaces to empower individuals."
 />
 
 <div class="container py-6">
@@ -23,12 +23,10 @@
   <div class="grid grid-cols-3 gap-4 lg:gap-8 mb-4">
     <section class="col-span-3 sm:col-span-2 space-y-2">
       <p>
-        I am a software engineer and researcher. I design better <em
-          >computer systems</em
-        >
-        and <em>human interactions</em> to empower individuals. My work draws inspiration
-        from diverse fields such as programming languages, distributed systems, graphics,
-        and interface design. Notable projects include:
+        I am a software engineer, researcher, and designer. I make better <em
+          >interactive software</em
+        > to help humans create, collaborate, learn, and meaningfully express ideas.
+        Notable projects include:
       </p>
       <ul>
         <li>
@@ -55,7 +53,7 @@
         </li>
       </ul>
       <p>
-        I currently go to school at Harvard and simultaneously work part-time on <Link
+        I currently go to school at Harvard and concurrently work part-time on <Link
           to="https://modal.com/">a startup</Link
         >. Previously, I worked at <Link to="https://prosper.org/"
           >Prosper Robotics</Link
@@ -63,14 +61,14 @@
         <Link to="https://www.jumptrading.com/">Jump Trading</Link>,
         <Link to="https://scale.com/">Scale AI</Link>, and <Link
           to="https://www.nvidia.com/en-us/">Nvidia</Link
-        >. I also wrote a
+        >. Things I've published in the past include a
         <Link to="https://aip.scitation.org/doi/pdf/10.1063/9780735421646"
           >physics book</Link
-        >, published
+        >,
         <Link
           to="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf"
-          >math research</Link
-        >, and made <Link to="https://github.com/ekzhang/graphics-workshop"
+          >combinatorics research</Link
+        >, and <Link to="https://github.com/ekzhang/graphics-workshop"
           >graphics tutorials</Link
         > used by thousands.
       </p>
@@ -80,10 +78,11 @@
           to="https://www.harvardradcliffeorchestra.org/">classical</Link
         >
         <Link to="https://youtu.be/rYrVFTzP4sw">music</Link>
-        <Link to="https://youngarts.org/">groups</Link> (along with <Link
+        <Link to="https://youngarts.org/">groups</Link> (and <Link
           to="https://news.harvard.edu/gazette/story/2019/11/west-side-story-explores-racial-ethnic-political-complications/"
           >other art</Link
-        >).
+        >). I like programming languages, distributed systems, graphics, and
+        interaction design.
       </p>
     </section>
     <section class="col-span-3 sm:col-span-1">
