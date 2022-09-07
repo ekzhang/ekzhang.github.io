@@ -17,8 +17,9 @@ login necessary); it's as simple as sharing a custom link and having fun!
 During the design process, I learned about Firebase, so working on this app
 introduced me to serverless architectures and provided a good exercise in
 creating live interfaces. We completely overhauled the design in May and
-released version 2.0 in June. At the time of writing (May 2021), the website has
-over 40,000 monthly active users and 1.9 million games played.
+released version 2.0 in June. At its peak, the website had over 40,000 monthly
+active users for half a year, and as of September 2022 there have been 5,000,000
+games played.
 
 **Links: [GitHub](https://github.com/ekzhang/setwithfriends),
 [Website](https://setwithfriends.com/)**

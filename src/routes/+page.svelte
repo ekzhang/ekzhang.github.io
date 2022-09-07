@@ -43,7 +43,7 @@
         <li>
           <Link to="/projects#setwithfriends"
             ><strong>Set with Friends</strong></Link
-          >, online multiplayer card game (20M+ pageviews, 600K+ users).
+          >, online multiplayer card game (30M+ pageviews, 900K+ users).
         </li>
       </ul>
       <p>
