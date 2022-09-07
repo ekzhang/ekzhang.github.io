@@ -74,9 +74,11 @@
         <Link to="https://youtu.be/rYrVFTzP4sw">music</Link>
         <Link to="https://youngarts.org/">groups</Link> (and <Link
           to="https://news.harvard.edu/gazette/story/2019/11/west-side-story-explores-racial-ethnic-political-complications/"
-          >other art</Link
-        >). I like programming languages, distributed systems, graphics, and
-        interaction design.
+          >other</Link
+        >
+        <Link to="https://www.harvarddesignco.com/">art</Link>). I like
+        programming languages, distributed systems, graphics, and interaction
+        design.
       </p>
     </section>
     <section class="col-span-3 sm:col-span-1">
