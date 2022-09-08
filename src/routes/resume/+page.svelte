@@ -85,6 +85,10 @@
     location="New York, NY"
   >
     <li>Founding engineer at a seed-stage startup.</li>
+    <li>
+      Making distributed systems, a cloud container runtime, programming
+      language interfaces, and designing interactions.
+    </li>
   </Workplace>
 
   <Workplace
