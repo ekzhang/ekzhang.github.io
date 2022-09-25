@@ -29,7 +29,7 @@
         </li>
         <li>
           <Link to="/projects#rustpad"><strong>Rustpad</strong></Link>,
-          self-hosted online collaborative code editor (1M+ downloads).
+          self-hosted online collaborative code editor (2M+ downloads).
         </li>
         <li>
           <Link to="/projects#crepe"><strong>Crepe</strong></Link>, compiled
