@@ -20,7 +20,7 @@
         I am a software engineer, researcher, and designer. I make better <em
           >interactive software</em
         > to help humans create, collaborate, learn, and meaningfully express ideas.
-        Notable projects include:
+        Notable work:
       </p>
       <ul>
         <li>
@@ -47,11 +47,11 @@
         </li>
       </ul>
       <p>
-        I currently go to school at Harvard and concurrently work part-time on <Link
-          to="https://modal.com/">a startup</Link
-        >. Previously, I worked at <Link to="https://prosper.org/"
-          >Prosper Robotics</Link
-        >, <Link to="https://convex.dev/">Convex</Link>,
+        I currently go to school at Harvard, while building systems part-time
+        for <Link to="https://modal.com/">a startup</Link>. Previously, I worked
+        at <Link to="https://prosper.org/">Prosper Robotics</Link>, <Link
+          to="https://convex.dev/">Convex</Link
+        >,
         <Link to="https://www.jumptrading.com/">Jump Trading</Link>,
         <Link to="https://scale.com/">Scale AI</Link>, and <Link
           to="https://www.nvidia.com/en-us/">Nvidia</Link
