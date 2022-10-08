@@ -85,7 +85,7 @@
       <img
         class="img-fluid"
         alt="Eric Zhang"
-        src="/assets/images/profile2.jpg"
+        src="/assets/images/profile3.jpg"
       />
     </section>
   </div>
