@@ -1,8 +1,10 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import { faCalendarDays, faStar } from "@fortawesome/free-regular-svg-icons";
+  import Fa from "svelte-fa";
+
   import Link from "$lib/components/Link.svelte";
   import Project from "$lib/components/Project.svelte";
-  import Spacer from "$lib/components/Spacer.svelte";
   import Seo from "$lib/components/Seo.svelte";
 
   const projects = import.meta.glob("../../projects/*.md", {
@@ -36,6 +38,14 @@
       stars[obj.full_name] = obj.stargazers_count;
     }
   });
+
+  $: projectsByStars = [...projectsByTitle].sort((a, b) => {
+    const starsA = stars?.[projects[a].repo] ?? 0;
+    const starsB = stars?.[projects[b].repo] ?? 0;
+    return starsB - starsA;
+  });
+
+  let sortOrder: "date" | "stars" = "date";
 </script>
 
 <Seo
@@ -65,12 +75,42 @@
   </section>
 </div>
 
-<Spacer />
+<div class="bg-zinc-50 border-y border-zinc-200">
+  <div class="container py-4">
+    <div class="flex justify-center space-x-2">
+      <button
+        class:active={sortOrder === "date"}
+        on:click={() => (sortOrder = "date")}
+      >
+        <Fa icon={faCalendarDays} class="mr-2 -mt-0.5" /> by Date
+      </button>
+      <button
+        class:active={sortOrder === "stars"}
+        on:click={() => (sortOrder = "stars")}
+      >
+        <Fa icon={faStar} class="mr-1.5 -mt-0.5" /> by Stars
+      </button>
+    </div>
+  </div>
+</div>
 
-{#each projectsByDate as id (id)}
-  <section class="border-b last:border-b-0 border-zinc-200" id={trimName(id)}>
+{#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
+  <section
+    class="border-b last-of-type:border-b-0 border-zinc-200"
+    id={trimName(id)}
+  >
     <div class="container py-6">
       <Project data={projects[id]} {images} {stars} />
     </div>
   </section>
 {/each}
+
+<style lang="postcss">
+  button {
+    @apply px-2.5 py-1 rounded flex items-center hover:bg-gray-200;
+  }
+
+  button.active {
+    @apply bg-indigo-600 text-white;
+  }
+</style>
