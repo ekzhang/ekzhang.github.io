@@ -17,7 +17,7 @@ This is implemented as a small wrapper around
 [extremely fast](https://duckdb.org/2021/05/14/sql-on-pandas.html). From my own
 experimental perspective, the intent of the project was to see whether we can
 usefully and ergonomically embed declarative, relational query languages within
-general-purpose computing.
+general-purpose media.
 
 **Links: [GitHub](https://github.com/ekzhang/inline-sql),
 [PyPI](https://pypi.org/project/inline-sql/)**
