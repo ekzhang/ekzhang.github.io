@@ -2,7 +2,7 @@
 title: classes.wtf
 date: 2022-08-10
 repo: ekzhang/classes.wtf
-topics: ["Go", "Svelte", "Systems"]
+topics: ["Go", "TypeScript", "Svelte", "Systems"]
 lead: A course catalog with extremely fast full-text search.
 image: classes-wtf.png
 ---
