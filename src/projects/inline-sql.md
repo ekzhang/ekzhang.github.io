@@ -3,7 +3,7 @@ title: Inline SQL
 date: 2022-10-08
 repo: ekzhang/inline-sql
 topics: ["Python", "Programming Languages", "Databases"]
-lead: Weaving relational queries into the fabric of Python programs.
+lead: Weaving relational queries into the fabric of Python.
 image: inline-sql.png
 ---
 
