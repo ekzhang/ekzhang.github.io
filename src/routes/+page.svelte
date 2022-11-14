@@ -17,10 +17,10 @@
   <div class="grid grid-cols-3 gap-4 lg:gap-8 mb-4">
     <section class="col-span-3 sm:col-span-2 space-y-2">
       <p>
-        I am a software engineer, researcher, and designer. I make better <em
+        I am a software engineer, researcher, and designer. I aim to make better <em
           >interactive software</em
-        > to help humans create, collaborate, learn, and meaningfully express ideas.
-        Notable work:
+        > that helps people create, collaborate, learn, and meaningfully express
+        ideas. Notable work:
       </p>
       <ul>
         <li>
