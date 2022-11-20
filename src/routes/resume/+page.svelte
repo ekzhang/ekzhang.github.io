@@ -84,10 +84,10 @@
     dates="February 2022 – Current"
     location="New York, NY"
   >
-    <li>Founding engineer at a seed-stage startup.</li>
+    <li>Founding engineer at a cloud compute infrastructure company.</li>
     <li>
-      Making distributed systems, a cloud container runtime, programming
-      language interfaces, and designing interactions.
+      Working on low-latency distributed systems, a container runtime, and
+      programming language + web interfaces.
     </li>
   </Workplace>
 
