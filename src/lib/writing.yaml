@@ -1,4 +1,18 @@
 papers:
+  - title: Tandem Solar Cells
+    date: "2022-12-13"
+    summary: >
+      Fabrication and characterization of a tandem solar device. Final project
+      for MIT.nano class 6.2540.
+    link: "https://docs.google.com/presentation/d/e/2PACX-1vTK3Mz-3TaocxwgeP-RuD4qhdBk6bn_UzdZDrVRpP6-p-wnLut_mfGB0PzeSTnbIc20eXG7E618-Npw/pub"
+
+  - title: Multi-Architecture Parallelism
+    date: "2022-12-11"
+    summary: >
+      Envisioning parallelism in deep learning compilers on heterogeneous
+      compute. Final project for CS 243.
+    link: /assets/pdf/Jax_Parallelism.pdf
+
   - title: Pressure Field Models
     date: "2021-12-08"
     summary: >
