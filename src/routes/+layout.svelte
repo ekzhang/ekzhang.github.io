@@ -20,7 +20,8 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-156644599-1"></script>
+      src="https://www.googletagmanager.com/gtag/js?id=UA-156644599-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
