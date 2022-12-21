@@ -1,7 +1,7 @@
 <script lang="ts">
   import Seo from "$lib/components/Seo.svelte";
-  import WritingList from "$lib/components/WritingList.svelte";
-  import writing from "$lib/writing.yaml";
+  import WritingList from "./WritingList.svelte";
+  import writing from "./writing.yaml";
 </script>
 
 <Seo

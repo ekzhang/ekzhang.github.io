@@ -3,9 +3,8 @@
   import { faCalendarDays, faStar } from "@fortawesome/free-regular-svg-icons";
   import Fa from "svelte-fa";
 
-  import Link from "$lib/components/Link.svelte";
-  import Project from "$lib/components/Project.svelte";
   import Seo from "$lib/components/Seo.svelte";
+  import Project from "./Project.svelte";
 
   const projects = import.meta.glob("../../projects/*.md", {
     eager: true,
@@ -68,7 +67,7 @@
     <ul class="list-unstyled">
       {#each projectsByTitle as id (id)}
         <li>
-          <Link to="#{trimName(id)}">{projects[id].title}</Link>
+          <a class="link" href="#{trimName(id)}">{projects[id].title}</a>
         </li>
       {/each}
     </ul>

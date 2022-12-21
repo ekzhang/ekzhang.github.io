@@ -1,7 +1,6 @@
 <script lang="ts">
-  import Link from "$lib/components/Link.svelte";
   import Seo from "$lib/components/Seo.svelte";
-  import Workplace from "$lib/components/Workplace.svelte";
+  import Workplace from "./Workplace.svelte";
 </script>
 
 <Seo
@@ -34,8 +33,8 @@
           </li>
           <li>
             TA for
-            <Link to="https://sgi.mit.edu/"
-              >Summer Geometry Institute (SGI)</Link
+            <a class="link" href="https://sgi.mit.edu/"
+              >Summer Geometry Institute (SGI)</a
             >, Summer 2021
           </li>
           <li>
@@ -175,12 +174,13 @@
   >
     <li>
       Worked with the Applied Deep Learning Research (ADLR) group on
-      <Link to="https://arxiv.org/abs/2005.10821">deep learning models</Link> for
-      street image segmentation.
+      <a class="link" href="https://arxiv.org/abs/2005.10821"
+        >deep learning models</a
+      > for street image segmentation.
     </li>
     <li>
       Individually developed and released
-      <Link to="https://github.com/ekzhang/fastseg">FastSeg</Link>, an
+      <a class="link" href="https://github.com/ekzhang/fastseg">FastSeg</a>, an
       open-source library containing state-of-the-art PyTorch implementations of
       MobileNetV3 LR-ASPP for real-time semantic segmentation, significantly
       more accurate than existing public implementations.
@@ -196,8 +196,9 @@
   >
     <li>
       Worked on a C++ compiler for
-      <Link to="https://github.com/HarvardPL/formulog">Formulog</Link>, a
-      variant of Datalog that supports ML-like syntax extension and SMT queries.
+      <a class="link" href="https://github.com/HarvardPL/formulog">Formulog</a>,
+      a variant of Datalog that supports ML-like syntax extension and SMT
+      queries.
     </li>
     <li>
       Generated highly parallel templatized C++17 code, used caching in B-Tree
@@ -243,8 +244,8 @@
     <li>
       Published with the American Association of Physics Teachers (AAPT) and AIP
       Publishing, preprint available
-      <Link to="https://www.aapt.org/physicsteam/2020/pastexams.cfm"
-        >online</Link
+      <a class="link" href="https://www.aapt.org/physicsteam/2020/pastexams.cfm"
+        >online</a
       >.
     </li>
   </Workplace>

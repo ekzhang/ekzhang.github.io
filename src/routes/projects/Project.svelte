@@ -1,8 +1,9 @@
 <script lang="ts">
   import { faStar } from "@fortawesome/free-solid-svg-icons";
   import Fa from "svelte-fa";
+
+  import Markdown from "$lib/components/Markdown.svelte";
   import { formatTime } from "$lib/utils";
-  import Markdown from "./Markdown.svelte";
 
   type Project = {
     title: string;

@@ -12,7 +12,6 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "dependencies": {
-    "@fontsource/merriweather": "^4.5.14",
     "@fontsource/newsreader": "^4.5.9",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
