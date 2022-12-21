@@ -23,7 +23,7 @@
     <span class="px-0.5 text-gray-500">•</span>
     <span class="whitespace-nowrap">{location}</span>
   </p>
-  <ul class="list-disc pl-8 marker:text-neutral-400" class:hidden>
+  <ul class="list-disc pl-7 marker:text-neutral-400" class:hidden>
     <slot />
   </ul>
 </div>
