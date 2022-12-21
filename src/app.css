@@ -15,10 +15,21 @@
   }
 }
 
+@layer components {
+  .link {
+    @apply underline underline-offset-[3px] decoration-neutral-400;
+    @apply hover:text-black hover:decoration-black transition-colors;
+  }
+}
+
 html {
   @apply scroll-smooth;
 }
 
 body {
-  @apply bg-zinc-50;
+  @apply /* antialiased */ text-neutral-700;
+}
+
+::selection {
+  @apply bg-neutral-200;
 }
