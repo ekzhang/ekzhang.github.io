@@ -20,6 +20,10 @@
     @apply underline underline-offset-[3px] decoration-neutral-400;
     @apply hover:text-black hover:decoration-black transition-colors;
   }
+
+  .layout-md {
+    @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  }
 }
 
 html {
@@ -27,7 +31,7 @@ html {
 }
 
 body {
-  @apply /* antialiased */ text-neutral-700;
+  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-neutral-700;
 }
 
 ::selection {

@@ -9,7 +9,7 @@
 </script>
 
 <header
-  class="grid grid-cols-2"
+  class="layout-md grid grid-cols-2"
   data-sveltekit-noscroll
   data-sveltekit-preload-code="eager"
 >

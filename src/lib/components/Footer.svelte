@@ -1,4 +1,4 @@
-<footer class="mt-20 text-lg flex flex-col">
+<footer class="layout-md mt-20 text-lg flex flex-col">
   <div class="row">
     <span>Twitter</span>
     <hr />

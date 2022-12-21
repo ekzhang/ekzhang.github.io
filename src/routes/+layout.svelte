@@ -28,8 +28,10 @@
   {/if}
 </svelte:head>
 
-<div class="max-w-screen-md mx-auto px-4 sm:px-6 py-12 sm:py-24 md:py-32">
-  <Header />
+<Header />
+
+<main>
   <slot />
-  <Footer />
-</div>
+</main>
+
+<Footer />

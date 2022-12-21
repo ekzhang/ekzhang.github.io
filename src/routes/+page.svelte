@@ -46,13 +46,13 @@
   description="Software engineer, researcher, and designer. Thinking about systems and interfaces to help people."
 />
 
-<p class="text-black text-xl leading-tight font-light mb-16">
+<p class="layout-md text-black text-xl leading-tight font-light mb-16">
   <span class="g">is a</span> software engineer<span class="g">,</span><br />
   researcher<span class="g">, and</span><br />
   designer<span class="g">.</span>
 </p>
 
-<div class="text-lg space-y-14">
+<div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
       I study at Harvard and work on the future of cloud computing at <a
