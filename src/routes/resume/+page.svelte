@@ -8,73 +8,78 @@
   description="Software engineer, researcher, and designer. Making better systems and interfaces to help people."
 />
 
-<section class="container py-6 space-y-3.5">
-  <h2>Education</h2>
+<section class="layout-md py-12">
+  <h2 class="heading2">Education</h2>
 
-  <div>
-    <h3>Harvard University</h3>
-    <p class="dates">September 2019 – Current</p>
-    <ul>
-      <li>
-        Pursuing an M.S. in Computer Science with a B.A. in Computer Science and
-        Mathematics.
-      </li>
-      <li>
-        <b>Teaching:</b>
-        <ul>
-          <li>
-            TF for CS 124 (Data Structures and Algorithms), Spring 2020 —
-            <em>Commendation for Extraordinary Teaching</em>
-          </li>
-          <li>TF for CS 182 (Artificial Intelligence), Fall 2020</li>
-          <li>
-            TF for CS 161 (Operating Systems), Spring 2021 —
-            <em>Certificate of Distinction in Teaching</em>
-          </li>
-          <li>
-            TA for
-            <a class="link" href="https://sgi.mit.edu/"
-              >Summer Geometry Institute (SGI)</a
-            >, Summer 2021
-          </li>
-          <li>
-            TF for CS 153 (Compilers), Fall 2021 —
-            <em>Certificate of Distinction in Teaching</em>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <b>Selected coursework († graduate-level):</b>
-        <ul>
-          <li>Computational Complexity<sup>†</sup> (CS 221)</li>
-          <li>Randomized Algorithms<sup>†</sup> (CS 223)</li>
-          <li>Computational Learning Theory<sup>†</sup> (CS 228)</li>
-          <li>PL/AI Graduate Seminar<sup>†</sup> (CS 252r)</li>
-          <li>PL Design Graduate Seminar<sup>†</sup> (CS 252r)</li>
-          <li>Systems Security<sup>†</sup> (CS 263)</li>
-          <li>
-            Distributed Systems Engineering<sup>†</sup> (MIT 6.824)
-          </li>
-          <li>Shape Analysis<sup>†</sup> (MIT 6.838)</li>
-          <li>Robotic Manipulation<sup>†</sup> (MIT 6.843)</li>
-          <li>Graduate Probability<sup>†</sup> (Stat 210)</li>
-          <li>Graduate Statistical Inference<sup>†</sup> (Stat 211)</li>
-          <li>Compilers (CS 153)</li>
-          <li>Operating Systems (CS 161)</li>
-          <li>Computer Graphics (MIT 6.837)</li>
-          <li>Differential Topology (Math 132)</li>
-          <li>Honors Abstract Algebra (Math 55a)</li>
-          <li>Honors Real and Complex Analysis (Math 55b)</li>
-        </ul>
-      </li>
-    </ul>
+  <div class="mb-4">
+    <div class="flex justify-between items-end">
+      <h3 class="text-black text-lg">Harvard University</h3>
+      <div class="text-neutral-500 mb-0.5">2022 — Current</div>
+    </div>
+    <p class="byline">S.M. in Computer Science</p>
   </div>
+
+  <div class="mb-4">
+    <div class="flex justify-between items-end">
+      <h3 class="text-black text-lg">Harvard University</h3>
+      <div class="text-neutral-500 mb-0.5">2019 — Current</div>
+    </div>
+    <p class="byline">A.B. in Computer Science and Mathematics</p>
+  </div>
+
+  <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
+  <ul>
+    <li>
+      TF for CS 153 (Compilers), Fall 2021 —
+      <em>Certificate of Distinction in Teaching</em>
+    </li>
+    <li>
+      TA for
+      <a class="link" href="https://sgi.mit.edu/"
+        >Summer Geometry Institute (SGI)</a
+      >, Summer 2021
+    </li>
+    <li>
+      TF for CS 161 (Operating Systems), Spring 2021 —
+      <em>Certificate of Distinction in Teaching</em>
+    </li>
+    <li>TF for CS 182 (Artificial Intelligence), Fall 2020</li>
+    <li>
+      TF for CS 124 (Data Structures and Algorithms), Spring 2020 —
+      <em>Commendation for Extraordinary Teaching</em>
+    </li>
+  </ul>
+
+  <h4 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h4>
+  <ul>
+    <li>Advanced Computational Complexity (CS 221)</li>
+    <li>Random Processes and Algorithms (CS 223)</li>
+    <li>Computational Learning Theory (CS 228)</li>
+    <li>Advanced Computer Networks (CS 243)</li>
+    <li>Advanced Topics in PL/AI (CS 252r)</li>
+    <li>Advanced Topics in PL Design (CS 252r)</li>
+    <li>Systems Security (CS 263)</li>
+    <li>Distributed Systems Engineering (MIT 6.824)</li>
+    <li>Shape Analysis (MIT 6.838)</li>
+    <li>Robotic Manipulation (MIT 6.843)</li>
+    <li>Probability (Stat 210)</li>
+    <li>Statistical Inference (Stat 211)</li>
+  </ul>
+
+  <h4 class="font-medium mt-4 mb-1">Undergraduate technical coursework:</h4>
+  <ul>
+    <li>Compilers (CS 153)</li>
+    <li>Operating Systems (CS 161)</li>
+    <li>Computer Graphics (MIT 6.837)</li>
+    <li>Nanotechnology Fabrication (MIT 6.2540)</li>
+    <li>Differential Topology (Math 132)</li>
+    <li>Honors Abstract Algebra (Math 55a)</li>
+    <li>Honors Real and Complex Analysis (Math 55b)</li>
+  </ul>
 </section>
 
-<hr />
-
-<section class="container py-6 space-y-3.5">
-  <h2>Work Experience</h2>
+<section class="layout-md py-12">
+  <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
     title="Software Engineer"
@@ -85,8 +90,8 @@
   >
     <li>Founding engineer at a cloud compute infrastructure company.</li>
     <li>
-      Working on low-latency distributed systems, a container runtime, and
-      programming language + web interfaces.
+      Working on low-latency distributed systems, a secure container runtime,
+      and programming language & web interfaces.
     </li>
   </Workplace>
 
@@ -193,6 +198,7 @@
     url="https://pl.seas.harvard.edu/"
     dates="June 2020 – August 2020"
     location="Cambridge, MA"
+    defaultHidden
   >
     <li>
       Worked on a C++ compiler for
@@ -217,6 +223,7 @@
     url="https://www.predmed.org/"
     dates="December 2019 – June 2020"
     location="Boston, MA"
+    defaultHidden
   >
     <li>
       Conducted research in statistics & medical informatics advised by Ben Reis
@@ -227,35 +234,12 @@
   </Workplace>
 
   <Workplace
-    title="Coauthor"
-    company="American Association of Physics Teachers"
-    url="https://aapt.org/"
-    dates="April 2018 – October 2020"
-    location="College Park, MD"
-  >
-    <li>
-      Co-wrote a physics book with Branislav Kisačanin,
-      <em>F=ma Contests: 2011-2019 Solutions Manual</em>.
-    </li>
-    <li>
-      Provided detailed solutions for nine years of past <em>F=ma</em> contests to
-      encourage physics interest among high school students.
-    </li>
-    <li>
-      Published with the American Association of Physics Teachers (AAPT) and AIP
-      Publishing, preprint available
-      <a class="link" href="https://www.aapt.org/physicsteam/2020/pastexams.cfm"
-        >online</a
-      >.
-    </li>
-  </Workplace>
-
-  <Workplace
     title="Computer Science Instructor"
     company="AlphaStar Academy"
     url="https://alphastar.academy/"
     dates="December 2017 – April 2020"
     location="Santa Clara, CA"
+    defaultHidden
   >
     <li>
       Taught advanced algorithms and data structures (USACO Platinum) and
@@ -267,33 +251,13 @@
       programs and online courses.
     </li>
   </Workplace>
-
-  <Workplace
-    title="Mathematics Researcher"
-    company="PRIMES-USA"
-    url="https://math.mit.edu/research/highschool/primes/index.php"
-    dates="January 2018 – December 2018"
-    location="Cambridge, MA"
-  >
-    <li>
-      Conducted research on quasirandom permutations, using flag algebras and
-      semidefinite programming.
-    </li>
-    <li>
-      Published a paper in the
-      <em>Electronic Journal of Combinatorics 28(1)</em>, and won the Regeneron
-      STS competition.
-    </li>
-  </Workplace>
 </section>
 
-<hr />
+<section class="layout-md py-12">
+  <h2 class="heading2">Awards and Honors</h2>
 
-<section class="container py-6 space-y-3.5">
-  <h2>Selected Awards</h2>
-
-  <div>
-    <h3>Computer Science</h3>
+  <div class="mb-4">
+    <h3 class="font-medium mb-1">Computer Science:</h3>
     <ul>
       <li>
         <b>International Olympiad in Informatics (IOI):</b> Gold Medalist (2018,
@@ -313,8 +277,8 @@
     </ul>
   </div>
 
-  <div>
-    <h3>Mathematics</h3>
+  <div class="mb-4">
+    <h3 class="font-medium mb-1">Mathematics:</h3>
     <ul>
       <li>
         <b>Mathematical Olympiad Program (MOP):</b> Participant (2017), IMO team
@@ -326,8 +290,8 @@
     </ul>
   </div>
 
-  <div>
-    <h3>Physics</h3>
+  <div class="mb-4">
+    <h3 class="font-medium mb-1">Physics:</h3>
     <ul>
       <li><b>U.S. Physics Team:</b> Invitee (2017, 2018, 2019)</li>
       <li>
@@ -336,8 +300,8 @@
     </ul>
   </div>
 
-  <div>
-    <h3>Music Performance</h3>
+  <div class="mb-4">
+    <h3 class="font-medium mb-1">Music Performance:</h3>
     <ul>
       <li>
         <b>National YoungArts Foundation:</b> Winner in Classical Music (2018, 2019)
@@ -355,15 +319,15 @@
 </section>
 
 <style lang="postcss">
-  h2 {
-    @apply text-3xl font-serif mb-2;
+  b {
+    @apply font-medium;
   }
 
-  h3 {
-    @apply text-xl font-serif mb-0.5;
+  ul {
+    @apply list-disc pl-7 marker:text-neutral-400;
   }
 
-  .dates {
-    @apply font-serif mb-2;
+  .byline {
+    @apply font-serif italic;
   }
 </style>
