@@ -4,18 +4,26 @@
   export let url: string;
   export let dates: string;
   export let location: string;
+  export let defaultHidden = false;
+
+  let hidden = defaultHidden;
 </script>
 
-<div>
-  <h3 class="text-xl font-serif mb-0.5">
+<div
+  class="mb-8"
+  class:cursor-pointer={hidden}
+  on:click={() => (hidden = false)}
+  on:keypress={() => {}}
+>
+  <h3 class="text-xl leading-tight mb-1">
     {title} at <a class="link" href={url}>{company}</a>
   </h3>
-  <p class="font-serif mb-2">
+  <p class="font-light mb-2">
     <span class="whitespace-nowrap">{dates}</span>
     <span class="px-0.5 text-gray-500">•</span>
     <span class="whitespace-nowrap">{location}</span>
   </p>
-  <ul>
+  <ul class="list-disc pl-8 marker:text-neutral-400" class:hidden>
     <slot />
   </ul>
 </div>

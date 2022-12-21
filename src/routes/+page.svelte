@@ -7,7 +7,7 @@
     {
       name: "Bore",
       href: "/projects#bore",
-      desc: "bypass your NAT in just 400 lines of Rust",
+      desc: "bypass your NAT in just 400 lines of code",
       aside: "6000+ stars on GitHub",
     },
     {

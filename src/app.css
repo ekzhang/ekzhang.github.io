@@ -3,15 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  ul:not(.list-unstyled) {
-    @apply list-disc pl-8;
-  }
-  ol:not(.list-unstyled) {
-    @apply list-decimal pl-8;
-  }
-
   hr {
-    @apply border-zinc-200;
+    @apply border-neutral-200;
   }
 }
 
@@ -23,6 +16,10 @@
 
   .layout-md {
     @apply max-w-screen-md mx-auto px-4 sm:px-6;
+  }
+
+  .heading2 {
+    @apply text-black text-xl font-semibold mb-4;
   }
 }
 
