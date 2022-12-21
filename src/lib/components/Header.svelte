@@ -2,44 +2,31 @@
   import { page } from "$app/stores";
 
   const links = [
-    { name: "Home", href: "/" },
-    { name: "Projects", href: "/projects" },
-    { name: "Writing", href: "/writing" },
-    { name: "Resume", href: "/resume" },
+    { name: "projects", href: "/projects" },
+    { name: "writing", href: "/writing" },
+    { name: "resume", href: "/resume" },
   ];
 </script>
 
-<header>
-  <h1 class="font-serif text-[2.8rem] mt-5 mb-2 text-center">Eric Zhang</h1>
+<header
+  class="grid grid-cols-2"
+  data-sveltekit-noscroll
+  data-sveltekit-preload-code="eager"
+>
+  <h1 class="font-bold text-black text-2xl mb-6">
+    <a href="/">Eric Zhang</a>
+  </h1>
   <nav
-    class="flex justify-center text-xl sm:text-2xl font-light mb-4 space-x-3"
-    data-sveltekit-prefetch
-    data-sveltekit-noscroll
+    class="flex items-start text-neutral-500 justify-end space-x-6 text-lg py-0.5"
   >
     {#each links as link (link)}
       <a
         href={link.href}
-        class="nav-link"
-        class:active={$page.url.pathname === link.href}
+        class="hover:text-black transition-colors"
+        class:text-black={$page.url.pathname === link.href}
       >
         {link.name}
       </a>
     {/each}
   </nav>
 </header>
-
-<style lang="postcss">
-  .nav-link {
-    @apply relative inline-block text-blue-600;
-  }
-
-  .nav-link::after {
-    @apply absolute inset-x-0 bottom-0 h-0.5 bg-transparent;
-    content: "";
-    transition: background 0.15s;
-  }
-
-  .nav-link:is(:hover, .active)::after {
-    @apply bg-blue-600/75;
-  }
-</style>

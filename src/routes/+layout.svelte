@@ -1,13 +1,8 @@
 <script lang="ts">
-  import "@fontsource/merriweather/300.css";
-  import "@fontsource/merriweather/400.css";
-  import "@fontsource/merriweather/700.css";
-  import "@fontsource/roboto/300.css";
-  import "@fontsource/roboto/300-italic.css";
-  import "@fontsource/roboto/400.css";
-  import "@fontsource/roboto/400-italic.css";
-  import "@fontsource/roboto/700.css";
-  import "@fontsource/roboto/700-italic.css";
+  import "@fontsource/newsreader/400.css";
+  import "@fontsource/newsreader/400-italic.css";
+  import "@fontsource/newsreader/700.css";
+  import "@fontsource/newsreader/700-italic.css";
   import "../app.css";
 
   import { dev } from "$app/environment";
@@ -33,10 +28,8 @@
   {/if}
 </svelte:head>
 
-<Header />
-
-<main class="bg-white border-y border-zinc-200">
+<div class="max-w-screen-md mx-auto px-4 sm:px-6 py-12 sm:py-24 md:py-32">
+  <Header />
   <slot />
-</main>
-
-<Footer />
+  <Footer />
+</div>

@@ -42,6 +42,7 @@
   ];
 </script>
 
+<!--
 <footer class="p-6 pb-8 space-y-4">
   <div class="flex justify-center space-x-4">
     {#each links as link (link)}
@@ -57,4 +58,10 @@
   <p class="text-center text-gray-400 font-light">
     Made by Eric Zhang. Design inspired by Michael Fogleman.
   </p>
+</footer> -->
+
+<footer class="mt-20 text-lg flex flex-col">
+  <div>
+    <p>Twitter</p>
+  </div>
 </footer>
