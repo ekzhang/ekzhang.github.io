@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { fade } from "svelte/transition";
+
   export let title: string;
   export let company: string;
   export let url: string;
@@ -23,7 +25,9 @@
     <span class="px-0.5 text-gray-500">•</span>
     <span class="whitespace-nowrap">{location}</span>
   </p>
-  <ul class="list-disc pl-7 marker:text-neutral-400" class:hidden>
-    <slot />
-  </ul>
+  {#if !hidden}
+    <ul class="list-disc pl-7 marker:text-neutral-400" in:fade|local>
+      <slot />
+    </ul>
+  {/if}
 </div>
