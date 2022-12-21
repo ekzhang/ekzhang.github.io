@@ -1,7 +1,5 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import { faCalendarDays, faStar } from "@fortawesome/free-regular-svg-icons";
-  import Fa from "svelte-fa";
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
@@ -81,13 +79,13 @@
         class:active={sortOrder === "date"}
         on:click={() => (sortOrder = "date")}
       >
-        <Fa icon={faCalendarDays} class="mr-2 -mt-0.5" /> by Date
+        by Date
       </button>
       <button
         class:active={sortOrder === "stars"}
         on:click={() => (sortOrder = "stars")}
       >
-        <Fa icon={faStar} class="mr-1.5 -mt-0.5" /> by Stars
+        by Stars
       </button>
     </div>
   </div>

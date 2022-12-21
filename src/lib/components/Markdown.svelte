@@ -6,7 +6,7 @@
   marked.use({
     renderer: {
       link(href: string, title: string | null, text: string) {
-        let out = `<a rel="external" href="${encodeURI(href)}"`;
+        let out = `<a rel="external" href="${encodeURI(href)}" class="link"`;
         if (title) {
           out += ' title="' + title + '"';
         }
@@ -28,14 +28,11 @@
 
 <style lang="postcss">
   .md-output :global(p) {
-    @apply mb-2;
+    @apply mb-4;
   }
 
-  .md-output :global(a) {
-    @apply text-blue-700;
-  }
-  .md-output :global(a):hover {
-    @apply underline;
+  .md-output :global(strong) {
+    @apply font-semibold;
   }
 
   .md-output :global(code) {

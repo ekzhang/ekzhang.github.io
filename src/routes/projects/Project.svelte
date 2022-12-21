@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { faStar } from "@fortawesome/free-solid-svg-icons";
-  import Fa from "svelte-fa";
+  import { Star } from "lucide-svelte";
 
   import Markdown from "$lib/components/Markdown.svelte";
   import { formatTime } from "$lib/utils";
@@ -31,7 +30,7 @@
 
 <div class="flex flex-wrap mb-2">
   <a class="pill star" href="https://github.com/{data.repo}/stargazers">
-    <Fa icon={faStar} size="sm" class="mb-0.5" />
+    <Star size={16} class="fill-white" />
     {#if stars?.[data.repo] !== undefined}
       <span class="ml-1">{stars[data.repo].toLocaleString()}</span>
     {:else}
