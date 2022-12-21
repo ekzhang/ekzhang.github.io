@@ -14,8 +14,6 @@
   "dependencies": {
     "@fontsource/merriweather": "^4.5.14",
     "@fontsource/newsreader": "^4.5.9",
-    "@fontsource/roboto": "^4.5.8",
-    "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "lucide-svelte": "^0.104.0",
