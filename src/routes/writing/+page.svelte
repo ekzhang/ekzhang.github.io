@@ -9,14 +9,12 @@
   description="Past writing: academic papers, presentations, notes, tutorials, and technical blog posts."
 />
 
-<section class="container py-6">
-  <h2 class="text-3xl font-serif mb-4">Academic Writing</h2>
+<section class="layout-md py-12">
+  <h2 class="text-xl font-medium mb-4">Academic Writing</h2>
   <WritingList data={writing.papers} />
 </section>
 
-<hr />
-
-<section class="container py-6">
-  <h2 class="text-3xl font-serif mb-4">Notes and Tutorials</h2>
+<section class="layout-md py-12">
+  <h2 class="text-xl font-medium mb-4">Notes and Tutorials</h2>
   <WritingList data={writing.notes} />
 </section>

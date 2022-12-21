@@ -1,52 +1,38 @@
 <script lang="ts">
-  import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
-  import Fa from "svelte-fa";
+  import { ArrowUpRight } from "lucide-svelte";
+
   import { formatTime } from "$lib/utils";
 
   type Writing = {
     title: string;
-    date: string;
+    date: Date;
     summary: string;
     link: string;
   };
 
   export let data: Writing[];
-
-  /** Hack to work around incorrect library typings in `svelte-fa`. */
-  const disableTypecheck = (x: any) => x;
 </script>
 
-<div class="grid grid-cols-6 gap-x-6 gap-y-4">
+<div class="grid gap-y-4">
   {#each data as item}
-    <div class="col-span-6 md:col-span-3 xl:col-span-2">
-      <a
-        href={item.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="item"
-      >
-        <div class="w-12 pt-1 flex-shrink-0">
-          <Fa
-            icon={faFileAlt}
-            size={disableTypecheck("1.25x")}
-            class="mx-auto"
-          />
+    <a
+      href={item.link}
+      class="block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <div class="flex flex-col sm:flex-row sm:items-end mb-1.5">
+        <div class="text-lg text-black">
+          {item.title}
+          <ArrowUpRight size={18} class="inline text-neutral-400" />
         </div>
-        <div class="pr-3 overflow-y-auto">
-          <p class="text-xl mb-1 leading-snug">{item.title}</p>
-          <p class="font-light mb-1">
-            {formatTime("%B %-d, %Y", new Date(item.date))}
-          </p>
-          <p>{item.summary}</p>
+        <div class="sm:ml-auto mb-0.5 text-neutral-500">
+          {formatTime("%B %-d, %Y", item.date)}
         </div>
-      </a>
-    </div>
+      </div>
+      <div class="text-lg leading-tight font-serif italic">
+        {item.summary}
+      </div>
+    </a>
   {/each}
 </div>
-
-<style lang="postcss">
-  .item {
-    @apply h-[164px] flex border border-zinc-200 py-3 bg-zinc-50 transition-colors
-      hover:border-zinc-800;
-  }
-</style>
