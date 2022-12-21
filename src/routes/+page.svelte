@@ -1,5 +1,44 @@
 <script lang="ts">
+  import { ArrowUpRight } from "lucide-svelte";
+
   import Seo from "$lib/components/Seo.svelte";
+
+  const featuredProjects = [
+    {
+      name: "Bore",
+      href: "/projects#bore",
+      desc: "bypass your NAT in just 400 lines of Rust",
+      aside: "6000+ stars on GitHub",
+    },
+    {
+      name: "Percival",
+      href: "/projects#percival",
+      desc: "reactive notebooks for exploratory data analysis",
+    },
+    {
+      name: "Rustpad",
+      href: "/projects#rustpad",
+      desc: "self-hosted collaborative text editor",
+      aside: "2M+ downloads",
+    },
+    {
+      name: "Crepe",
+      href: "/projects#crepe",
+      desc: "compiled Datalog language in Rust",
+      aside: "used by cloud security systems & compilers",
+    },
+    {
+      name: "FastSeg",
+      href: "/projects#fastseg",
+      desc: "real-time semantic segmentation for self-driving cars",
+    },
+    {
+      name: "Set with Friends",
+      href: "/projects#setwithfriends",
+      desc: "online multiplayer card game",
+      aside: "30M+ page views, 900K+ users",
+    },
+  ];
 </script>
 
 <Seo
@@ -38,42 +77,20 @@
   <div class="text-lg leading-snug space-y-4">
     <p class="pb-2">Notable open-source work:</p>
 
-    <a class="project-pair" href="/projects#percival">
-      <div>Bore</div>
-      <div>
-        <p>bypass your NAT in just 400 lines of Rust</p>
-        <aside>6000+ stars on GitHub</aside>
-      </div>
-    </a>
-    <a class="project-pair" href="/projects#percival">
-      <div>Percival</div>
-      <div>reactive notebooks for exploratory data analysis</div>
-    </a>
-    <a class="project-pair" href="/projects#rustpad">
-      <div>Rustpad</div>
-      <div>
-        <p>self-hosted collaborative text editor</p>
-        <aside>2M+ downloads</aside>
-      </div>
-    </a>
-    <a class="project-pair" href="/projects#crepe">
-      <div>Crepe</div>
-      <div>
-        <p>compiled Datalog language in Rust</p>
-        <aside>used by cloud security systems & compilers</aside>
-      </div>
-    </a>
-    <a class="project-pair" href="/projects#fastseg">
-      <div>FastSeg</div>
-      <div>real-time semantic segmentation for self-driving cars</div>
-    </a>
-    <a class="project-pair" href="/projects#setwithfriends">
-      <div>Set with Friends</div>
-      <div>
-        <p>online multiplayer card game</p>
-        <aside>30M+ page views, 900K+ users</aside>
-      </div>
-    </a>
+    {#each featuredProjects as project}
+      <a class="project-pair" href={project.href}>
+        <div class="text-black font-medium">
+          {project.name}
+          <ArrowUpRight size={18} class="inline text-neutral-400" />
+        </div>
+        <div>
+          <p>{project.desc}</p>
+          {#if project.aside}
+            <aside>{project.aside}</aside>
+          {/if}
+        </div>
+      </a>
+    {/each}
   </div>
 
   <div class="space-y-5">
@@ -129,10 +146,6 @@
 
   .project-pair {
     @apply grid sm:grid-cols-[1fr,2fr] gap-y-1 -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors;
-  }
-
-  .project-pair > :first-child {
-    @apply text-black font-medium;
   }
 
   aside {
