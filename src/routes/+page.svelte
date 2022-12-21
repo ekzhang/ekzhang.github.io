@@ -43,7 +43,7 @@
 
 <Seo
   title="Eric Zhang"
-  description="Software engineer, researcher, and designer. Thinking about systems and interfaces to help people."
+  description="Software engineer, researcher, and designer. Making better systems and interfaces to help people."
 />
 
 <p class="layout-md text-black text-xl leading-tight font-light mb-16">
