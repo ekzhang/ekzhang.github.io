@@ -46,7 +46,10 @@
   description="Software engineer, researcher, and designer. Making better systems and interfaces to help people."
 />
 
-<p class="layout-md text-black text-xl leading-tight font-light mb-16">
+<p
+  class="layout-md text-black text-xl leading-tight font-light mb-16"
+  id="eric-is"
+>
   <span class="g">is a</span> software engineer<span class="g">,</span><br />
   researcher<span class="g">, and</span><br />
   designer<span class="g">.</span>
@@ -150,5 +153,12 @@
 
   aside {
     @apply mt-0.5 text-base text-neutral-400;
+  }
+
+  /* Correction for vertical navigation links on mobile. */
+  @media (max-width: 420px) {
+    #eric-is {
+      @apply -mt-10;
+    }
   }
 </style>

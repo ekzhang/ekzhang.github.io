@@ -3,6 +3,7 @@
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
+  import { CalendarDays, Star } from "lucide-svelte";
 
   const projects = import.meta.glob("../../projects/*.md", {
     eager: true,
@@ -50,19 +51,30 @@
   description="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."
 />
 
-<div class="container py-6 space-y-4">
-  <section class="space-y-2">
-    <h2 class="text-3xl font-serif">Projects</h2>
-    <p>
-      I view building software in the open as a medium of
-      <em>creative exploration</em>. It allows me to quickly act on inspiration,
-      delve into new topics, and make tools that improve people's lives. I
-      welcome collaborations — if you find something interesting, let me know!
-    </p>
-  </section>
-  <section class="space-y-2">
-    <h3 class="text-xl font-serif">Table of Contents</h3>
-    <ul class="list-unstyled">
+<section class="layout-md py-12">
+  <h2 class="heading2">Open Source</h2>
+
+  <p class="text-lg mb-4">
+    I view building software in the open as a mode of <em
+      class="font-serif text-[110%] leading-[100%]">creative exploration</em
+    >. It lets me quickly act on inspiration, delve into new topics, and make
+    tools that improve people's lives.
+  </p>
+
+  <p class="text-lg mb-4">
+    You'll see that I particularly like programming languages, distributed
+    systems, machine learning, computer graphics, music, and art.
+  </p>
+
+  <p class="text-lg">
+    I welcome collaborations — if you find something interesting, let me know!
+  </p>
+</section>
+
+<div class="bg-gray-900 text-neutral-200 dark">
+  <section class="layout-md py-12">
+    <h2 class="heading2 text-white">Table of Contents</h2>
+    <ul class="sm:columns-2">
       {#each projectsByTitle as id (id)}
         <li>
           <a class="link" href="#{trimName(id)}">{projects[id].title}</a>
@@ -72,31 +84,29 @@
   </section>
 </div>
 
-<div class="bg-zinc-50 border-y border-zinc-200">
-  <div class="container py-4">
-    <div class="flex justify-center space-x-2">
-      <button
-        class:active={sortOrder === "date"}
-        on:click={() => (sortOrder = "date")}
-      >
-        by Date
-      </button>
-      <button
-        class:active={sortOrder === "stars"}
-        on:click={() => (sortOrder = "stars")}
-      >
-        by Stars
-      </button>
-    </div>
+<div class="bg-neutral-50 border-b border-neutral-200 py-4">
+  <div class="flex justify-center space-x-6">
+    <button
+      class:active={sortOrder === "date"}
+      on:click={() => (sortOrder = "date")}
+    >
+      <CalendarDays size={18} strokeWidth={1.8} class="mr-1.5" /> by Date
+    </button>
+    <button
+      class:active={sortOrder === "stars"}
+      on:click={() => (sortOrder = "stars")}
+    >
+      <Star size={18} strokeWidth={1.8} class="mr-1.5" /> by Stars
+    </button>
   </div>
 </div>
 
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
   <section
-    class="border-b last-of-type:border-b-0 border-zinc-200"
+    class="py-8 border-b last-of-type:border-b-0 border-neutral-200"
     id={trimName(id)}
   >
-    <div class="container py-6">
+    <div class="mx-auto max-w-[1080px] px-4 sm:px-6">
       <Project data={projects[id]} {images} {stars} />
     </div>
   </section>
@@ -104,10 +114,10 @@
 
 <style lang="postcss">
   button {
-    @apply px-2.5 py-1 rounded flex items-center hover:bg-gray-200;
+    @apply flex items-center text-neutral-400 transition-colors hover:text-black;
   }
 
   button.active {
-    @apply bg-indigo-600 text-white;
+    @apply text-black;
   }
 </style>
