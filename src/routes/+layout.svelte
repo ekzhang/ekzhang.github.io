@@ -13,6 +13,8 @@
   export let data: LayoutData;
 
   const isMobile = browser && /Android|iPhone/i.test(navigator.userAgent);
+  const reducedMotion =
+    browser && matchMedia("(prefers-reduced-motion: reduce)").matches;
 </script>
 
 <svelte:head>
@@ -35,8 +37,11 @@
 
 <Header />
 
-{#if isMobile}
-  <!-- Disable page transitions on mobile due to a browser engine bug. -->
+{#if isMobile || reducedMotion}
+  <!--
+    Disable page transitions on mobile due to a browser engine bug.
+    Also disable them for reduced-motion users.
+  -->
   <main>
     <slot />
   </main>
