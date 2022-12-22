@@ -1,9 +1,12 @@
 <script lang="ts">
+  import { page } from "$app/stores";
+
   import { onMount } from "svelte";
 
   import Seo from "$lib/components/Seo.svelte";
   import Project from "./Project.svelte";
   import { CalendarDays, Star } from "lucide-svelte";
+  import { goto } from "$app/navigation";
 
   const projects = import.meta.glob("../../projects/*.md", {
     eager: true,
@@ -44,6 +47,32 @@
   });
 
   let sortOrder: "date" | "stars" = "date";
+
+  $: selected = $page.url.hash.slice(1);
+  $: console.log(selected);
+
+  let projectsSorted: string[];
+  $: {
+    const p = sortOrder === "date" ? projectsByDate : projectsByStars;
+    if (selected) {
+      // Move any selected project to the top, for better scroll anchoring
+      const i = p.findIndex((x) => trimName(x) === selected);
+      projectsSorted = [p[i], ...p.slice(0, i), ...p.slice(i + 1)];
+    } else {
+      projectsSorted = p;
+    }
+  }
+
+  function updateSortOrder(order: typeof sortOrder) {
+    sortOrder = order;
+    if (selected) {
+      // Remove hash part from the current URL
+      goto($page.url.pathname + $page.url.search, {
+        noScroll: true,
+        keepFocus: true,
+      });
+    }
+  }
 </script>
 
 <Seo
@@ -88,22 +117,23 @@
   <div class="flex justify-center space-x-6">
     <button
       class:active={sortOrder === "date"}
-      on:click={() => (sortOrder = "date")}
+      on:click={() => updateSortOrder("date")}
     >
       <CalendarDays size={18} strokeWidth={1.8} class="mr-1.5" /> by Date
     </button>
     <button
       class:active={sortOrder === "stars"}
-      on:click={() => (sortOrder = "stars")}
+      on:click={() => updateSortOrder("stars")}
     >
       <Star size={18} strokeWidth={1.8} class="mr-1.5" /> by Stars
     </button>
   </div>
 </div>
 
-{#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
+{#each projectsSorted as id (id)}
   <section
-    class="py-8 border-b last-of-type:border-b-0 border-neutral-200"
+    class="py-8 border-b last-of-type:border-b-0 border-neutral-200 bg-opacity-50"
+    class:bg-indigo-50={trimName(id) === selected}
     id={trimName(id)}
   >
     <div class="mx-auto max-w-[1080px] px-4 sm:px-6">

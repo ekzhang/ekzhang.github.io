@@ -32,13 +32,6 @@ function markdown() {
 
 const config: UserConfig = {
   plugins: [sveltekit(), pluginYaml() as any, markdown()],
-  ssr: {
-    noExternal: [
-      "@fortawesome/free-brands-svg-icons",
-      "@fortawesome/free-regular-svg-icons",
-      "@fortawesome/free-solid-svg-icons",
-    ],
-  },
 };
 
 export default config;
