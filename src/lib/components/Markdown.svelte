@@ -36,6 +36,6 @@
   }
 
   .md-output :global(code) {
-    @apply text-sm text-red-700;
+    @apply text-[95%];
   }
 </style>

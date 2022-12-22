@@ -66,7 +66,7 @@
 
   @media (max-width: 420px) {
     nav {
-      @apply flex-col items-end space-x-0 mb-2;
+      @apply flex-col items-end space-x-0;
     }
   }
 </style>
