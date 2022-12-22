@@ -95,7 +95,10 @@
   </p>
 
   <p class="text-lg">
-    I welcome collaborations — if you find something interesting, let me know!
+    If you find something interesting,
+    <a class="link" href="mailto:ekzhang1@gmail.com?subject=Software%20Projects"
+      >let me know</a
+    >!
   </p>
 </section>
 
