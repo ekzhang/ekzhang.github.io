@@ -49,7 +49,6 @@
   let sortOrder: "date" | "stars" = "date";
 
   $: selected = $page.url.hash.slice(1);
-  $: console.log(selected);
 
   let projectsSorted: string[];
   $: {
