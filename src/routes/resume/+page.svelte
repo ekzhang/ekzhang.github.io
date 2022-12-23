@@ -5,7 +5,7 @@
 
 <Seo
   title="Eric Zhang – Resume"
-  description="Software engineer, researcher, and designer. Making better systems and interfaces to help people."
+  description="Software engineer, researcher, and designer. Making meaningful systems and interfaces for people."
 />
 
 <section class="layout-md py-12">

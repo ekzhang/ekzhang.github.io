@@ -43,7 +43,7 @@
 
 <Seo
   title="Eric Zhang"
-  description="Software engineer, researcher, and designer. Making better systems and interfaces to help people."
+  description="Software engineer, researcher, and designer. Making meaningful systems and interfaces for people."
 />
 
 <p
@@ -66,7 +66,7 @@
 
     <p>
       My ambition is to make better <em>interactive software</em> that helps people
-      create, collaborate, learn, and meaningfully express ideas.
+      create, collaborate, learn, and meaningfully express what brings them joy.
     </p>
 
     <p>
