@@ -17,7 +17,7 @@
   on:click={() => (hidden = false)}
   on:keypress={() => {}}
 >
-  <h3 class="text-xl leading-tight mb-1">
+  <h3 class="text-black text-lg leading-tight mb-1">
     {title} at <a class="link" href={url}>{company}</a>
   </h3>
   <p class="font-light mb-2">

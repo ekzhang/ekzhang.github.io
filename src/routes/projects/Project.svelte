@@ -21,6 +21,7 @@
   export let stars: Record<string, number> | null = null;
 </script>
 
+<!-- Title -->
 <h3 class="text-black text-xl font-semibold mb-2">
   <span class="mr-1">{data.title}</span>
   <small class="whitespace-nowrap text-neutral-500 text-base font-normal">
@@ -28,6 +29,7 @@
   </small>
 </h3>
 
+<!-- Stars and tags (pill bar) -->
 <div class="flex flex-wrap mb-1">
   <a
     class="pill hover:!bg-neutral-200 transition-colors"
@@ -45,6 +47,7 @@
   {/each}
 </div>
 
+<!-- Description and image -->
 <div class="space-y-4">
   <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12">
     <div class="col-span-3 md:col-span-2">
