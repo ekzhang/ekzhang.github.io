@@ -25,10 +25,9 @@ possible voicings is exponential in size, you can use dynamic programming on
 intermediate states for a relatively fast algorithm. See the website below for
 an interactive version deployed with Flask.
 
-The code and idea behind this project were used as the basis for a
-[research paper at ISMIR 2020](https://program.ismir2020.net/lbd_432.html),
-written by researchers at McGill University in computational music theory and
-deep learning.
+The code and idea behind this project were used as the basis for an
+[abstract at ISMIR 2020](https://program.ismir2020.net/lbd_432.html), written by
+computational music theory researchers at McGill University.
 
 **Links: [GitHub](https://github.com/ekzhang/harmony),
 [Website](https://autoharmony.herokuapp.com/)**

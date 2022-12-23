@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Star, Tag } from "lucide-svelte";
+  import { Star } from "lucide-svelte";
 
   import Markdown from "$lib/components/Markdown.svelte";
   import { formatTime } from "$lib/utils";
@@ -21,19 +21,19 @@
   export let stars: Record<string, number> | null = null;
 </script>
 
-<h3 class="text-black text-2xl font-medium mb-1.5">
+<h3 class="text-black text-xl font-semibold mb-2">
   <span class="mr-1">{data.title}</span>
-  <small class="whitespace-nowrap text-neutral-500 text-lg font-normal">
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">
     {formatTime("%B %Y", data.date)}
   </small>
 </h3>
 
-<div class="flex flex-wrap mb-2">
+<div class="flex flex-wrap mb-1">
   <a
-    class="pill hover:bg-neutral-200 px-1.5 py-0.5 -mt-0.5 mb-0.5 -ml-1.5 mr-2.5 rounded transition-colors"
+    class="pill hover:!bg-neutral-200 transition-colors"
     href="https://github.com/{data.repo}/stargazers"
   >
-    <Star size={16} class="fill-neutral-700" />
+    <Star size={14} class="fill-current" />
     {#if stars?.[data.repo] !== undefined}
       <span class="ml-1">{stars[data.repo].toLocaleString()}</span>
     {:else}
@@ -41,17 +41,14 @@
     {/if}
   </a>
   {#each data.topics as tag}
-    <div class="pill mr-3 mb-1">
-      <Tag size={16} class="text-neutral-400 mr-1" />
-      {tag}
-    </div>
+    <div class="pill">{tag}</div>
   {/each}
 </div>
 
 <div class="space-y-4">
   <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12">
     <div class="col-span-3 md:col-span-2">
-      <p class="text-xl font-light mb-3">{data.lead}</p>
+      <p class="text-lg font-light mb-3">{data.lead}</p>
       <Markdown source={data.content} />
     </div>
     <div class="col-span-3 md:col-span-1">
@@ -83,6 +80,7 @@
 
 <style lang="postcss">
   .pill {
-    @apply flex items-center;
+    @apply flex items-center text-sm font-medium;
+    @apply px-1.5 py-[1px] mr-1.5 mb-2 bg-neutral-100 rounded-full;
   }
 </style>
