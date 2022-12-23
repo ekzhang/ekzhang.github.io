@@ -119,10 +119,7 @@
 </div>
 
 {#each sortOrder === "date" ? projectsByDate : projectsByStars as id (id)}
-  <section
-    class="py-8 border-b last-of-type:border-b-0 border-neutral-200 bg-opacity-50"
-    id={trimName(id)}
-  >
+  <section class="py-10" id={trimName(id)}>
     <div class="mx-auto max-w-[1080px] px-4 sm:px-6">
       <Project data={projects[id]} {images} {stars} />
     </div>

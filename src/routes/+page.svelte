@@ -77,7 +77,7 @@
     </p>
   </div>
 
-  <div class="text-lg leading-snug space-y-4">
+  <div class="leading-snug space-y-4">
     <p class="pb-2">Notable open-source work:</p>
 
     {#each featuredProjects as project}
@@ -152,7 +152,7 @@
   }
 
   aside {
-    @apply mt-0.5 text-base text-neutral-400;
+    @apply mt-0.5 text-base text-neutral-500;
   }
 
   /* Correction for vertical navigation links on mobile. */

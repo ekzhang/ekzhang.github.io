@@ -30,7 +30,7 @@
 
 <div class="flex flex-wrap mb-2">
   <a
-    class="pill hover:bg-neutral-200 px-1.5 py-0.5 -mt-0.5 mb-0.5 -ml-1.5 mr-3 rounded transition-colors"
+    class="pill hover:bg-neutral-200 px-1.5 py-0.5 -mt-0.5 mb-0.5 -ml-1.5 mr-2.5 rounded transition-colors"
     href="https://github.com/{data.repo}/stargazers"
   >
     <Star size={16} class="fill-neutral-700" />
