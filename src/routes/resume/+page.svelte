@@ -72,6 +72,8 @@
     <li>Operating Systems (CS 161)</li>
     <li>Computer Graphics (MIT 6.837)</li>
     <li>Nanotechnology Fabrication (MIT 6.2540)</li>
+    <li>Chaotic Dynamical Systems (Math 118r)</li>
+    <li>Number Fields (Math 129)</li>
     <li>Differential Topology (Math 132)</li>
     <li>Honors Abstract Algebra (Math 55a)</li>
     <li>Honors Real and Complex Analysis (Math 55b)</li>
