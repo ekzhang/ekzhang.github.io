@@ -126,7 +126,7 @@
   </Workplace>
 
   <Workplace
-    title="Software Engineering Intern"
+    title="Contract Software Engineer"
     company="Prosper Robotics"
     url="https://prosper.org/"
     dates="January 2022"
