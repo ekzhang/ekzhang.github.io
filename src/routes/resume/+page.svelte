@@ -153,13 +153,15 @@
   >
     <li>
       First hired engineer at a seed-stage startup. Worked with three
-      experienced technical cofounders (ex-Dropbox) to build a reactive,
-      serverless database platform using Rust and TypeScript.
+      experienced technical cofounders (ex-principal engineers at Dropbox) to
+      build a reactive, serverless database platform using Rust, integrated with
+      the V8 JavaScript engine.
     </li>
     <li>
-      Wrote significant components of the MVP and advised on web developer
-      experience. Described by the CEO as an "early core team member" who
-      "played a real architectural hand in the design of the product."
+      Wrote significant components of the MVP. As an early core team member,
+      this included re-architecting the entire Convex client library, writing
+      several systems components in Rust, and advised on other language design
+      components of the product.
     </li>
   </Workplace>
 
