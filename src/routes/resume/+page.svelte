@@ -84,16 +84,44 @@
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
-    title="Software Engineer"
+    title="Founding Engineer"
     company="Modal Labs"
     url="https://modal.com/"
     dates="February 2022 – Current"
     location="New York, NY"
   >
-    <li>Founding engineer at a cloud compute infrastructure company.</li>
     <li>
-      Working on low-latency distributed systems, a secure container runtime,
-      and programming language & web interfaces.
+      Left school to work on serverless compute tools in NYC for 7 months. After
+      returning to school, I'm still working at Modal part-time.
+    </li>
+    <li>
+      Led design and development for our serverless container runtime in Rust.
+      That notably included a FUSE file system that allows multi-GiB containers
+      to startup in seconds, up to 15x faster than with our previous setup, at
+      ~80% lower cloud bandwidth cost. Did lots of profiling and low-level
+      performance optimization.
+    </li>
+    <li>
+      Deployed infrastructure in Pulumi and Kubernetes. Advocated for, designed,
+      monitored, and optimized a <a
+        class="link"
+        href="https://github.com/modal-labs/blobnet"
+        >content-addressed file server and tiered cache in Rust</a
+      > handling peak 300 GB/min network throughput with sub-millisecond p99.9 latency.
+    </li>
+    <li>
+      Headed up the <a class="link" href="https://modal.com">modal.com</a>
+      website, developing a framework and design system for it in SvelteKit during
+      my first couple months. Mentored everyone else in Rust and frontend web development.
+      I am still the primary “frontend person” at the company; we have hundreds of
+      users tracking billions of function invocations on our web interface.
+    </li>
+    <li>
+      Made over 700 pull requests, reviewed over 400 pull requests. Wrote all of
+      our developer environment setup scripts. Wrangled inconsistent docs, plus
+      race conditions and backend performance problems in Python. Added static
+      type-checking for Python and TypeScript. Fixed a lot of bugs and
+      production issues across the board. So many bugs.
     </li>
   </Workplace>
 
