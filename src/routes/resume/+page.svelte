@@ -95,11 +95,11 @@
       returning to school, I'm still working at Modal part-time.
     </li>
     <li>
-      Led design and development for our serverless container runtime in Rust.
-      That notably included a FUSE file system that allows multi-GiB containers
-      to startup in seconds, up to 15x faster than with our previous setup, at
-      ~80% lower cloud bandwidth cost. Did lots of profiling and low-level
-      performance optimization.
+      Led design and development for our serverless container runtime in Rust. A
+      core component of this was a custom FUSE file system that allows multi-GiB
+      containers to startup in seconds, up to 15x faster than with our previous
+      setup, at ~80% lower cloud bandwidth cost. Mentored other developers who
+      worked on this.
     </li>
     <li>
       Deployed infrastructure in Pulumi and Kubernetes. Advocated for, designed,
@@ -107,21 +107,22 @@
         class="link"
         href="https://github.com/modal-labs/blobnet"
         >content-addressed file server and tiered cache in Rust</a
-      > handling peak 300 GB/min network throughput with sub-millisecond p99.9 latency.
+      > handling peak 300 GB/min network throughput, with sub-200µs p99 latency and
+      99.995% uptime over 6 months.
     </li>
     <li>
       Headed up the <a class="link" href="https://modal.com">modal.com</a>
-      website, developing a framework and design system for it in SvelteKit during
-      my first couple months. Mentored everyone else in Rust and frontend web development.
-      I am still the primary “frontend person” at the company; we have hundreds of
-      users tracking billions of function invocations on our web interface.
+      website as lead frontend developer and designer. Made the design system from
+      scratch, led UI discussions, and developed a foundation in SvelteKit for real-time
+      user dashboards, documentation, and visualization. We have hundreds of users
+      tracking billions of function invocations on our web interface. Mentored others
+      in web development.
     </li>
     <li>
-      Made over 700 pull requests, reviewed over 400 pull requests. Wrote all of
-      our developer environment setup scripts. Wrangled inconsistent docs, plus
-      race conditions and backend performance problems in Python. Added static
-      type-checking for Python and TypeScript. Fixed a lot of bugs and
-      production issues across the board. So many bugs.
+      Made over 700 pull requests, reviewed over 400 pull requests. Wrote most
+      of our core developer environment scripts. Wrangled inconsistent docs,
+      slow CI builds, race conditions, and backend performance problems. Fixed a
+      lot of bugs and production issues across the board. So many bugs.
     </li>
   </Workplace>
 
