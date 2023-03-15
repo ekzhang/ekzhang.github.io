@@ -159,9 +159,8 @@
     </li>
     <li>
       Wrote significant components of the MVP. As an early core team member,
-      this included re-architecting the entire Convex client library, writing
-      several systems components in Rust, and advised on other language design
-      components of the product.
+      this included rearchitecting the entire Convex client library, writing
+      several systems components in Rust, and advising on developer experience.
     </li>
   </Workplace>
 
