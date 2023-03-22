@@ -134,7 +134,10 @@
       <a class="link" href="https://youngarts.org/">groups</a>.
     </p>
 
-    <p>Other interests: math, physics, art, musical theatre, and biking.</p>
+    <p>
+      Other interests: math, physics, art, photography, musical theatre, and
+      biking.
+    </p>
   </div>
 </div>
 
