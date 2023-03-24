@@ -1,4 +1,12 @@
 papers:
+  - title: Designing Datalog-Based Embedded Languages
+    date: 2023-03-24
+    summary: >
+      My senior thesis, where I design and implement two logic programming
+      languages, present case studies on their real-world usage, and evaluate
+      them as systems.
+    link: /assets/pdf/Senior_Thesis.pdf
+
   - title: Tandem Solar Cells
     date: 2022-12-13
     summary: >
