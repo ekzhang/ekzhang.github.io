@@ -8,7 +8,7 @@
       name: "Bore",
       href: "/projects#bore",
       desc: "bypass your NAT in just 400 lines of code",
-      aside: "6000+ stars on GitHub",
+      aside: "6500+ stars on GitHub",
     },
     {
       name: "Percival",
@@ -25,7 +25,7 @@
       name: "Crepe",
       href: "/projects#crepe",
       desc: "compiled Datalog language in Rust",
-      aside: "used by cloud security systems & compilers",
+      aside: "used by distributed databases & security systems",
     },
     {
       name: "FastSeg",
