@@ -22,7 +22,7 @@
     "@rollup/plugin-yaml": "^4.0.1",
     "@rollup/pluginutils": "^5.0.2",
     "@sveltejs/adapter-static": "^2.0.1",
-    "@sveltejs/kit": "^1.7.0",
+    "@sveltejs/kit": "^1.15.1",
     "@types/js-yaml": "^4.0.5",
     "@types/marked": "^4.0.8",
     "@types/strftime": "^0.9.4",
