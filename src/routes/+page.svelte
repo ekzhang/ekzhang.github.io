@@ -126,12 +126,24 @@
 
     <p>
       At Harvard, I’ve been a distinguished teaching fellow for upper-level CS
-      classes. I enjoy playing viola with various <a
+      classes. I am a classical violist and enjoy making music with others (<a
         class="link"
-        href="https://www.harvardradcliffeorchestra.org/">classical</a
-      >
-      <a class="link" href="https://youtu.be/rYrVFTzP4sw">music</a>
-      <a class="link" href="https://youngarts.org/">groups</a>.
+        href="https://www.youtube.com/live/_T4IVv0becE">1</a
+      >,
+      <a
+        class="link"
+        href="https://www.thecrimson.com/article/2023/4/18/Natasha-pierre-great-comet-1812-musical-preview/"
+        >2</a
+      >, <a class="link" href="https://youtu.be/4ysgUA-rKUw">3</a>,
+      <a class="link" href="https://youtu.be/rYrVFTzP4sw">4</a>,
+      <a class="link" href="https://www.harvardbachsoc.org/">5</a>,
+      <a
+        class="link"
+        href="https://news.harvard.edu/gazette/story/2019/11/west-side-story-explores-racial-ethnic-political-complications/"
+        >6</a
+      >,
+      <a class="link" href="https://youtu.be/OcucfY2Kzqo">7</a>,
+      <a class="link" href="https://youngarts.org/">8</a>).
     </p>
 
     <p>
