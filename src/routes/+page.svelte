@@ -107,7 +107,7 @@
       independently published things in the past, like a
       <a
         class="link"
-        href="https://aip.scitation.org/doi/pdf/10.1063/9780735421646"
+        href="https://pubs.aip.org/books/monograph/129/F-ma-Contests2011-2019-Solutions-Manual"
         >physics book</a
       >,
       <a
