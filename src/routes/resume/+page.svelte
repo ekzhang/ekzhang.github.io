@@ -14,7 +14,7 @@
   <div class="mb-4">
     <div class="flex justify-between items-end">
       <h3 class="text-black text-lg">Harvard University</h3>
-      <div class="text-neutral-500 mb-0.5">2022 — Current</div>
+      <div class="text-neutral-500 mb-0.5">2022 — 2023</div>
     </div>
     <p class="byline">S.M. in Computer Science</p>
   </div>
@@ -22,10 +22,12 @@
   <div class="mb-4">
     <div class="flex justify-between items-end">
       <h3 class="text-black text-lg">Harvard University</h3>
-      <div class="text-neutral-500 mb-0.5">2019 — Current</div>
+      <div class="text-neutral-500 mb-0.5">2019 — 2023</div>
     </div>
     <p class="byline">A.B. in Computer Science and Mathematics</p>
   </div>
+
+  <p>Graduated magna cum laude, with highest honors in field.</p>
 
   <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
   <ul>

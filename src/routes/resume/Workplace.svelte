@@ -22,7 +22,7 @@
   </h3>
   <p class="font-light mb-2">
     <span class="whitespace-nowrap">{dates}</span>
-    <span class="px-0.5 text-gray-500">•</span>
+    <span class="px-0.5 text-neutral-500">•</span>
     <span class="whitespace-nowrap">{location}</span>
   </p>
   {#if !hidden}

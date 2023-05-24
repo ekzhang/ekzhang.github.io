@@ -58,7 +58,7 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I study at Harvard and work on the future of cloud computing at <a
+      I currently work on the future of cloud computing at <a
         class="link"
         href="https://modal.com">Modal</a
       >.
@@ -125,8 +125,13 @@
     </p>
 
     <p>
-      At Harvard, I’ve been a distinguished teaching fellow for upper-level CS
-      classes. I am a classical violist and enjoy making music with others (<a
+      I recently graduated from Harvard, where I was a teaching fellow for
+      upper-level CS classes, wrote my <a
+        class="link"
+        rel="external"
+        href="/assets/pdf/Senior_Thesis.pdf">thesis on Datalog</a
+      >, and studied art, music, and sociology. I am a classical violist and
+      enjoy making music with others (<a
         class="link"
         href="https://www.youtube.com/live/_T4IVv0becE">1</a
       >,
@@ -147,8 +152,7 @@
     </p>
 
     <p>
-      Other interests: math, physics, art, photography, musical theatre, and
-      biking.
+      Other interests: math, physics, photography, musical theatre, and biking.
     </p>
   </div>
 </div>
