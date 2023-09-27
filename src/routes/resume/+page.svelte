@@ -93,38 +93,35 @@
     location="New York, NY"
   >
     <li>
-      Left school to work on serverless compute tools in NYC for 7 months. After
-      returning to school, I'm still working at Modal part-time.
+      Modal is a high-performance, low-latency serverless function platform. I
+      made Modal's serverless container runtime from scratch, in Rust.
     </li>
     <li>
-      Led design and development for our serverless container runtime in Rust. A
-      core component of this was a custom FUSE file system that allows multi-GiB
-      containers to startup in seconds, up to 15x faster than with our previous
-      setup, at ~80% lower cloud bandwidth cost. Mentored other developers who
-      worked on this.
+      Scaled the platform from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000 GPUs.
     </li>
     <li>
-      Deployed infrastructure in Pulumi and Kubernetes. Advocated for, designed,
-      monitored, and optimized a <a
-        class="link"
-        href="https://github.com/modal-labs/blobnet"
-        >content-addressed file server and tiered cache in Rust</a
-      > handling peak 300 GB/min network throughput, with sub-200µs p99 latency and
-      99.995% uptime over 6 months.
+      Engineered FUSE file systems, a global sub-millisecond cache over hundreds
+      of terabytes in tiered storage, backpressure for distributed queues,
+      fault-tolerant TLS relays, container sandboxing, an internal HTTP/3
+      service transport, etc.
     </li>
     <li>
-      Headed up the <a class="link" href="https://modal.com">modal.com</a>
-      website as lead frontend developer and designer. Made the design system from
-      scratch, led UI discussions, and developed a foundation in SvelteKit for real-time
-      user dashboards, documentation, and visualization. We have hundreds of users
-      tracking billions of function invocations on our web interface. Mentored others
-      in web development.
+      Made the <a class="link" href="https://modal.com">modal.com</a> website. Created
+      our design system and frontend, including user dashboards, authentication,
+      a unified documentation site, 2D + 3D graphics, and web-based internal tools.
+      Mentored coworkers in web development.
+    </li>
+    <li>Wrote most of our core development scripts. Made CI fast.</li>
+    <li>
+      Investigated systems issues, like reducing end-to-end server latency by
+      3x, fixing all manner of bugs, and disclosing security vulnerabilities in
+      dependencies.
     </li>
     <li>
-      Made over 700 pull requests, reviewed over 400 pull requests. Wrote most
-      of our core developer environment scripts. Wrangled inconsistent docs,
-      slow CI builds, race conditions, and backend performance problems. Fixed a
-      lot of bugs and production issues across the board. So many bugs.
+      Introduced Rust and Svelte to the company. I rewrote at least 4 systems in
+      Rust. All of them remained in use, since people like working on them, and
+      they are more robust than the systems they replaced (i.e., boring and
+      reliable, low p99 latency, no production issues).
     </li>
   </Workplace>
 
