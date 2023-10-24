@@ -151,9 +151,7 @@
       <a class="link" href="https://youngarts.org/">8</a>).
     </p>
 
-    <p>
-      Other interests: math, physics, photography, musical theatre, and biking.
-    </p>
+    <p>Other interests: math, physics, reading, photography, and biking.</p>
   </div>
 </div>
 
