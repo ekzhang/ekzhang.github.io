@@ -5,10 +5,15 @@
 
   const featuredProjects = [
     {
+      name: "sshx",
+      href: "/projects#sshx",
+      desc: "secure web-based, collaborative terminal",
+    },
+    {
       name: "Bore",
       href: "/projects#bore",
       desc: "bypass your NAT in just 400 lines of code",
-      aside: "6500+ stars on GitHub",
+      aside: "7500+ stars on GitHub",
     },
     {
       name: "Percival",
@@ -58,15 +63,13 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I currently work on the future of cloud computing at <a
-        class="link"
-        href="https://modal.com">Modal</a
-      >.
+      I currently work at <a class="link" href="https://modal.com">Modal</a>, a
+      new cloud computing platform.
     </p>
 
     <p>
-      My ambition is to make better <em>interactive software</em> that helps people
-      create, collaborate, learn, and meaningfully express what brings them joy.
+      I hope to develop better <em>interactive software</em> for people to cultivate
+      and share ideas, and to meaningfully express what brings them joy.
     </p>
 
     <p>
