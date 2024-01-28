@@ -156,6 +156,14 @@
 
     <p>Other interests: math, physics, reading, photography, and biking.</p>
   </div>
+
+  <div class="space-y-5">
+    <!-- <p>This is what I look like:</p> -->
+    <img
+      alt="Self-portrait photograph of Eric Zhang at his desk"
+      src="/assets/images/profile4.jpg"
+    />
+  </div>
 </div>
 
 <style lang="postcss">
