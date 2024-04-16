@@ -94,10 +94,12 @@
   >
     <li>
       Modal is a high-performance, low-latency serverless function platform. I
-      made Modal's serverless container runtime from scratch, in Rust.
+      designed and implemented the first version of Modal's container runtime in
+      Rust.
     </li>
     <li>
-      Scaled the platform from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000 GPUs.
+      Helped scale the platform from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000
+      GPUs.
     </li>
     <li>
       Engineered FUSE file systems, a global sub-millisecond cache over hundreds
