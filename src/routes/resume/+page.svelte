@@ -93,37 +93,39 @@
     location="New York, NY"
   >
     <li>
-      Modal is a high-performance, low-latency serverless function platform. I
-      designed and implemented the first version of Modal's container runtime in
-      Rust.
+      Modal is a high-performance serverless function platform. I joined the
+      team of 3 as our first systems engineer, frontend engineer, and
+      interaction designer (“Rust / web expert”).
     </li>
     <li>
-      Helped scale the platform from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000
-      GPUs.
+      I was the principal architect for Modal's container runtime, a replacement
+      for Docker optimized for security and cold-boot time. Its speed and
+      stability allowed Modal to scale from 50 CPUs / 2 GPUs to 100,000 CPUs /
+      5,000 GPUs, all while adding new features to the platform.
     </li>
     <li>
-      Engineered FUSE file systems, a global sub-millisecond cache over hundreds
-      of terabytes in tiered storage, backpressure for distributed queues,
-      fault-tolerant TLS relays, container sandboxing, an internal HTTP/3
-      service transport, etc.
+      My technical contributions include designing a global cache over petabytes
+      in tiered storage, building an <a
+        class="link"
+        href="https://modal.com/blog/serverless-http"
+        >HTTP and WebSocket stack</a
+      >, running distributed
+      <a class="link" href="https://modal.com/docs/guide/tunnels">TLS relays</a
+      >, <a class="link" href="https://gvisor.dev/">sandboxing containers</a>,
+      masquerading network traffic with eBPF, and managing Kubernetes + VPN
+      infrastructure.
     </li>
     <li>
-      Made the <a class="link" href="https://modal.com">modal.com</a> website. Created
-      our design system and frontend, including user dashboards, authentication,
-      a unified documentation site, 2D + 3D graphics, and web-based internal tools.
-      Mentored coworkers in web development.
-    </li>
-    <li>Wrote most of our core development scripts. Made CI fast.</li>
-    <li>
-      Investigated systems issues, like reducing end-to-end server latency by
-      3x, fixing all manner of bugs, and disclosing security vulnerabilities in
-      dependencies.
+      I also made the <a class="link" href="https://modal.com">modal.com</a> website,
+      developing a unified data fetching system and a component library. We applied
+      these to user dashboards, a documentation site, 2D + 3D graphics, and web-based
+      internal tools.
     </li>
     <li>
-      Introduced Rust and Svelte to the company. I rewrote at least 4 systems in
-      Rust. All of them remained in use, since people like working on them, and
-      they are more robust than the systems they replaced (i.e., boring and
-      reliable, low p99 latency, no production issues).
+      At Modal, I advocated for Rust and Svelte. These are now half of the
+      codebase, though it took time to get others familiar with the tech. I
+      think the choice allowed Modal to quickly develop reliable, correct,
+      boring (i.e., low p99 latency, few production issues) software.
     </li>
   </Workplace>
 
