@@ -98,10 +98,10 @@
       interaction designer (“Rust / web expert”).
     </li>
     <li>
-      I was the principal architect for Modal's container runtime, a replacement
-      for Docker optimized for security and cold-boot time. Its speed and
-      stability allowed Modal to scale from 50 CPUs / 2 GPUs to 100,000 CPUs /
-      5,000 GPUs, all while adding new features to the platform.
+      I was the principal architect behind Modal's container runtime, the
+      high-performance system written in Rust that runs Modal functions. Its
+      stability let Modal scale from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000
+      GPUs, all while adding new features to the platform.
     </li>
     <li>
       My technical contributions include Modal's content-addressed file system
@@ -124,8 +124,8 @@
     <li>
       At Modal, I introduced Rust and Svelte. These are now half of the
       codebase, though it took time to get others familiar with the tech. I
-      think the choice allowed Modal to quickly develop reliable, correct,
-      boring (i.e., low p99 latency, few production issues) software.
+      think the choice helped Modal develop reliable, correct, boring (i.e., low
+      p99 latency, few production issues) software.
     </li>
   </Workplace>
 
