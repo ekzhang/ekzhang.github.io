@@ -104,25 +104,25 @@
       5,000 GPUs, all while adding new features to the platform.
     </li>
     <li>
-      My technical contributions include designing a global cache over petabytes
-      in tiered storage, building an <a
+      My technical contributions include Modal's content-addressed file system
+      and global cache over petabytes in tiered storage, building an <a
         class="link"
         href="https://modal.com/blog/serverless-http"
         >HTTP and WebSocket stack</a
       >, running distributed
       <a class="link" href="https://modal.com/docs/guide/tunnels">TLS relays</a
       >, <a class="link" href="https://gvisor.dev/">sandboxing containers</a>,
-      masquerading network traffic with eBPF, and managing Kubernetes + VPN
+      controlling network traffic with eBPF, and managing Kubernetes + VPN
       infrastructure.
     </li>
     <li>
       I also made the <a class="link" href="https://modal.com">modal.com</a> website,
-      developing a unified data fetching system and a component library. We applied
+      designing the interfaces and developing the data fetching system. We applied
       these to user dashboards, a documentation site, 2D + 3D graphics, and web-based
       internal tools.
     </li>
     <li>
-      At Modal, I advocated for Rust and Svelte. These are now half of the
+      At Modal, I introduced Rust and Svelte. These are now half of the
       codebase, though it took time to get others familiar with the tech. I
       think the choice allowed Modal to quickly develop reliable, correct,
       boring (i.e., low p99 latency, few production issues) software.
