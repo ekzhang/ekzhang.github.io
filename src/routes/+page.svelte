@@ -161,7 +161,7 @@
     <!-- <p>This is what I look like:</p> -->
     <img
       alt="Self-portrait photograph of Eric Zhang at his desk"
-      src="/assets/images/profile4.jpg"
+      src="/assets/images/profile5.jpg"
     />
   </div>
 </div>
