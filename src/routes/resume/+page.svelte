@@ -117,9 +117,9 @@
     </li>
     <li>
       I also made the <a class="link" href="https://modal.com">modal.com</a> website,
-      designing the interfaces and developing the data fetching system. We applied
-      these to user dashboards, a documentation site, 2D + 3D graphics, and web-based
-      internal tools.
+      designing interfaces and developing the data fetching system. We used these
+      to make crisp user dashboards with custom SVG charts, a documentation site,
+      and web-based internal tools.
     </li>
     <li>
       At Modal, I introduced Rust and Svelte. These are now half of the
