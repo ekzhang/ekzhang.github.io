@@ -92,6 +92,7 @@
     dates="February 2022 – Current"
     location="New York, NY"
   >
+    <li>I currently lead Special Projects @ Modal.</li>
     <li>
       Modal is a high-performance serverless function platform. I joined the
       team of 3 as our first systems engineer, frontend engineer, and
