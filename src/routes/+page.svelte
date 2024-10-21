@@ -13,7 +13,7 @@
       name: "Bore",
       href: "/projects#bore",
       desc: "bypass your NAT in just 400 lines of code",
-      aside: "7500+ stars on GitHub",
+      aside: "8500+ stars on GitHub",
     },
     {
       name: "Percival",
