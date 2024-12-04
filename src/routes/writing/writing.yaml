@@ -2,9 +2,7 @@ technology:
   - title: "WireGuard at Modal: Static IPs for Serverless Containers"
     date: 2024-12-02
     summary: >
-      Static outbound IP addresses for containers around the world. We
-      open-sourced our low-level network primitives and drew diagrams explaining
-      how it all works.
+      Fast and reliable network infrastructure, built with love.
     link: https://modal.com/blog/vprox
 
   - title: Inside the Modal Code Playground
@@ -16,8 +14,8 @@ technology:
   - title: "Lambda on hard mode: Inside Modal's web infrastructure"
     date: 2024-03-14
     summary: >
-      Adding support for real-time HTTP requests and WebSockets in a serverless
-      function runtime by translating them into function calls.
+      Translating the HTTP and WebSocket protocols into serverless function
+      calls.
     link: https://modal.com/blog/serverless-http
 
 papers:
