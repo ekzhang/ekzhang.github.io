@@ -24,7 +24,7 @@
       name: "Rustpad",
       href: "/projects#rustpad",
       desc: "self-hosted collaborative text editor",
-      aside: "2M+ downloads",
+      aside: "6M+ downloads",
     },
     {
       name: "Crepe",
