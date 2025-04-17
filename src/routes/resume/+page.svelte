@@ -92,41 +92,37 @@
     dates="February 2022 – Current"
     location="New York, NY"
   >
-    <li>I currently lead Special Projects @ Modal.</li>
+    <li>Founding team member (#4), currently leading Special Projects.</li>
     <li>
-      Modal is a high-performance serverless function platform. I joined the
-      team of 3 as our first systems engineer, frontend engineer, and
-      interaction designer (“Rust / web expert”).
+      I was the principal engineer for Modal's container runtime, the
+      high-performance Rust systems that execute Modal functions. These systems
+      are very data-intensive and handle hardware differences across a cluster
+      that spans multiple clouds (100,000 CPUs and 5,000 GPUs), and with
+      dynamic, heterogeneous workloads from thousands of customers.
     </li>
     <li>
-      I was the principal architect behind Modal's container runtime, the
-      high-performance system written in Rust that runs Modal functions. Its
-      stability let Modal scale from 50 CPUs / 2 GPUs to 100,000 CPUs / 5,000
-      GPUs, all while adding new features to the platform.
-    </li>
-    <li>
-      My technical contributions include Modal's content-addressed file system
-      and global cache over petabytes in tiered storage, building an <a
+      I also developed Modal's high-throughput content-addressed file system,
+      tiered cache over petabytes of data, a novel <a
         class="link"
-        href="https://modal.com/blog/serverless-http"
-        >HTTP and WebSocket stack</a
-      >, running distributed
+        href="https://modal.com/blog/serverless-http">serverless HTTP stack</a
+      >, distributed
       <a class="link" href="https://modal.com/docs/guide/tunnels">TLS relays</a
-      >, <a class="link" href="https://gvisor.dev/">sandboxing containers</a>,
-      controlling network traffic with eBPF, and managing Kubernetes + VPN
-      infrastructure.
+      >, container sandboxing via
+      <a class="link" href="https://gvisor.dev/users/">gVisor</a>, eBPF network
+      infrastructure, and a
+      <a class="link" href="https://modal.com/blog/vprox">WireGuard-based VPN</a
+      >.
     </li>
     <li>
-      I also made the <a class="link" href="https://modal.com">modal.com</a> website,
-      designing interfaces and developing the data fetching system. We used these
-      to make crisp user dashboards with custom SVG charts, a documentation site,
-      and web-based internal tools.
+      I started engineering work on the <a class="link" href="https://modal.com"
+        >modal.com</a
+      > website. Most cloud platforms overlook interfaces and craft, but we don't,
+      since good design makes complex systems legible. I continue to advise on product
+      and frontend work.
     </li>
     <li>
-      At Modal, I introduced Rust and Svelte. These are now half of the
-      codebase, though it took time to get others familiar with the tech. I
-      think the choice helped Modal develop reliable, correct, boring (i.e., low
-      p99 latency, few production issues) software.
+      A lot of the decisions stuck: Rust and Svelte make up about half of the
+      codebase now.
     </li>
   </Workplace>
 
