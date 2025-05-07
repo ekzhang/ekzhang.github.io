@@ -92,37 +92,38 @@
     dates="February 2022 – Current"
     location="New York, NY"
   >
-    <li>Founding team member (#4), currently leading Special Projects.</li>
+    <li>Founding team member (#4), currently lead Special Projects.</li>
     <li>
       I was the principal engineer for Modal's container runtime, the
-      high-performance Rust systems that execute Modal functions. These systems
-      are very data-intensive and handle hardware differences across a cluster
-      that spans multiple clouds (100,000 CPUs and 5,000 GPUs), and with
-      dynamic, heterogeneous workloads from thousands of customers.
+      high-performance Rust system that executes Modal Functions. It handles
+      hardware differences across a cluster that spans multiple clouds (100,000
+      CPUs and 5,000 GPUs); while dealing with real-time, data-intensive
+      workloads from thousands of customers.
     </li>
     <li>
-      I also developed Modal's high-throughput content-addressed file system,
-      tiered cache over petabytes of data, a novel <a
+      I developed Modal's high-throughput content-addressed file system, tiered
+      cache over petabytes of data, a novel <a
         class="link"
         href="https://modal.com/blog/serverless-http">serverless HTTP stack</a
       >, distributed
       <a class="link" href="https://modal.com/docs/guide/tunnels">TLS relays</a
       >, container sandboxing via
-      <a class="link" href="https://gvisor.dev/users/">gVisor</a>, eBPF network
-      infrastructure, and a
+      <a class="link" href="https://gvisor.dev/users/">gVisor</a>,
+      <a class="link" href="https://modal.com/docs/guide/private-networking"
+        >eBPF network infrastructure</a
+      >, and a
       <a class="link" href="https://modal.com/blog/vprox">WireGuard-based VPN</a
       >.
     </li>
     <li>
-      I started engineering work on the <a class="link" href="https://modal.com"
-        >modal.com</a
-      > website. Most cloud platforms overlook interfaces and craft, but we don't,
-      since good design makes complex systems legible. I continue to advise on product
-      and frontend work.
+      I was also Modal's first product-focused engineer and designer. While
+      building <a class="link" href="https://modal.com">modal.com</a>, I
+      developed a feeling for crafting interfaces to make complex systems
+      legible.
     </li>
     <li>
-      A lot of the decisions stuck: Rust and Svelte make up about half of the
-      codebase now.
+      For 3 years, was #1 committer, made technical decisions like adopting Rust
+      and Svelte despite early skepticism and shaped the long-term direction.
     </li>
   </Workplace>
 
