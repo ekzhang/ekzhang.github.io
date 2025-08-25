@@ -116,10 +116,10 @@
       >.
     </li>
     <li>
-      I was also Modal's first product-focused engineer and designer. While
-      building <a class="link" href="https://modal.com">modal.com</a>, I
-      developed a feeling for crafting interfaces to make complex systems
-      legible.
+      I was Modal's first product-focused engineer and designer. While building
+      <a class="link" href="https://modal.com">modal.com</a>, I developed a
+      feeling for crafting interfaces to make complex systems legible. Mentored
+      and grew a world-class product engineering team.
     </li>
     <li>
       For 3 years, was #1 committer, made technical decisions like adopting Rust
