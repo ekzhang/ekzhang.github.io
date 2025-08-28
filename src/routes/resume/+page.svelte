@@ -92,7 +92,7 @@
     dates="February 2022 – Current"
     location="New York, NY"
   >
-    <li>Founding team member (#4), currently lead Special Projects.</li>
+    <li>Founding team member (#4), currently lead Infrastructure Research.</li>
     <li>
       I was the principal engineer for Modal's container runtime, the
       high-performance Rust system that executes Modal Functions. It handles
