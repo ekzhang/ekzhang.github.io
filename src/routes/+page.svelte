@@ -20,13 +20,13 @@
   <div class="space-y-5">
     <p>
       I'm currently a undergraduate at Stanford studying Math and CS (systems +
-      AI), but spend most of my free time on art history, philosophy, and random literature.
+      AI), but spend most of my free time on art history, philosophy, and random
+      literature.
     </p>
     <p>
-      I'm interested in AI, distributed computing, and autonomous systems. I hope
-      to build better software and systems, and always try to understand the <em
-        >why</em
-      >
+      I'm interested in AI, distributed computing, and autonomous systems. I
+      hope to build better software and systems, and always try to understand
+      the <em>why</em>
       behind things.
     </p>
   </div>
@@ -97,8 +97,8 @@
       <a class="link" href="https://drorlab.stanford.edu/">Dror Lab</a>, and
       <a class="link" href="https://www.afrl.af.mil/"
         >Air Force Research Laboratory</a
-      >. In my freetime, I write about agency, Python, and AI
-      research. I also sing tenor with the
+      >. In my freetime, I write about agency, Python, and AI research. I also
+      sing tenor with the
       <a class="link" href="https://stanfordmendicants.com/"
         >Stanford Mendicants</a
       > and play guitar.

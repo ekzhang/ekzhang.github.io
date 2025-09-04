@@ -48,18 +48,22 @@
   <div class="text-sm text-neutral-500 mb-8">December 3, 2024 • 6 min read</div>
 
   <div class="text-lg text-neutral-700 mb-8 leading-relaxed">
-    Understanding Python's __bool__ dunder method for truthiness evaluation in custom classes.
-    Learn how to make your objects work naturally with if statements and boolean operations.
+    Understanding Python's __bool__ dunder method for truthiness evaluation in
+    custom classes. Learn how to make your objects work naturally with if
+    statements and boolean operations.
   </div>
 
   <div class="prose prose-neutral max-w-none">
     <p>
-      Let's say for example you are building a cache class and you want to operate on this cache class. However, you want to fetch some user from the cache, only if it's there, but you're having problems with this.
+      Let's say for example you are building a cache class and you want to
+      operate on this cache class. However, you want to fetch some user from the
+      cache, only if it's there, but you're having problems with this.
     </p>
 
-    <pre><code class="language-python">class SimpleCache:
+    <pre><code class="language-python"
+        >class SimpleCache:
     def __init__(self):
-        self._data = {'{}'}
+        self._data = {"{}"}
     def set(self, key, value):
         self._data[key] = value
     def get(self, key, default=None):
@@ -69,16 +73,20 @@
 def fetch_user(cache, user_id):
     if not cache:  # natural, just like a dict or list
         print("Cache empty, querying DB...")
-        data = {'{'}\"id\": user_id, \"name\": \"Alex\"'}'}
+        data = {"{"}\"id\": user_id, \"name\": \"Alex\"'}'}
         cache.set(user_id, data)
     else:
         print("Using cache")
-    return cache.get(user_id)</code></pre>
+    return cache.get(user_id)</code
+      ></pre>
 
     <p>
-      One core component of idiomatic python is evaluating truthfulness of objects in a Boolean way when using things like <code>if</code>, <code>while</code>, and <code>not</code>. For lots of existing types we see existing false groups:
+      One core component of idiomatic python is evaluating truthfulness of
+      objects in a Boolean way when using things like <code>if</code>,
+      <code>while</code>, and <code>not</code>. For lots of existing types we
+      see existing false groups:
     </p>
-    
+
     <ul>
       <li>Constants such as <code>None</code> and <code>False</code></li>
       <li>Zero of any type</li>
@@ -86,30 +94,51 @@ def fetch_user(cache, user_id):
     </ul>
 
     <p>As well as existing True objects like:</p>
-    
+
     <ul>
-      <li>Non-zero numbers: <code>1</code>, <code>-2</code>, <code>0.5</code>, <code>1+0j</code></li>
-      <li>Non-empty strings: <code>"0"</code>, <code>"False"</code>, <code>" "</code>, <code>"hello"</code></li>
-      <li>Non-empty collections: <code>[0]</code>, <code>(None,)</code>, <code>{'{'}0{'}'}</code>, <code>{'{'}\"k\": 1{'}'}</code>, <code>{'{'}1{'}'}</code>, <code>range(1)</code></li>
-      <li>Non-empty bytes-like: <code>b"\x00"</code>, <code>bytearray(b"\x00")</code>, <code>memoryview(b"x")</code></li>
+      <li>
+        Non-zero numbers: <code>1</code>, <code>-2</code>, <code>0.5</code>,
+        <code>1+0j</code>
+      </li>
+      <li>
+        Non-empty strings: <code>"0"</code>, <code>"False"</code>,
+        <code>" "</code>, <code>"hello"</code>
+      </li>
+      <li>
+        Non-empty collections: <code>[0]</code>, <code>(None,)</code>,
+        <code>{"{"}0{"}"}</code>, <code>{"{"}\"k\": 1{"}"}</code>,
+        <code>{"{"}1{"}"}</code>, <code>range(1)</code>
+      </li>
+      <li>
+        Non-empty bytes-like: <code>b"\x00"</code>,
+        <code>bytearray(b"\x00")</code>, <code>memoryview(b"x")</code>
+      </li>
       <li>Objects & callables</li>
     </ul>
 
     <p>
-      For our custom object that we create, Python uses <code>__bool__</code> (or <code>__len__</code> if <code>__bool__</code> doesn't exist) to determine object truthfulness.
+      For our custom object that we create, Python uses <code>__bool__</code>
+      (or <code>__len__</code> if <code>__bool__</code> doesn't exist) to determine
+      object truthfulness.
     </p>
 
     <p>
-      <code>__bool__</code> is a dunder (double underscore) which basically means it's a special function used to define your own python operations. Other examples include the widely used <code>__init__</code>, <code>__len__</code>, and <code>__str__</code> or other operators.
+      <code>__bool__</code> is a dunder (double underscore) which basically
+      means it's a special function used to define your own python operations.
+      Other examples include the widely used <code>__init__</code>,
+      <code>__len__</code>, and <code>__str__</code> or other operators.
     </p>
 
     <p>
-      To use it, we want to return <code>True</code> or <code>False</code> based on if the instance of that class is should be empty or not a valid instance such as in the example that a cache has no data then:
+      To use it, we want to return <code>True</code> or <code>False</code> based
+      on if the instance of that class is should be empty or not a valid instance
+      such as in the example that a cache has no data then:
     </p>
 
-    <pre><code class="language-python">class SimpleCache:
+    <pre><code class="language-python"
+        >class SimpleCache:
     def __init__(self):
-        self._data = {'{}'}
+        self._data = {"{}"}
 
     def set(self, key, value):
         self._data[key] = value
@@ -124,19 +153,31 @@ def fetch_user(cache, user_id):
 def fetch_user(cache, user_id):
     if not cache:  # natural, just like a dict or list
         print("Cache empty, querying DB...")
-        data = {'{'}\"id\": user_id, \"name\": \"Alex\"'}'}
+        data = {"{"}\"id\": user_id, \"name\": \"Alex\"'}'}
         cache.set(user_id, data)
     else:
         print("Using cache")
 
-    return cache.get(user_id)</code></pre>
+    return cache.get(user_id)</code
+      ></pre>
 
     <h2>Advantages of This Approach</h2>
 
     <ul>
-      <li><strong>Readability:</strong> Conditions like <code>if not cache:</code> are natural and concise when emptiness means "no useful state".</li>
-      <li><strong>Simplified conditionals:</strong> You avoid sprinkling <code>len(cache._data) == 0</code> or <code>not cache._data</code> throughout the codebase.</li>
-      <li><strong>Encapsulation & consistency:</strong> One canonical definition of "empty/invalid" lives in the class, preventing ad-hoc checks that drift over time.</li>
+      <li>
+        <strong>Readability:</strong> Conditions like <code>if not cache:</code>
+        are natural and concise when emptiness means "no useful state".
+      </li>
+      <li>
+        <strong>Simplified conditionals:</strong> You avoid sprinkling
+        <code>len(cache._data) == 0</code>
+        or <code>not cache._data</code> throughout the codebase.
+      </li>
+      <li>
+        <strong>Encapsulation & consistency:</strong> One canonical definition of
+        "empty/invalid" lives in the class, preventing ad-hoc checks that drift over
+        time.
+      </li>
     </ul>
   </div>
 

@@ -48,17 +48,24 @@
   <div class="text-sm text-neutral-500 mb-8">December 3, 2024 • 5 min read</div>
 
   <div class="text-lg text-neutral-700 mb-8 leading-relaxed">
-    Master Python's functools.partial for elegant function composition and cleaner code.
-    Learn how to eliminate repetitive function calls and create more maintainable codebases.
+    Master Python's functools.partial for elegant function composition and
+    cleaner code. Learn how to eliminate repetitive function calls and create
+    more maintainable codebases.
   </div>
 
   <div class="prose prose-neutral max-w-none">
     <p>
-      You may find yourself in a situation where you need to call the same function repeatedly with mostly identical parameters.
-      For instance, imagine you're building an application that frequently sends notifications through an email service. You might need to send emails with specific sender information, SMTP configuration, formatting preferences, retry settings, and logging options. This results in you calling the email function over and over with the same fixed arguments:
+      You may find yourself in a situation where you need to call the same
+      function repeatedly with mostly identical parameters. For instance,
+      imagine you're building an application that frequently sends notifications
+      through an email service. You might need to send emails with specific
+      sender information, SMTP configuration, formatting preferences, retry
+      settings, and logging options. This results in you calling the email
+      function over and over with the same fixed arguments:
     </p>
 
-    <pre><code class="language-python"># You end up with repetitive calls like this throughout your codebase
+    <pre><code class="language-python"
+        ># You end up with repetitive calls like this throughout your codebase
 send_email(
     smtp_host='smtp.company.com',
     smtp_port=587,
@@ -72,14 +79,23 @@ send_email(
     to_email='user1@example.com',
     subject='Welcome to our service',
     template='welcome_email.html',
-    context={'{'}username': 'john_doe'{'}'}
-)</code></pre>
+    context={"{"}username': 'john_doe'{"}"}
+)</code
+      ></pre>
 
     <p>
-      This repetition creates several problems: your code becomes <strong>verbose</strong> and <strong>harder to scan</strong>, you're constantly filling in the same parameter values, and if you need to change the common settings (like the SMTP host or retry configuration), you'd have to hunt down and update every single function call. This makes your code less maintainable and difficult to read/write.
+      This repetition creates several problems: your code becomes <strong
+        >verbose</strong
+      >
+      and <strong>harder to scan</strong>, you're constantly filling in the same
+      parameter values, and if you need to change the common settings (like the
+      SMTP host or retry configuration), you'd have to hunt down and update
+      every single function call. This makes your code less maintainable and
+      difficult to read/write.
     </p>
 
-    <pre><code class="language-python">from functools import partial
+    <pre><code class="language-python"
+        >from functools import partial
 
 # Create a partial function with all the common email configuration
 company_email = partial(
@@ -105,12 +121,15 @@ urgent_notification = partial(
 
 
 # Now your calls become much cleaner and focused.
-welcome_email(to_email='newuser@example.com', context={'{'}username': 'jane_smith'{'}'})</code></pre>
+welcome_email(to_email='newuser@example.com', context={"{"}username': 'jane_smith'{"}"})</code
+      ></pre>
 
     <p>
-      <code>functools.partial</code> allows you to "freeze" arguments and keywords, creating a simplified function with fewer parameters. When configuration values stay constant across multiple calls, partial eliminates the repetitive boilerplate.
+      <code>functools.partial</code> allows you to "freeze" arguments and keywords,
+      creating a simplified function with fewer parameters. When configuration values
+      stay constant across multiple calls, partial eliminates the repetitive boilerplate.
     </p>
-    
+
     <p>This may be useful for:</p>
     <ul>
       <li>API clients with consistent authentication headers</li>
@@ -122,10 +141,13 @@ welcome_email(to_email='newuser@example.com', context={'{'}username': 'jane_smit
     <h2>Important Behavior with Mutable vs Immutable Arguments</h2>
 
     <p>
-      When declaring <code>functools.partial</code>, recognize that any immutable argument types will use the values declared at creation time, while changes to mutable argument types do affect partials.
+      When declaring <code>functools.partial</code>, recognize that any
+      immutable argument types will use the values declared at creation time,
+      while changes to mutable argument types do affect partials.
     </p>
 
-    <pre><code class="language-python"># 1. Immutable vs Mutable behavior
+    <pre><code class="language-python"
+        ># 1. Immutable vs Mutable behavior
 def process_data(base_value, multiplier):
     return base_value * multiplier
 
@@ -137,15 +159,16 @@ initial_base = 20  # This won't affect the partial
 print(multiply_by_base(5))  # Output: 50 (still uses 10)
 
 # Mutable example - changes affect the partial
-config_dict = {'{'}timeout': 30{'}'}
+config_dict = {"{"}timeout': 30{"}"}
 
 def connect_database(host, port, config):
-    return f"Connecting to {'{'}host{'}'}:{'{'}port{'}'} with timeout {'{'}config['timeout']{'}'}"
+    return f"Connecting to {"{"}host{"}"}:{"{"}port{"}"} with timeout {"{"}config['timeout']{"}"}"
 
 db_connector = partial(connect_database, config=config_dict)
 
 config_dict['timeout'] = 60  # This WILL affect the partial
-print(db_connector('localhost', 5432))  # Output: "...timeout 60"</code></pre>
+print(db_connector('localhost', 5432))  # Output: "...timeout 60"</code
+      ></pre>
 
     <p>
       <strong>Tip:</strong> Use keyword arguments in your partials for readability.

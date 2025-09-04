@@ -2,18 +2,16 @@ posts:
   - title: "__bool__ Dunder"
     date: 2024-12-03
     summary: >
-      Understanding Python's __bool__ dunder method for 
-      truthiness evaluation.
+      Understanding Python's __bool__ dunder method for  truthiness evaluation.
     link: "/python/engineering/python-bool-dunder"
   - title: "functools.partial"
     date: 2024-12-03
     summary: >
-      functools.partial for elegant function composition 
-      and cleaner code.
+      functools.partial for elegant function composition  and cleaner code.
     link: "/python/engineering/python-functools-partial"
   - title: "@override Decorator"
     date: 2024-12-03
     summary: >
-      @override decorator prevents inheritance bugs and
-      makes your code more maintainable.
+      @override decorator prevents inheritance bugs and makes your code more
+      maintainable.
     link: "/python/engineering/python-override-decorator"

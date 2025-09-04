@@ -51,8 +51,8 @@
       <strong>Disaster Recovery Team</strong>. Leveraged Python and statistical
       analysis in a large-scale Linux environment to build an
       <strong>automated reporting system</strong>
-      that quantitatively analyzed disaster recovery test outcomes using
-      time-series analysis and pattern recognition techniques,
+      that quantitatively analyzed disaster recovery test outcomes using time-series
+      analysis and pattern recognition techniques,
       <strong>saving dozens of weekly engineering hours</strong> through data-driven
       optimization.
     </li>
@@ -114,10 +114,10 @@
   >
     <li>
       Developed and implemented an <strong>end-to-end ML pipeline</strong>
-      utilizing bulk RNA-seq expression data from proprietary and public
-      datasets to train a <strong>100M+ parameter transformer model</strong>,
-      achieving state-of-the-art performance in autoregressive generation of
-      "future" RNAseqs with biologically viable expression patterns.
+      utilizing bulk RNA-seq expression data from proprietary and public datasets
+      to train a <strong>100M+ parameter transformer model</strong>, achieving
+      state-of-the-art performance in autoregressive generation of "future"
+      RNAseqs with biologically viable expression patterns.
     </li>
     <li>
       Established comprehensive internal benchmarking protocols and implemented
@@ -127,9 +127,9 @@
     </li>
     <li>
       Built and deployed an <strong>automated bioinformatics platform</strong>
-      that integrated omics data analysis pipelines with fine-tuned LLMs with
-      DPO, optimized for generating scientific abstracts and publication-quality
-      figures, streamlining research workflows while maintaining
+      that integrated omics data analysis pipelines with fine-tuned LLMs with DPO,
+      optimized for generating scientific abstracts and publication-quality figures,
+      streamlining research workflows while maintaining
       <strong>95% expert-rated accuracy</strong>.
     </li>
   </Workplace>
@@ -160,8 +160,7 @@
       <strong
         >obstacle avoidance algorithms for kinodynamic motion planning</strong
       >
-      in an indoor environment as part of a 3-person team. Project demo can be
-      found
+      in an indoor environment as part of a 3-person team. Project demo can be found
       <a
         class="link"
         href="https://drive.google.com/file/d/1m0dRVO0GV9PgKm-927A8Gy3j7V91pHiY/view?usp=drive_link"
