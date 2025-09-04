@@ -19,22 +19,25 @@
     <p class="byline">B.S. in Mathematics & M.S. in Computer Science</p>
   </div>
 
-  <h4 class="font-medium mt-4 mb-1">Coursework:</h4>
+  <h4 class="font-medium mt-4 mb-1">Graduate Technical Coursework:</h4>
   <ul class="mb-4">
     <li>Deep Learning for NLP (CS 224n)</li>
-    <li>Linear Algebra and Matrix Theory (MATH 113)</li>
     <li>Machine Learning (CS 229)</li>
     <li>Reinforcement Learning (CS 234)</li>
-    <li>Computer Organization and Systems (CS 107)</li>
-    <li>Data Structure and Algorithms (CS 106B)</li>
+    <li>ML with Graphs (CS 224w)</li>
+    <li>Fundamentals of Blockchain Infrastructure (EE 374)</li>
+    <li>Parallel Computing with CUDA/OpenMP/MPI (CME 213)</li>
+  </ul>
+
+  <h4 class="font-medium mt-4 mb-1">Undergraduate Technical Coursework:</h4>
+  <ul class="mb-4">
+    <li>Linear Algebra and Matrix Theory (MATH 113)</li>
     <li>Operating Systems (CS 111)</li>
     <li>Algorithms (CS 161)</li>
-    <li>ML with Graphs (CS 224w)</li>
-    <li>Parallel Computing with CUDA/OpenMP/MPI (CME 213)</li>
   </ul>
 </section>
 
-<section class="layout-md py-12">
+<section class="layout-md py-6">
   <h2 class="heading2">Work Experience</h2>
 
   <Workplace

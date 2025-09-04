@@ -19,7 +19,7 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I'm currently a undergraduate at Stanford studying Math and CS (Systems x
+      I'm currently a undergraduate at Stanford studying Math and CS (systems +
       AI), but spend most of my free time on art history, philosophy, and random literature.
     </p>
     <p>
@@ -27,10 +27,7 @@
       to build better software and systems, and always try to understand the <em
         >why</em
       >
-      behind things. I also sing tenor with the
-      <a class="link" href="https://stanfordmendicants.com/"
-        >Stanford Mendicants</a
-      > and play guitar.
+      behind things.
     </p>
   </div>
 
@@ -101,7 +98,10 @@
       <a class="link" href="https://www.afrl.af.mil/"
         >Air Force Research Laboratory</a
       >. In my freetime, I write about agency, Python, and AI
-      research.
+      research. I also sing tenor with the
+      <a class="link" href="https://stanfordmendicants.com/"
+        >Stanford Mendicants</a
+      > and play guitar.
     </p>
   </div>
 </div>
