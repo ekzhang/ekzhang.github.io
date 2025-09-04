@@ -1,4 +1,6 @@
-# ekzhang.github.io
+# alexwang.github.io
+
+Taken from # ekzhang.github.io
 
 Source code for my [personal website](https://www.ekzhang.com/), hosted on
 GitHub Pages.
