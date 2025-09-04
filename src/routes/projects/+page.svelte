@@ -61,7 +61,7 @@
 </script>
 
 <Seo
-  title="Eric Zhang – Projects"
+  title="Alex Wang – Projects"
   description="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."
 />
 

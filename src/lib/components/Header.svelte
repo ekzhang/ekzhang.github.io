@@ -2,7 +2,8 @@
   import { page } from "$app/stores";
 
   const links = [
-    { name: "projects", href: "/projects" },
+    // { name: "projects", href: "/projects" },
+    { name: "python", href: "/python" },
     { name: "writing", href: "/writing" },
     { name: "resume", href: "/resume" },
   ];
@@ -24,7 +25,10 @@
   data-sveltekit-preload-code="eager"
 >
   <h1 class="font-bold text-black text-2xl mb-6">
-    <a href="/">Eric Zhang</a>
+    <a href="/" class="flex flex-col">
+      <span>Alex Lin Wang</span>
+      <span class="text-lg font-normal text-neutral-600">王帅</span>
+    </a>
     {#if pageTitle}
       <span class="page-title">
         <span class="text-neutral-400">—</span>

@@ -1,192 +1,29 @@
-technology:
-  - title: "WireGuard at Modal: Static IPs for Serverless Containers"
-    date: 2024-12-02
+essays:
+  - title: "Treatise on Complaining"
+    date: 2025-08-23
     summary: >
-      Fast and reliable network infrastructure, built with love.
-    link: https://modal.com/blog/vprox
+      Stop complaining. Exploring how complaining is often a sign of unresolved 
+      issues we could fix, and how it prevents us from seeing blessings and progress 
+      in our lives.
+    link: https://alexwang0317.substack.com/p/treatise-on-complaining?r=2httt3
 
-  - title: Inside the Modal Code Playground
-    date: 2024-08-16
+  - title: "Clarity & Committing"
+    date: 2025-08-20
     summary: >
-      In-browser code editor hooked up to a sandboxed container runtime.
-    link: https://modal.com/blog/playground
+      Framework for doing. A guide on decision-making, avoiding overthinking paralysis,
+      and the importance of clarity and commitment in building a meaningful life.
+    link: https://alexwang0317.substack.com/p/clarity-and-committing?r=2httt3
 
-  - title: "Lambda on hard mode: Inside Modal's web infrastructure"
-    date: 2024-03-14
+  - title: "Fantastic Risks and Where to Find Them"
+    date: 2025-08-02
     summary: >
-      Translating the HTTP and WebSocket protocols into serverless function
-      calls.
-    link: https://modal.com/blog/serverless-http
+      Exploring the nature of risk-taking, agency, and how to navigate uncertainty 
+      in life and career decisions.
+    link: https://alexwang0317.substack.com/p/fantastic-risks-and-where-to-find?r=2httt3
 
-papers:
-  - title: Designing Datalog-Based Embedded Languages
-    date: 2023-03-24
+  - title: "Pick Curiosity, Not Acceptance"
+    date: 2025-07-25
     summary: >
-      My senior thesis, where I design and implement two logic programming
-      languages, present case studies on their real-world usage, and evaluate
-      them as systems.
-    link: /assets/pdf/Senior_Thesis.pdf
-
-  - title: Tandem Solar Cells
-    date: 2022-12-13
-    summary: >
-      Fabrication and characterization of a tandem solar device. Final project
-      for MIT class 6.2540 on nanofabrication.
-    link: "https://docs.google.com/presentation/d/e/2PACX-1vTK3Mz-3TaocxwgeP-RuD4qhdBk6bn_UzdZDrVRpP6-p-wnLut_mfGB0PzeSTnbIc20eXG7E618-Npw/pub"
-
-  - title: Multi-Architecture Parallelism
-    date: 2022-12-11
-    summary: >
-      Envisioning flexible parallelism in deep learning compilers on
-      heterogeneous compute. Final project for CS 243, Advanced Computer
-      Networks.
-    link: /assets/pdf/Jax_Parallelism.pdf
-
-  - title: Pressure Field Models
-    date: 2021-12-08
-    summary: >
-      Efficient simulation of contact dynamics using a hydroelastic intersection
-      model. Final project for 6.834, Robotic Manipulation.
-    link: /assets/pdf/Hydroelastics.pdf
-
-  - title: Pencil Sketch Rendering
-    date: 2021-05-21
-    summary: >
-      Real-time stylized rendering of meshes and SDFs using geometry processing
-      techniques. Final project for 6.838, Shape Analysis.
-    link: "https://pencil-sketching.vercel.app/Pencil-Sketching.pdf"
-
-  - title: Time-Space Lower Bounds
-    date: 2021-05-06
-    summary: >
-      An technical exposition of Ran Raz's strong hardness result for learning
-      problems. Final project for CS 221, Advanced Computational Complexity.
-    link: /assets/pdf/Learning_Space_Cryptography.pdf
-
-  - title: 3-Inflatable Permutations
-    date: 2021-01-29
-    summary: >
-      Mathematics research paper, published in the Electronic Journal of
-      Combinatorics (E-JC).
-    link: "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf"
-
-  - title: Taint Analysis for Browser Fingerprinting
-    date: 2020-12-11
-    summary: >
-      Dynamic taint analysis for user privacy on the web. Final project for CS
-      263, Systems Security.
-    link: /assets/pdf/Browser_Fingerprinting.pdf
-
-  - title: Generative Music Modeling
-    date: 2020-12-08
-    summary: >
-      Composing music by annealed Langevin dynamics and noise-conditional score
-      networks. Final project for CS 252r, Advanced Topics in Programming
-      Languages and AI.
-    link: /assets/pdf/Generative_Music_Modeling.pdf
-
-  - title: Lorenz Attractor Bifurcations
-    date: 2020-11-23
-    summary: >
-      Presentation on chaos theory of the Lorenz system, local and global
-      bifurcations. Final project for Math 118r, Chaotic Dynamical Systems.
-    link: /assets/pdf/Lorenz_System_Bifurcations.pdf
-
-  - title: DeepCoder
-    date: 2020-10-15
-    summary: >
-      Seminar presentation on learned inductive program synthesis (published in
-      ICLR 2017) for CS 252r, Advanced Topics in Programming Languages and AI.
-    link: /assets/pdf/DeepCoder.pdf
-
-  - title: Compression-Based Generalization Bounds
-    date: 2020-05-14
-    summary: >
-      Survey of modern research in deep learning theory. Final project for CS
-      228, Computational Learning Theory.
-    link: /assets/pdf/Compression_Based_Generalization_Bounds.pdf
-
-  - title: Single Bidder Auctions
-    date: 2019-12-10
-    summary: >
-      Survey of research in mechanism design and optimal transport theory. Final
-      project for CS 223, Random Processes and Algorithms.
-    link: /assets/pdf/Single_Bidder_Multi_Item_Auctions.pdf
-
-  - title: On Quasirandom Permutations
-    date: 2018-05-20
-    summary: >
-      Talk introducing new forcing results on quasirandom permutations. This
-      solved an open problem in combinatorics.
-    link: "https://math.mit.edu/research/highschool/primes/materials/2018/conf/9-2%20Zhang.pdf"
-
-notes:
-  - title: "Stat 211: Statistical Inference"
-    date: 2021-12-01
-    summary: >
-      Graduate-level class discussing inference on statistical models,
-      frequentist and Bayesian perspectives.
-    link: /assets/pdf/Stat_211_Notes.pdf
-
-  - title: "CS 252r: PL Design Studio"
-    date: 2021-11-16
-    summary: >
-      Graduate seminar class exploring programming languages for verification,
-      differentiation, compilation, logic, etc.
-    link: /assets/pdf/CS_252r_Notes_PL_Studio.pdf
-
-  - title: "Math 132: Differential Topology"
-    date: 2021-04-21
-    summary: >
-      Smooth manifolds, transversality, intersection theory, differential forms,
-      Stokes' theorem, and cohomology.
-    link: /assets/pdf/Math_132_Notes.pdf
-
-  - title: "CS 252r: Programming Languages + AI"
-    date: 2020-12-10
-    summary: >
-      Graduate seminar class on topics at the intersection of programming
-      languages and artificial intelligence.
-    link: /assets/pdf/CS_252r_Notes.pdf
-
-  - title: "Stat 210: Probability"
-    date: 2020-12-03
-    summary: >
-      Graduate-level probability class providing foundational material for
-      statistics PhD students.
-    link: /assets/pdf/Stat_210_Notes.pdf
-
-  - title: F=ma Solutions Manual
-    date: 2020-10-23
-    summary: >
-      Instructive solutions for nine years of past F=ma physics competition
-      problems.
-    link: "https://pubs.aip.org/books/monograph/129/F-ma-Contests2011-2019-Solutions-Manual"
-
-  - title: Kinetic Tournaments
-    date: 2020-08-30
-    summary: >
-      A fast, kinetic data structure that offers flexibility, a simple
-      implementation, and interesting combinatorial analysis.
-    link: "https://codeforces.com/blog/entry/82094"
-
-  - title: "CS 228: Computational Learning Theory"
-    date: 2020-07-12
-    summary: >
-      Graduate-level class on computational learning theory taught by Leslie
-      Valiant, Turing award laureate.
-    link: /assets/pdf/CS_228_Notes.pdf
-
-  - title: "Math 55b: Analysis and Topology"
-    date: 2020-04-29
-    summary: >
-      The second semester of Math 55, a rigorous first-year math class.
-      Point-set and algebraic topology, real analysis, and complex analysis.
-    link: /assets/pdf/Math_55b_Notes.pdf
-
-  - title: "Math 55a: Abstract and Linear Algebra"
-    date: 2019-12-21
-    summary: >
-      The first semester of Math 55, a rigorous first-year math class. Group
-      theory, abstract linear algebra, and representation theory.
-    link: /assets/pdf/Math_55a_Notes.pdf
+      On the importance of maintaining curiosity over defaulting to acceptance,
+      and how this mindset shapes our approach to learning and growth.
+    link: https://alexwang0317.substack.com/p/pick-curiosity-not-acceptance?r=2httt3
