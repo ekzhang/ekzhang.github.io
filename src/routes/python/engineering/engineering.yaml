@@ -2,6 +2,6 @@ posts:
   - title: "Python's @override Decorator"
     date: 2024-12-03
     summary: >
-      Learn how Python 3.12's @override decorator prevents inheritance bugs 
-      and makes your code more maintainable.
+      Learn how Python 3.12's @override decorator prevents inheritance bugs  and
+      makes your code more maintainable.
     link: "/python/engineering/python-override-decorator"

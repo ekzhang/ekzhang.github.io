@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Install dependencies
         run: npm ci
@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: ''
+          BASE_PATH: ""
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './build'
+          path: "./build"
 
   deploy:
     environment:

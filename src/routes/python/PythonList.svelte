@@ -16,13 +16,13 @@
     <a
       href={item.link}
       class="block -mx-3 px-3 py-2 hover:bg-neutral-100 transition-colors"
-      target={item.link.startsWith('/') ? '_self' : '_blank'}
+      target={item.link.startsWith("/") ? "_self" : "_blank"}
       rel="noreferrer"
     >
       <div class="flex flex-col sm:flex-row sm:items-end mb-1.5">
         <div class="text-lg text-black">
           {item.title}
-          {#if !item.link.startsWith('/')}
+          {#if !item.link.startsWith("/")}
             <span class="text-neutral-400 text-sm ml-1">↗</span>
           {/if}
         </div>
@@ -36,4 +36,3 @@
     </a>
   {/each}
 </div>
-
