@@ -1,7 +1,13 @@
 posts:
-  - title: "Python's @override Decorator"
+  - title: "functools.partial"
     date: 2024-12-03
     summary: >
-      Learn how Python 3.12's @override decorator prevents inheritance bugs  and
+      functools.partial for elegant function composition 
+      and cleaner code.
+    link: "/python/engineering/python-functools-partial"
+  - title: "@override Decorator"
+    date: 2024-12-03
+    summary: >
+      @override decorator prevents inheritance bugs and
       makes your code more maintainable.
     link: "/python/engineering/python-override-decorator"

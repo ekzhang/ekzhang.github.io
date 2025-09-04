@@ -32,8 +32,8 @@
 </script>
 
 <Seo
-  title="Python's @override Decorator - Alex Wang"
-  description="Learn how Python 3.12's @override decorator prevents inheritance bugs and makes your code more maintainable"
+  title="@override Decorator - Alex Wang"
+  description="@override decorator prevents inheritance bugs and makes your code more maintainable"
 />
 
 <article class="layout-md py-12 mx-auto max-w-3xl px-6">
@@ -43,7 +43,7 @@
     >
   </div>
 
-  <h2 class="heading2">Python's @override Decorator</h2>
+  <h2 class="heading2">@override Decorator</h2>
 
   <div class="text-sm text-neutral-500 mb-8">December 3, 2024 • 8 min read</div>
 

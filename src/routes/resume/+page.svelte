@@ -22,14 +22,14 @@
   <h4 class="font-medium mt-4 mb-1">Coursework:</h4>
   <ul class="mb-4">
     <li>Deep Learning for NLP (CS 224n)</li>
-    <li>Linear Algebra and Matrix Theory (Math 113)</li>
-    <li>Machine Learning (CS229)</li>
-    <li>Reinforcement Learning (CS234)</li>
-    <li>Computer Organization and Systems (CS107)</li>
-    <li>Data Structure and Algorithms (CS106B)</li>
-    <li>Operating Systems (CS111)</li>
-    <li>Algorithms (CS161)</li>
-    <li>ML with Graphs (CS224w)</li>
+    <li>Linear Algebra and Matrix Theory (MATH 113)</li>
+    <li>Machine Learning (CS 229)</li>
+    <li>Reinforcement Learning (CS 234)</li>
+    <li>Computer Organization and Systems (CS 107)</li>
+    <li>Data Structure and Algorithms (CS 106B)</li>
+    <li>Operating Systems (CS 111)</li>
+    <li>Algorithms (CS 161)</li>
+    <li>ML with Graphs (CS 224w)</li>
     <li>Parallel Computing with CUDA/OpenMP/MPI (CME 213)</li>
   </ul>
 </section>
