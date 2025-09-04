@@ -6,7 +6,7 @@
   
   onMount(async () => {
     // Load Prism for syntax highlighting
-    if (typeof window !== 'undefined' && !window.Prism) {
+    if (typeof window !== 'undefined' && !(window as any).Prism) {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
       link.href = 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css';
@@ -19,7 +19,7 @@
         pythonScript.src = 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js';
         pythonScript.onload = () => {
           highlightLoaded = true;
-          window.Prism.highlightAll();
+          (window as any).Prism.highlightAll();
         };
         document.head.appendChild(pythonScript);
       };
