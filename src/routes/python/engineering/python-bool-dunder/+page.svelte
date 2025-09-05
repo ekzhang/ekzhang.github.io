@@ -32,7 +32,7 @@
 </script>
 
 <Seo
-  title="__bool__ Dunder - Alex Wang"
+  title="__bool__ - Alex Wang"
   description="Understanding Python's __bool__ dunder method for truthiness evaluation"
 />
 
@@ -43,9 +43,9 @@
     >
   </div>
 
-  <h1 class="text-3xl font-bold mb-4">__bool__ Dunder</h1>
+  <h1 class="text-3xl font-bold mb-4">__bool__</h1>
 
-  <div class="text-sm text-neutral-500 mb-8">December 3, 2024 • 6 min read</div>
+  <div class="text-sm text-neutral-500 mb-8">August 2, 2025 • 6 min read</div>
 
   <div class="text-lg text-neutral-700 mb-8 leading-relaxed">
     Understanding Python's __bool__ dunder method for truthiness evaluation in

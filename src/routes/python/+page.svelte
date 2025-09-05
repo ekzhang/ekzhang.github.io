@@ -11,7 +11,7 @@
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Python Engineering</h2>
+  <h2 class="heading2">Python Dev Notes</h2>
   <div class="border-b border-neutral-300 mb-6" />
   {#if engineeringData.posts && engineeringData.posts.length > 0}
     <PythonList data={engineeringData.posts} />

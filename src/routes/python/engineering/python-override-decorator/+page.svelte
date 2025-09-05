@@ -45,7 +45,7 @@
 
   <h2 class="heading2">@override Decorator</h2>
 
-  <div class="text-sm text-neutral-500 mb-8">December 3, 2024 • 8 min read</div>
+  <div class="text-sm text-neutral-500 mb-8">July 8, 2025 • 8 min read</div>
 
   <div class="text-lg text-neutral-700 mb-8 leading-relaxed">
     Python's @override decorator is a simple yet powerful tool to catch

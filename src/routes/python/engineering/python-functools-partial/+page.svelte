@@ -45,7 +45,7 @@
 
   <h1 class="text-3xl font-bold mb-4">functools.partial</h1>
 
-  <div class="text-sm text-neutral-500 mb-8">December 3, 2024 • 5 min read</div>
+  <div class="text-sm text-neutral-500 mb-8">July 20, 2025 • 5 min read</div>
 
   <div class="text-lg text-neutral-700 mb-8 leading-relaxed">
     Master Python's functools.partial for elegant function composition and
