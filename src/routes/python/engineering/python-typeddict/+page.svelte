@@ -58,10 +58,10 @@
 
     <pre><code class="language-python"># Example function
 def process_user(data: dict) -> None:
-    # we expect: {"id": int, "email": str (optional)}
-    print(f"User id = {data['id']}")
+    # we expect: {'{'}\"id\": int, \"email\": str (optional){'}'} 
+    print(f"User id = {'{'}data['id']{'}'}")
     if "email" in data:
-        print(f"Email = {data['email']}")</code></pre>
+        print(f"Email = {'{'}data['email']{'}'}")</code></pre>
 
     <p>
       For this case, instead of a dictionary or dataclass, the <code>TypedDict</code> would allow you to define a dictionary with specific keys and value types which allow you to specify both required and optional keys, which allow for stronger type checking during development.
@@ -74,13 +74,13 @@ class UserDict(TypedDict):
     email: NotRequired[str]    # now optional
 
 def process_user(data: UserDict) -> None:
-    print(f"User id = {data['id']}")
+    print(f"User id = {'{'}data['id']{'}'}")
     if "email" in data:
-        print(f"Email = {data['email']}")
+        print(f"Email = {'{'}data['email']{'}'}")
 
-process_user({"id": 42})  # ✅ ok, email optional
-process_user({"id": 42, "email": "alex@example.com"})  # ✅ ok
-process_user({"email": "oops"})  # ❌ type checker error: missing "id"</code></pre>
+process_user({'{'}\"id\": 42{'}'})  # ✅ ok, email optional
+process_user({'{'}\"id\": 42, \"email\": \"alex@example.com\"{'}'})  # ✅ ok
+process_user({'{'}\"email\": \"oops\"{'}'})  # ❌ type checker error: missing "id"</code></pre>
 
     <h2>Advantages of TypedDict</h2>
 
