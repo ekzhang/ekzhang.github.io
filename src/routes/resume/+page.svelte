@@ -96,8 +96,8 @@
     <li>
       I was the principal engineer for Modal's container runtime, the
       high-performance Rust system that executes Modal Functions. It handles
-      hardware differences across a cluster that spans multiple clouds (100,000
-      CPUs and 5,000 GPUs); while dealing with real-time, data-intensive
+      hardware differences across a cluster that spans multiple clouds (200,000
+      CPUs and 9,000 GPUs); while dealing with real-time, data-intensive
       workloads from thousands of customers.
     </li>
     <li>
@@ -124,6 +124,13 @@
     <li>
       For 3 years, was #1 committer, made technical decisions like adopting Rust
       and Svelte despite early skepticism and shaped the long-term direction.
+    </li>
+    <li>
+      Built
+      <a class="link" href="https://modal.com/blog/notebooks">Modal Notebooks</a
+      >, a high-performance hosted Jupyter Notebook with GPU kernels that start
+      in seconds. Includes sharing, collaborative editing, modern editor
+      features.
     </li>
   </Workplace>
 
