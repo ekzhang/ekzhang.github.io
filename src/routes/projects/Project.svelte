@@ -13,6 +13,7 @@
     lead: string;
     image: string;
     image_border?: boolean;
+    image_rounded?: boolean;
     subimages?: string[];
   };
 
@@ -60,6 +61,7 @@
           src={images[`../../projects/${data.image}`]?.default}
           alt="{data.title} preview image"
           class:border={data.image_border}
+          class:rounded-md={data.image_rounded}
         />
       </a>
     </div>

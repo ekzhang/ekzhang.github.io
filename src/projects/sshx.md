@@ -5,6 +5,7 @@ repo: ekzhang/sshx
 topics: ["Rust", "Svelte", "Systems"]
 lead: A secure web-based, collaborative terminal.
 image: sshx.png
+image_rounded: true
 ---
 
 sshx takes your terminal and shares it on the web. It works on screens of all
