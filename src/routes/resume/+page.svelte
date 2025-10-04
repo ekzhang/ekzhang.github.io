@@ -89,7 +89,7 @@
     title="Principal Engineer"
     company="Modal Labs"
     url="https://modal.com/"
-    dates="February 2022 – Current"
+    dates="February 2022 – October 2025"
     location="New York, NY"
   >
     <li>
