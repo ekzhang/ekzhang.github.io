@@ -86,19 +86,21 @@
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
-    title="Founding Engineer"
+    title="Principal Engineer"
     company="Modal Labs"
     url="https://modal.com/"
     dates="February 2022 – Current"
     location="New York, NY"
   >
-    <li>Founding team member (#4), currently lead Infrastructure Research.</li>
     <li>
-      I was the principal engineer for Modal's container runtime, the
-      high-performance Rust system that executes Modal Functions. It handles
-      hardware differences across a cluster that spans multiple clouds (200,000
-      CPUs and 9,000 GPUs); while dealing with real-time, data-intensive
-      workloads from thousands of customers.
+      Founding team member (#4), most senior engineer as we grew to 70 people.
+    </li>
+    <li>
+      I was the architect for Modal's container runtime, the high-performance
+      Rust system that executes Modal Functions. It handles hardware differences
+      across a cluster that spans multiple clouds (200,000 CPUs and 9,000 GPUs);
+      while dealing with real-time, data-intensive workloads from thousands of
+      customers.
     </li>
     <li>
       I developed Modal's high-throughput content-addressed file system, tiered
