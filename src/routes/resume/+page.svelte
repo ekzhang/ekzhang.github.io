@@ -93,8 +93,7 @@
     location="New York, NY"
   >
     <li>
-      Founding team member (#4), most senior engineer as Modal grew to 70+
-      people.
+      Founding team member (#4), took Modal to 70+ people and $1B valuation.
     </li>
     <li>
       I was the original author and architect for Modal's high-performance
