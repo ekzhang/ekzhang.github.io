@@ -20,7 +20,7 @@
   }
 
   .heading2 {
-    @apply text-black text-xl font-semibold mb-4;
+    @apply text-black text-xl font-semibold mb-6;
   }
 }
 

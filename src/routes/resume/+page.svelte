@@ -87,24 +87,25 @@
 
   <Workplace
     title="Principal Engineer"
-    company="Modal Labs"
+    company="Modal"
     url="https://modal.com/"
     dates="February 2022 – October 2025"
     location="New York, NY"
   >
     <li>
-      Founding team member (#4), most senior engineer as we grew to 70 people.
+      Founding team member (#4), most senior engineer as Modal grew to 70+
+      people.
     </li>
     <li>
-      I was the architect for Modal's container runtime, the high-performance
-      Rust system that executes Modal Functions. It handles hardware differences
-      across a cluster that spans multiple clouds (200,000 CPUs and 9,000 GPUs);
-      while dealing with real-time, data-intensive workloads from thousands of
-      customers.
+      I was the original author and architect for Modal's high-performance
+      container runtime in Rust. It runs on a cluster that spans across multiple
+      clouds (200,000 CPUs and 9,000 GPUs) and isolates many thousands of
+      customer workloads. This grew into a core system developed by a team of 16
+      people.
     </li>
     <li>
-      I developed Modal's high-throughput content-addressed file system, tiered
-      cache over petabytes of data, a novel <a
+      I developed Modal's content-addressed file system for container images,
+      tiered cache over petabytes of data, a novel <a
         class="link"
         href="https://modal.com/blog/serverless-http">serverless HTTP stack</a
       >, distributed
@@ -118,21 +119,21 @@
       >.
     </li>
     <li>
-      I was Modal's first product-focused engineer and designer. While building
+      I was also Modal's first product-focused engineer and designer. While
+      building
       <a class="link" href="https://modal.com">modal.com</a>, I developed a
       feeling for crafting interfaces to make complex systems legible. Mentored
       and grew a world-class product engineering team.
     </li>
     <li>
-      For 3 years, was #1 committer, made technical decisions like adopting Rust
-      and Svelte despite early skepticism and shaped the long-term direction.
-    </li>
-    <li>
       Built
       <a class="link" href="https://modal.com/blog/notebooks">Modal Notebooks</a
-      >, a high-performance hosted Jupyter Notebook with GPU kernels that start
-      in seconds. Includes sharing, collaborative editing, modern editor
-      features.
+      >, a modern cloud notebook with real-time collaboration and GPUs.
+    </li>
+    <li>
+      For 3.5+ years, was #1 committer, made decisions like adopting Rust and
+      Svelte despite early skepticism and shaped the long-term technical
+      direction.
     </li>
   </Workplace>
 
@@ -142,6 +143,7 @@
     url="https://prosper.org/"
     dates="January 2022"
     location="London, UK"
+    hiddenMode="always"
   >
     <li>
       Early-stage startup developing VR-teleoperated household robots. Worked
@@ -181,6 +183,7 @@
     url="https://jumptrading.com/"
     dates="June 2021 – August 2021"
     location="Chicago, IL"
+    hiddenMode="click"
   >
     <li>
       Won the intern trading strategies competition and rotated on a trading
@@ -199,6 +202,7 @@
     url="https://scale.com/"
     dates="December 2020 – January 2021"
     location="San Francisco, CA"
+    hiddenMode="click"
   >
     <li>
       Worked on machine learning infrastructure for a fast-growing startup using
@@ -218,6 +222,7 @@
     url="https://www.nvidia.com"
     dates="June 2020 – August 2020"
     location="Santa Clara, CA"
+    hiddenMode="click"
   >
     <li>
       Worked with the Applied Deep Learning Research (ADLR) group on
@@ -240,7 +245,7 @@
     url="https://pl.seas.harvard.edu/"
     dates="June 2020 – August 2020"
     location="Cambridge, MA"
-    defaultHidden
+    hiddenMode="always"
   >
     <li>
       Worked on a C++ compiler for
@@ -265,7 +270,7 @@
     url="https://www.predmed.org/"
     dates="December 2019 – June 2020"
     location="Boston, MA"
-    defaultHidden
+    hiddenMode="always"
   >
     <li>
       Conducted research in statistics & medical informatics advised by Ben Reis
@@ -281,7 +286,7 @@
     url="https://alphastar.academy/"
     dates="December 2017 – April 2020"
     location="Santa Clara, CA"
-    defaultHidden
+    hiddenMode="always"
   >
     <li>
       Taught advanced algorithms and data structures (USACO Platinum) and
