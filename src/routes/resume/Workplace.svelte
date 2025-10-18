@@ -13,7 +13,7 @@
 
 {#if hiddenMode !== "always"}
   <div
-    class="mb-8"
+    class="my-10"
     class:cursor-pointer={hidden}
     on:click={() => (hidden = false)}
     on:keypress={() => {}}
@@ -27,7 +27,10 @@
       <span class="whitespace-nowrap">{location}</span>
     </p>
     {#if !hidden}
-      <ul class="list-disc pl-7 marker:text-neutral-400" in:fade|local>
+      <ul
+        class="list-disc pl-7 marker:text-neutral-400 space-y-1"
+        in:fade|local
+      >
         <slot />
       </ul>
     {/if}

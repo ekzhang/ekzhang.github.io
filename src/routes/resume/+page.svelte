@@ -9,81 +9,7 @@
 />
 
 <section class="layout-md py-12">
-  <h2 class="heading2">Education</h2>
-
-  <div class="mb-4">
-    <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">Harvard University</h3>
-      <div class="text-neutral-500 mb-0.5">2022 — 2023</div>
-    </div>
-    <p class="byline">S.M. in Computer Science</p>
-  </div>
-
-  <div class="mb-4">
-    <div class="flex justify-between items-end">
-      <h3 class="text-black text-lg">Harvard University</h3>
-      <div class="text-neutral-500 mb-0.5">2019 — 2023</div>
-    </div>
-    <p class="byline">A.B. in Computer Science and Mathematics</p>
-  </div>
-
-  <p>Graduated magna cum laude, with highest honors in field.</p>
-
-  <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
-  <ul>
-    <li>
-      TF for CS 153 (Compilers), Fall 2021 —
-      <em>Certificate of Distinction in Teaching</em>
-    </li>
-    <li>
-      TA for
-      <a class="link" href="https://sgi.mit.edu/"
-        >Summer Geometry Institute (SGI)</a
-      >, Summer 2021
-    </li>
-    <li>
-      TF for CS 161 (Operating Systems), Spring 2021 —
-      <em>Certificate of Distinction in Teaching</em>
-    </li>
-    <li>TF for CS 182 (Artificial Intelligence), Fall 2020</li>
-    <li>
-      TF for CS 124 (Data Structures and Algorithms), Spring 2020 —
-      <em>Commendation for Extraordinary Teaching</em>
-    </li>
-  </ul>
-
-  <h4 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h4>
-  <ul>
-    <li>Advanced Computational Complexity (CS 221)</li>
-    <li>Random Processes and Algorithms (CS 223)</li>
-    <li>Computational Learning Theory (CS 228)</li>
-    <li>Advanced Computer Networks (CS 243)</li>
-    <li>Advanced Topics in PL/AI (CS 252r)</li>
-    <li>Advanced Topics in PL Design (CS 252r)</li>
-    <li>Systems Security (CS 263)</li>
-    <li>Distributed Systems Engineering (MIT 6.824)</li>
-    <li>Shape Analysis (MIT 6.838)</li>
-    <li>Robotic Manipulation (MIT 6.843)</li>
-    <li>Probability (Stat 210)</li>
-    <li>Statistical Inference (Stat 211)</li>
-  </ul>
-
-  <h4 class="font-medium mt-4 mb-1">Undergraduate technical coursework:</h4>
-  <ul>
-    <li>Compilers (CS 153)</li>
-    <li>Operating Systems (CS 161)</li>
-    <li>Computer Graphics (MIT 6.837)</li>
-    <li>Nanotechnology Fabrication (MIT 6.2540)</li>
-    <li>Chaotic Dynamical Systems (Math 118r)</li>
-    <li>Number Fields (Math 129)</li>
-    <li>Differential Topology (Math 132)</li>
-    <li>Honors Abstract Algebra (Math 55a)</li>
-    <li>Honors Real and Complex Analysis (Math 55b)</li>
-  </ul>
-</section>
-
-<section class="layout-md py-12">
-  <h2 class="heading2">Professional Experience</h2>
+  <h2 class="heading2">Professional Work</h2>
 
   <Workplace
     title="Member of Technical Staff"
@@ -91,12 +17,7 @@
     url="https://thinkingmachines.ai/"
     dates="October 2025 – Current"
     location="New York, NY"
-  >
-    <li>
-      I have a pretty unusual hiring story here. Anyway, lots of work to do
-      coming up!
-    </li>
-  </Workplace>
+  />
 
   <Workplace
     title="Principal Engineer"
@@ -310,6 +231,80 @@
       programs and online courses.
     </li>
   </Workplace>
+</section>
+
+<section class="layout-md py-12">
+  <h2 class="heading2">Education</h2>
+
+  <div class="mb-4">
+    <div class="flex justify-between items-end">
+      <h3 class="text-black text-lg">Harvard University</h3>
+      <div class="text-neutral-500 mb-0.5">2022 — 2023</div>
+    </div>
+    <p class="byline">S.M. in Computer Science</p>
+  </div>
+
+  <div class="mb-4">
+    <div class="flex justify-between items-end">
+      <h3 class="text-black text-lg">Harvard University</h3>
+      <div class="text-neutral-500 mb-0.5">2019 — 2023</div>
+    </div>
+    <p class="byline">A.B. in Computer Science and Mathematics</p>
+  </div>
+
+  <p>Graduated magna cum laude, with highest honors in field.</p>
+
+  <h4 class="font-medium mt-4 mb-1">Teaching:</h4>
+  <ul>
+    <li>
+      TF for CS 153 (Compilers), Fall 2021 —
+      <em>Certificate of Distinction in Teaching</em>
+    </li>
+    <li>
+      TA for
+      <a class="link" href="https://sgi.mit.edu/"
+        >Summer Geometry Institute (SGI)</a
+      >, Summer 2021
+    </li>
+    <li>
+      TF for CS 161 (Operating Systems), Spring 2021 —
+      <em>Certificate of Distinction in Teaching</em>
+    </li>
+    <li>TF for CS 182 (Artificial Intelligence), Fall 2020</li>
+    <li>
+      TF for CS 124 (Data Structures and Algorithms), Spring 2020 —
+      <em>Commendation for Extraordinary Teaching</em>
+    </li>
+  </ul>
+
+  <h4 class="font-medium mt-4 mb-1">Graduate-level technical coursework:</h4>
+  <ul>
+    <li>Advanced Computational Complexity (CS 221)</li>
+    <li>Random Processes and Algorithms (CS 223)</li>
+    <li>Computational Learning Theory (CS 228)</li>
+    <li>Advanced Computer Networks (CS 243)</li>
+    <li>Advanced Topics in PL/AI (CS 252r)</li>
+    <li>Advanced Topics in PL Design (CS 252r)</li>
+    <li>Systems Security (CS 263)</li>
+    <li>Distributed Systems Engineering (MIT 6.824)</li>
+    <li>Shape Analysis (MIT 6.838)</li>
+    <li>Robotic Manipulation (MIT 6.843)</li>
+    <li>Probability (Stat 210)</li>
+    <li>Statistical Inference (Stat 211)</li>
+  </ul>
+
+  <h4 class="font-medium mt-4 mb-1">Undergraduate technical coursework:</h4>
+  <ul>
+    <li>Compilers (CS 153)</li>
+    <li>Operating Systems (CS 161)</li>
+    <li>Computer Graphics (MIT 6.837)</li>
+    <li>Nanotechnology Fabrication (MIT 6.2540)</li>
+    <li>Chaotic Dynamical Systems (Math 118r)</li>
+    <li>Number Fields (Math 129)</li>
+    <li>Differential Topology (Math 132)</li>
+    <li>Honors Abstract Algebra (Math 55a)</li>
+    <li>Honors Real and Complex Analysis (Math 55b)</li>
+  </ul>
 </section>
 
 <section class="layout-md py-12">
