@@ -86,6 +86,19 @@
   <h2 class="heading2">Professional Experience</h2>
 
   <Workplace
+    title="Member of Technical Staff"
+    company="Thinking Machines"
+    url="https://thinkingmachines.ai/"
+    dates="October 2025 – Current"
+    location="New York, NY"
+  >
+    <li>
+      I have a pretty unusual hiring story here. Anyway, lots of work to do
+      coming up!
+    </li>
+  </Workplace>
+
+  <Workplace
     title="Principal Engineer"
     company="Modal"
     url="https://modal.com/"

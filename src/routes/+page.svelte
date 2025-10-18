@@ -63,8 +63,11 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-      I recently left a job at <a class="link" href="https://modal.com">Modal</a
-      >, a new cloud computing platform.
+      I work at <a class="link" href="https://thinkingmachines.ai/"
+        >Thinking Machines</a
+      >
+      and recently left a job at
+      <a class="link" href="https://modal.com">Modal</a>.
     </p>
 
     <p>
