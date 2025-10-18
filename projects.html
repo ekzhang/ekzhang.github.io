@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout.097b5be3.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/_page.ae31a64c.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.fdef2770.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.5437a47d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c54bf88b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5b92fc77.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.svelte.2da5a240.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.8b5413c5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.d6069d7a.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/_layout.ts.b8f0fca0.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout.43150cb7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/projects-page.svelte.62400b96.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Icon.c770d445.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Seo.81a06601.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/utils.7d7f714d.js"><title>Eric Zhang – Projects</title><!-- HEAD_svelte-1xw0bo2_START --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-156644599-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-156644599-1");
+    </script><!-- HEAD_svelte-1xw0bo2_END --><!-- HEAD_svelte-1fbmuei_START --><meta name="description" content="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."><meta property="og:title" content="Eric Zhang – Projects"><meta property="og:description" content="Open-source software projects in systems, web development, computer graphics, music, programming languages, machine learning, and more."><meta property="og:image" content="https://www.ekzhang.com/assets/images/hudson-landscape.jpg"><meta name="twitter:card" content="summary_large_image"><!-- HEAD_svelte-1fbmuei_END -->
+  </head>
+  <body>
+    <div>
+
+
+
+
+<header class="layout-md flex justify-between items-start" data-sveltekit-noscroll data-sveltekit-preload-code="eager"><h1 class="font-bold text-black text-2xl mb-6"><a href="/">Eric Zhang</a>
+    <span class="page-title svelte-bgdsr9"><span class="text-neutral-400 svelte-bgdsr9">—</span>
+        Projects</span></h1>
+  <nav class="svelte-bgdsr9"><a href="/projects" class="hover:text-black transition-colors svelte-bgdsr9 text-black">projects
+      </a><a href="/writing" class="hover:text-black transition-colors svelte-bgdsr9">writing
+      </a><a href="/resume" class="hover:text-black transition-colors svelte-bgdsr9">resume
+      </a></nav>
+</header>
+
+<main>
+
+<section class="layout-md py-12"><h2 class="heading2">Open Source</h2>
+
+  <p class="text-lg mb-4">I view building software in the open as a mode of <em class="font-serif text-[110%] leading-[100%]">creative exploration</em>. It lets me quickly act on inspiration, delve into new topics, and make
+    tools that improve people&#39;s lives.
+  </p>
+
+  <p class="text-lg mb-4">You&#39;ll see that I particularly like programming languages, distributed
+    systems, machine learning, computer graphics, music, and art.
+  </p>
+
+  <p class="text-lg">If you find something interesting,
+    <a class="link" href="mailto:ekzhang1@gmail.com?subject=Software%20Projects">let me know</a>!
+  </p></section>
+
+<div class="bg-gray-900 text-neutral-200 dark"><section class="layout-md py-12"><h2 class="heading2 text-white">Table of Contents</h2>
+    <ul class="sm:columns-2"><li><a class="link" href="#library">Algorithm and Data Structure Library</a>
+        </li><li><a class="link" href="#bore">Bore – Localhost Tunnels</a>
+        </li><li><a class="link" href="#game-of-life">Canvas Hashlife</a>
+        </li><li><a class="link" href="#char-rnn-keras">Char-RNN Keras</a>
+        </li><li><a class="link" href="#classes-wtf">classes.wtf</a>
+        </li><li><a class="link" href="#wkspace">Competitive Programming Workspace</a>
+        </li><li><a class="link" href="#composing-studio">Composing Studio</a>
+        </li><li><a class="link" href="#crepe">Crepe – Logic Programming in Rust</a>
+        </li><li><a class="link" href="#dispict">Dispict</a>
+        </li><li><a class="link" href="#fastseg">Fast Semantic Segmentation</a>
+        </li><li><a class="link" href="#graphics-workshop">Graphics Workshop</a>
+        </li><li><a class="link" href="#vae-cnn-mnist">Handwriting Generator</a>
+        </li><li><a class="link" href="#inline-sql">Inline SQL</a>
+        </li><li><a class="link" href="#julia-fractal">Julia Fractal Renderers</a>
+        </li><li><a class="link" href="#langevin-music">Langevin Dynamics for Composition</a>
+        </li><li><a class="link" href="#rpt">Path Tracer</a>
+        </li><li><a class="link" href="#sketching">Pencil Sketch Rendering</a>
+        </li><li><a class="link" href="#percival">Percival</a>
+        </li><li><a class="link" href="#triangulate">Polygon Triangulation with Holes</a>
+        </li><li><a class="link" href="#harmony">Procedural Harmony</a>
+        </li><li><a class="link" href="#redis-rope">Redis Rope</a>
+        </li><li><a class="link" href="#rushlight">Rushlight</a>
+        </li><li><a class="link" href="#rustpad">Rustpad</a>
+        </li><li><a class="link" href="#setwithfriends">Set with Friends</a>
+        </li><li><a class="link" href="#ssh-hypervisor">ssh-hypervisor</a>
+        </li><li><a class="link" href="#sshx">sshx</a>
+        </li><li><a class="link" href="#gravity">Universal Gravity Simulator</a>
+        </li><li><a class="link" href="#ukanren-rs">µKanren-rs</a>
+        </li></ul></section></div>
+
+<div class="bg-neutral-50 border-b border-neutral-200 py-4"><div class="flex justify-center space-x-6"><button class="svelte-1qrsmpk active"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-calendar-days mr-1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line><path d="M8 14h.01"></path><path d="M12 14h.01"></path><path d="M16 14h.01"></path><path d="M8 18h.01"></path><path d="M12 18h.01"></path><path d="M16 18h.01"></path></svg> by Date
+    </button>
+    <button class="svelte-1qrsmpk"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star mr-1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg> by Stars
+    </button></div></div>
+
+<section class="py-10" id="ssh-hypervisor"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">ssh-hypervisor</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2025</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/ssh-hypervisor/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Go</div><div class="pill svelte-1d8a62h">Systems</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Lightweight, per-user virtual machines that start as you SSH in.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Just like SSH, but each user gets their own Firecracker microVM. ssh-hypervisor
+is a single binary that spins up tiny Linux VMs on demand when receiving a
+connection—my little “SimCity for VMs.” I deployed it on a tiny instance with
+nested KVM virtualization.</p>
+<p>This was a fun weekend project, but it hints at a simple building block for
+per-user sandboxes and lightweight VM provisioning via SSH.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/ssh-hypervisor" class="link">GitHub</a>,
+<a rel="external" href="https://ekzhang.substack.com/p/ssh-hypervisor-simcity-for-vms" class="link">Worklog</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/ssh-hypervisor.b8996536.png"><img src="/_app/immutable/assets/ssh-hypervisor.b8996536.png" alt="ssh-hypervisor preview image" class="rounded-md"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="sshx"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">sshx</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">November 2023</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/sshx/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Svelte</div><div class="pill svelte-1d8a62h">Systems</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A secure web-based, collaborative terminal.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>sshx takes your terminal and shares it on the web. It works on screens of all
+sizes. Create new windows, resize, drag and drop, and see other people’s cursors
+as they type, with live output. Everything is end-to-end encrypted over a
+low-latency global server mesh.</p>
+<p>This was the synthesis of two years of planning, development and
+experimentation. The result is a unique software artifact. It combines work as a
+solo engineer, crafting a complex, performant streaming system, and as a
+designer of deeply collaborative software.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/sshx" class="link">GitHub</a>, <a rel="external" href="https://sshx.io" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/sshx.ea086053.png"><img src="/_app/immutable/assets/sshx.ea086053.png" alt="sshx preview image" class="rounded-md"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="rushlight"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Rushlight</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">June 2023</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/rushlight/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">TypeScript</div><div class="pill svelte-1d8a62h">Systems</div><div class="pill svelte-1d8a62h">Redis</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Collaborative code editors that run on your own infrastructure.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Rushlight is my take on the <em>essence</em> of a persistent, collaborative text editor
+based on operational transformation, as a library you would embed in a larger
+app.</p>
+<p>It supports multiple real-time documents, with live cursors, based on
+CodeMirror 6. The backend is stateless, and you bring your own transport — even
+a boring HTTP handler works. There aren’t any proprietary gadgets or opaque
+configurations. It’s just a distributed data structure in its purest pragmatic
+form.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/rushlight" class="link">GitHub</a>,
+<a rel="external" href="https://rushlight.up.railway.app/" class="link">Demo</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/rushlight.7db2943a.jpg"><img src="/_app/immutable/assets/rushlight.7db2943a.jpg" alt="Rushlight preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="dispict"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Dispict</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">November 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/dispict/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Svelte</div><div class="pill svelte-1d8a62h">Art</div><div class="pill svelte-1d8a62h">Vision</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Creative aesthetics tool to discover art museums.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Design a growing artistic exhibit of your own making, with semantic search
+powered by OpenAI CLIP. Bring your own labels and context.</p>
+<p>Creativity and curiosity require associative thinking. What if computers could
+connect us with masterpieces made by artists of the past? Dispict is a new way
+to experience the Harvard Art Museums’ online collection (containing over
+200,000 digitized works) through language-image machine learning models, helping
+you curate your own personalized galleries.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/dispict" class="link">GitHub</a>,
+<a rel="external" href="https://dispict.com" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/dispict.6a5cd3bd.jpg"><img src="/_app/immutable/assets/dispict.6a5cd3bd.jpg" alt="Dispict preview image" class="border"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="inline-sql"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Inline SQL</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">October 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/inline-sql/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Programming Languages</div><div class="pill svelte-1d8a62h">Databases</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Weaving relational queries into the fabric of Python.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>The <code>inline-sql</code> library provides a simple embedded language for writing SQL in
+Python programs. Operations run directly within the calling process, and they
+execute on Pandas dataframes. Local variables are automatically interpolated as
+parameters.</p>
+<p>This is implemented as a small wrapper around
+<a rel="external" href="https://github.com/duckdb/duckdb" class="link">DuckDB</a>, so it is
+<a rel="external" href="https://duckdb.org/2021/05/14/sql-on-pandas.html" class="link">extremely fast</a>. From my own
+experimental perspective, the intent of the project was to see whether we can
+usefully and ergonomically embed declarative, relational query languages within
+general-purpose media.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/inline-sql" class="link">GitHub</a>,
+<a rel="external" href="https://pypi.org/project/inline-sql/" class="link">PyPI</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/inline-sql.509c1895.png"><img src="/_app/immutable/assets/inline-sql.509c1895.png" alt="Inline SQL preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="classes-wtf"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">classes.wtf</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">August 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/classes.wtf/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Go</div><div class="pill svelte-1d8a62h">TypeScript</div><div class="pill svelte-1d8a62h">Svelte</div><div class="pill svelte-1d8a62h">Systems</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A course catalog with extremely fast full-text search.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Harvard has many course search websites, but none of them are good. This project
+is an attempt to take the problem more seriously: write high-performance
+software and set great defaults so that people can get better, more useful
+suggestions, 100x faster.</p>
+<p>Classes.wtf is a custom, distributed course search engine that focuses on speed
+and quality of results. The goal is for the entire {request, computation,
+response, and render} pipeline to take under 30 milliseconds. I built it in a
+weekend out of personal annoyance and launched a week later; it’s now pretty
+popular among students at my school.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/classes.wtf" class="link">GitHub</a>,
+<a rel="external" href="https://classes.wtf" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/classes-wtf.8c2777c6.png"><img src="/_app/immutable/assets/classes-wtf.8c2777c6.png" alt="classes.wtf preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="redis-rope"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Redis Rope</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">July 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/redis-rope/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Zig</div><div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Systems</div><div class="pill svelte-1d8a62h">Algorithms</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Fast native data type for manipulating large strings in Redis.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><code>redis-rope</code> is a fast and versatile
+<a rel="external" href="https://en.wikipedia.org/wiki/Rope_(data_structure)" class="link">rope</a> data type for
+large strings in <a rel="external" href="https://redis.io" class="link">Redis</a>, distributed as a native
+<a rel="external" href="https://redis.io/docs/reference/modules/" class="link">module</a>. It’s primarily written in
+Zig and tested with Rust.</p>
+<p>The ropes in this module are backed by
+<a rel="external" href="https://en.wikipedia.org/wiki/Splay_tree" class="link">splay trees</a>, which are a
+self-adjusting data structure that has logarithmic amortized worst-case
+performance, while recently-accessed indices are also quick to access in
+subsequent operations. Each splay tree node stores between 64 and 127 bytes of
+data.</p>
+<p>More than just being theoretically interesting, this module also tries to be
+somewhat <em>practical</em> by caring about safety, correctness, and speed. It
+approaches the performance of ordinary strings for simple operations and is
+hundreds of times faster for complex operations.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/redis-rope" class="link">GitHub</a>,
+<a rel="external" href="https://github.com/ekzhang/redis-rope/releases" class="link">Releases</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/redis-rope.e1e2ba4e.svg"><img src="/_app/immutable/assets/redis-rope.e1e2ba4e.svg" alt="Redis Rope preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="bore"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Bore – Localhost Tunnels</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">April 2022</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/bore/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Systems</div><div class="pill svelte-1d8a62h">CLI</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A modern, simple TCP tunnel in 400 lines of Rust.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><code>bore</code> is a minimal CLI tool that exposes local ports to a remote server,
+bypassing standard NAT connection firewalls. That’s all it does: no more, and no
+less.</p>
+<p>With a single binary, you can expose any number of local TCP ports to the public
+internet at a specified remote server address. There is a public instance of the
+tunneling server running at <code>bore.pub</code>, available for anyone to use, similar to
+<a rel="external" href="https://ngrok.com/" class="link">ngrok</a> or
+<a rel="external" href="https://github.com/localtunnel/localtunnel" class="link">localtunnel</a>. It’s also very easy
+to host your own server with a single <code>bore server</code> command in the same binary
+executable, with optional authentication.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/bore" class="link">GitHub</a>,
+<a rel="external" href="https://crates.io/crates/bore-cli" class="link">Crates.io</a>,
+<a rel="external" href="https://docs.rs/bore-cli" class="link">Documentation</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/bore.c871aed0.png"><img src="/_app/immutable/assets/bore.c871aed0.png" alt="Bore – Localhost Tunnels preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="percival"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Percival</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">November 2021</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/percival/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Svelte</div><div class="pill svelte-1d8a62h">Datalog</div><div class="pill svelte-1d8a62h">Visualization</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Web-based, reactive Datalog notebooks.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><a rel="external" href="https://percival.ink/" class="link">Percival</a> is a <strong>declarative data query and
+visualization language</strong>. It provides a reactive, web-based notebook environment
+for exploring complex datasets, producing interactive graphics, and sharing
+results.</p>
+<p>Percival combines the flexibility of
+<a rel="external" href="https://en.wikipedia.org/wiki/Datalog" class="link"><em>Datalog</em></a> as a query language for
+relational data with the beauty of
+<a rel="external" href="https://observablehq.com/@observablehq/plot" class="link"><em>exploratory visualization grammars</em></a>.
+These declarative components interact through a reactive dataflow system.
+Because Percival uses web technologies (including Web Workers for multithreaded,
+sandboxed execution), fully-interactive notebooks can be shared with anyone on
+the Internet, making data analyses more tangible to others.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/percival" class="link">GitHub</a>,
+<a rel="external" href="https://percival.ink/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/percival.a6115ad8.png"><img src="/_app/immutable/assets/percival.a6115ad8.png" alt="Percival preview image" class="border"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="composing-studio"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Composing Studio</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2021</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/composing.studio/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">TypeScript</div><div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Music</div><div class="pill svelte-1d8a62h">React</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Collaborative music composition for everyone.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><em>Composing Studio</em> is a free and easy-to-use online music notation editor that
+lets anyone collaborate in real time on short musical pieces. To use it, just go
+to <a rel="external" href="https://composing.studio/" class="link">composing.studio</a> in your browser, create a new
+session, and share the link with other musicians! There’s no setup or
+installation required. You’ll be able to typeset musical notation while seeing
+each other’s work in real time (just like Google Docs), with instant sheet music
+rendering and live audio playback.</p>
+<p>This project originated at <a rel="external" href="https://hackmit.org/" class="link">HackMIT 2021</a> (we won a grand
+prize), where I pitched the idea and formed a team of four programmer-musicians.
+Although we hadn’t previously known each other, we all shared the same goal of
+exploring collaborative music with the global community.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/composing.studio" class="link">GitHub</a>,
+<a rel="external" href="https://composing.studio/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/composing-studio.9747e7e4.png"><img src="/_app/immutable/assets/composing-studio.9747e7e4.png" alt="Composing Studio preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="ukanren-rs"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">µKanren-rs</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2021</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/ukanren-rs/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Programming Languages</div><div class="pill svelte-1d8a62h">Systems</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A featherweight relational programming language.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This is a Rust implementation of µKanren, a very minimal language in the
+miniKanren family. See the original Scheme implementation
+<a rel="external" href="http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf" class="link">here</a> for
+reference. Similar to how functional programming focuses on functions as the
+core unit of abstraction, relational programming aims to represent common
+mathematical concepts as <em>logical relations</em>.</p>
+<p>The library was originally implemented as an exercise for a graduate programming
+languages design seminar at Harvard, but I made the code available to the open
+source community as a Rust crate.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/ukanren-rs" class="link">GitHub</a>,
+<a rel="external" href="https://crates.io/crates/ukanren" class="link">Crates.io</a>,
+<a rel="external" href="https://docs.rs/ukanren" class="link">Documentation</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/ukanren-rs.b09debb9.png"><img src="/_app/immutable/assets/ukanren-rs.b09debb9.png" alt="µKanren-rs preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="rustpad"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Rustpad</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">June 2021</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/rustpad/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Systems</div><div class="pill svelte-1d8a62h">TypeScript</div><div class="pill svelte-1d8a62h">React</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A self-hosted online collaborative code editor.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Rustpad is an efficient and minimal collaborative text editor based on the
+<em>operational transformation</em> algorithm. It lets users collaborate in real time
+while writing code in their browser. Rustpad is completely self-hosted and fits
+in a tiny Docker image, no database required.</p>
+<p>Architecturally, client-side code communicates via WebSocket with a central
+server that stores in-memory data structures. This makes the editor very fast,
+allows us to avoid provisioning a database, and makes testing much easier. It
+demonstrates the power of distributed systems and concurrent network
+programming, designing with consideration for the entire stack.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/rustpad" class="link">GitHub</a>,
+<a rel="external" href="https://rustpad.io/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/rustpad.2cbc1bb1.png"><img src="/_app/immutable/assets/rustpad.2cbc1bb1.png" alt="Rustpad preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="sketching"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Pencil Sketch Rendering</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">May 2021</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/sketching/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">OpenGL</div><div class="pill svelte-1d8a62h">Graphics</div><div class="pill svelte-1d8a62h">Geometry</div><div class="pill svelte-1d8a62h">Algorithms</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Geometry processing for real-time pencil sketching.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This research project explores the task of drawing 3D objects, either triangle
+meshes or implicitly represented as signed distance fields (SDFs), in the art
+style of a pencil sketch. We review, implement, and extend existing methods with
+geometry processing techniques.</p>
+<p>Our primary contribution is a new scale-invariant algorithm for estimating
+surface curvatures of an SDF within the graphics pipeline, which was a
+previously unexplored topic. This algorithm has the advantage of enabling
+real-time rendering of dynamic geometries at arbitrary scales (modeled by
+implicit functions), without the noise sensitivity of mesh-based methods.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/sketching" class="link">GitHub</a>,
+<a rel="external" href="https://pencil-sketching.vercel.app/" class="link">Website</a>,
+<a rel="external" href="https://pencil-sketching.vercel.app/Pencil-Sketching.pdf" class="link">Paper</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/sketching.8c77a336.png"><img src="/_app/immutable/assets/sketching.8c77a336.png" alt="Pencil Sketch Rendering preview image" class="border"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="graphics-workshop"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Graphics Workshop</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">April 2021</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/graphics-workshop/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">OpenGL</div><div class="pill svelte-1d8a62h">Graphics</div><div class="pill svelte-1d8a62h">Shaders</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Learn computer graphics by writing GPU shaders!</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This workshop contains a selection of self-guided projects designed to teach the
+basics of computer graphics. Each project introduces an important graphics
+technique that is extensively used in real-world applications. The code is
+designed to run in real time on modern GPUs, without requiring any extra
+software. I wrote this when frustrated with the lack of proper documentation and
+simple code examples for GPU shaders.</p>
+<p>The topics include fragment shaders
+(<a rel="external" href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language" class="link">GLSL</a>), procedural
+texture generation, rasterization, lighting calculations, and real-time ray
+tracing. I hosted a live version of this workshop at Harvard, and it has been
+used by thousands of self-learners after gaining popularity in the
+<a rel="external" href="https://www.reddit.com/r/gamedev/" class="link">/r/gamedev</a> community.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/graphics-workshop" class="link">GitHub</a>,
+<a rel="external" href="https://www.ekzhang.com/graphics-workshop/" class="link">Deployment</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/graphics-workshop.8c21b2ee.png"><img src="/_app/immutable/assets/graphics-workshop.8c21b2ee.png" alt="Graphics Workshop preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="rpt"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Path Tracer</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">December 2020</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/rpt/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Graphics</div><div class="pill svelte-1d8a62h">Rendering</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A physically-based path tracer in Rust.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This a physically based, CPU-only rendering engine written in Rust. It
+implements a Monte Carlo path tracing algorithm for global illumination. There’s
+a lot of features, including k-d tree mesh acceleration, physical material
+properties (microfacet BSDF with multiple importance sampling), HDRI environment
+maps, OBJ/MTL/STL files, depth of field, and particle physics simulation.</p>
+<p>It’s also parallelized with <a rel="external" href="https://github.com/rayon-rs/rayon" class="link">rayon</a> and
+available as a library on <a rel="external" href="https://crates.io/" class="link">crates.io</a>. The entire source
+code, including code for the example images and more, is very short (~3K SLOC).
+We’re still looking to extend it with bidirectional path tracing and other
+features.</p>
+<p>This won top project out of 100 students in MIT’s computer graphics class
+(6.837, Fall 2020).</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/rpt" class="link">GitHub</a>,
+<a rel="external" href="https://crates.io/crates/rpt" class="link">Crates.io</a>,
+<a rel="external" href="https://docs.rs/rpt" class="link">Documentation</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/rpt.fb795885.jpg"><img src="/_app/immutable/assets/rpt.fb795885.jpg" alt="Path Tracer preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="langevin-music"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Langevin Dynamics for Composition</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">November 2020</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/langevin-music/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Machine Learning</div><div class="pill svelte-1d8a62h">Music</div><div class="pill svelte-1d8a62h">Transformers</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Generative modeling of Bach chorales by gradient estimation.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This research project introduces a new generative model for music composition,
+based on annealed Langevin dynamics and a noise-conditional score matching
+algorithm using transformers. Unlike implicit models such as GANs, this learns
+an explicit distribution of the input data.</p>
+<p>We study if Langevin dynamics and score matching can combine the controllability
+of Markov chain Monte Carlo (MCMC) methods with the global view and fast
+convergence of stochastic gradient descent, to produce high-quality, structured
+musical compositions.</p>
+<p>Our contribution is to look in the direction of designing generative deep
+learning models for music that strongly <em>avoid local minima</em>, while <em>retaining
+controllability</em>.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/langevin-music" class="link">GitHub</a>,
+<a rel="external" href="https://www.ekzhang.com/assets/pdf/Generative_Music_Modeling.pdf" class="link">Paper</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/langevin-music.66e4579e.png"><img src="/_app/immutable/assets/langevin-music.66e4579e.png" alt="Langevin Dynamics for Composition preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="crepe"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Crepe – Logic Programming in Rust</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2020</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/crepe/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Rust</div><div class="pill svelte-1d8a62h">Programming Languages</div><div class="pill svelte-1d8a62h">Datalog</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Fast, compiled Datalog for static analysis, with Rust integration.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><em>Crepe</em> is a library that allows you to write declarative logic programs in
+Rust, with a <a rel="external" href="https://en.wikipedia.org/wiki/Datalog" class="link">Datalog</a>-like syntax. It
+provides a procedural macro that generates efficient, safe code and
+interoperates seamlessly with Rust programs.</p>
+<p>Inspired by the power of <a rel="external" href="https://souffle-lang.github.io/" class="link">Souffle</a> and
+<a rel="external" href="https://github.com/HarvardPL/formulog" class="link">Formulog</a>, this project is unique in
+enabling safe integration of arbitrary functions from the host language (Rust)
+within compiled Horn clauses. It also includes many features of modern Datalog
+implementations: stratified negation, semi-naive evaluation, and automatic index
+generation.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/crepe" class="link">GitHub</a>,
+<a rel="external" href="https://crates.io/crates/crepe" class="link">Crates.io</a>,
+<a rel="external" href="https://docs.rs/crepe" class="link">Documentation</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/crepe.9cd3565e.png"><img src="/_app/immutable/assets/crepe.9cd3565e.png" alt="Crepe – Logic Programming in Rust preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="fastseg"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Fast Semantic Segmentation</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">August 2020</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/fastseg/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Machine Learning</div><div class="pill svelte-1d8a62h">Vision</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">State-of-the-art, real-time semantic segmentation with MobileNetV3.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>While working at Nvidia, I open sourced PyTorch code and pretrained weights for
+real-time semantic segmentation of street images. The goal was to make it easy
+for anyone to use cutting-edge machine learning algorithms for semantic
+segmentation tasks, especially in embedded applications.</p>
+<p>This was a time-consuming effort aided by researchers from
+<a rel="external" href="https://nv-adlr.github.io/" class="link">ADLR</a>. Although
+<a rel="external" href="https://arxiv.org/abs/1905.02244v5" class="link">the MobileNetV3 paper</a> reported 72.6% mIoU
+accuracy, previous public implementations only scored around 40-55% mIoU. After
+many adjustments to model architecture, loss functions
+(<a rel="external" href="https://arxiv.org/abs/1910.12037" class="link">RMI</a>), and hyperparameters, I was able to
+train models reaching 72.3% mIoU, while running inference at up to 37.3 FPS on a
+modern GPU.</p>
+<p>I currently maintain this code as a
+<a href="https://pypi.org/project/fastseg/">package on PyPI</a>, along with
+scripts for inference and exporting models to different formats for deployment.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/fastseg" class="link">GitHub</a>,
+<a rel="external" href="https://colab.research.google.com/github/ekzhang/fastseg/blob/master/demo/fastseg-semantic-segmentation.ipynb" class="link">Colab</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/fastseg.22e6688c.jpg"><img src="/_app/immutable/assets/fastseg.22e6688c.jpg" alt="Fast Semantic Segmentation preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="setwithfriends"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Set with Friends</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">January 2020</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/setwithfriends/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">JavaScript</div><div class="pill svelte-1d8a62h">Game</div><div class="pill svelte-1d8a62h">React</div><div class="pill svelte-1d8a62h">Firebase</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">An online, real-time multiplayer card game.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p><em>Set with Friends</em> is a web implementation of a real-time pattern matching card
+game called <a rel="external" href="https://en.wikipedia.org/wiki/Set_(card_game)" class="link">Set</a>. Originally,
+when I was at <a rel="external" href="https://sparc-camp.org/" class="link">SPARC 2019</a>, I wondered how I could
+bridge the 3000 mile gap between some of the friends I had made after we parted
+ways. <em>Set with Friends</em> lets you play Set online with minimal overhead (no
+login necessary); it’s as simple as sharing a custom link and having fun!</p>
+<p>During the design process, I learned about Firebase, so working on this app
+introduced me to serverless architectures and provided a good exercise in
+creating live interfaces. We completely overhauled the design in May and
+released version 2.0 in June. At its peak, the website had over 40,000 monthly
+active users for half a year, and as of September 2022 there have been 5,000,000
+games played.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/setwithfriends" class="link">GitHub</a>,
+<a rel="external" href="https://setwithfriends.com/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/setwithfriends.e814f490.png"><img src="/_app/immutable/assets/setwithfriends.e814f490.png" alt="Set with Friends preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="wkspace"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Competitive Programming Workspace</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">September 2019</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/wkspace/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">JavaScript</div><div class="pill svelte-1d8a62h">CP</div><div class="pill svelte-1d8a62h">React</div><div class="pill svelte-1d8a62h">Express</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">An online, cloud-synchronized workspace for competitive programmers.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Top competitive programmers have dedicated setups on their local machines that
+let them quickly creating new programs from templates, generate input files, and
+run code on suites of test data. But what if you’re working on a different
+computer, and you don’t have all of these tools installed?</p>
+<p><em>Workspace</em> is a side-by-side problem viewer and code editor that allows you to
+run code online. It supports advanced features like autocompletion and
+automatically parses of test cases for each problem, saving time in a
+programming competition. This was inspired by
+<a rel="external" href="https://csacademy.com/" class="link">CS Academy</a>‘s interface.</p>
+<p>The web server lets you scrape problems from online judges at the click of a
+button. All code is automatically saved and synchronized with a MongoDB instance
+in the cloud, so it persists across sessions and browsers. See the website below
+to try it out.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/wkspace" class="link">GitHub</a>,
+<a rel="external" href="https://wkspace.herokuapp.com/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/wkspace.a04b6a8c.png"><img src="/_app/immutable/assets/wkspace.a04b6a8c.png" alt="Competitive Programming Workspace preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="triangulate"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Polygon Triangulation with Holes</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">May 2019</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/triangulate/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">C++</div><div class="pill svelte-1d8a62h">Algorithms</div><div class="pill svelte-1d8a62h">Emscripten</div><div class="pill svelte-1d8a62h">Graphics</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Fast computational geometry algorithms in WebAssembly.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This was an experiment to implement the <em>ear clipping</em> algorithm from
+computational geometry for
+<a rel="external" href="https://en.wikipedia.org/wiki/Polygon_triangulation" class="link">polygon triangulation</a>.
+Although easy to describe, triangulation is a surprisingly difficult problem, as
+there are many corner cases involving concave polygons, holes, and nested
+polygons. Therefore, we need to use some
+<a rel="external" href="https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf" class="link">clever techniques</a>
+to make the problem tractable.</p>
+<p>Note that there is a randomized O(N log<sup>*</sup> N) algorithm for this
+problem
+(<a rel="external" href="https://www.sciencedirect.com/science/article/pii/0925772191900124" class="link">Seidel 1991</a>).
+However, for most practical applications, ear clipping is fast enough and
+produces more robust results, while having lower constant-factor overhead due to
+the use of simpler data structures.</p>
+<p>I implemented the algorithm in C++ from scratch, then compiled it to WebAssembly
+using <a rel="external" href="https://emscripten.org/" class="link">Emscripten</a> to produce code that could be run by
+the browser.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/triangulate" class="link">GitHub</a>,
+<a rel="external" href="https://triangulate.surge.sh/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/triangulate.9c829ea2.png"><img src="/_app/immutable/assets/triangulate.9c829ea2.png" alt="Polygon Triangulation with Holes preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="harmony"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Procedural Harmony</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">February 2019</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/harmony/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Music</div><div class="pill svelte-1d8a62h">Algorithms</div><div class="pill svelte-1d8a62h">Flask</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Dynamic programming applied to four-part harmony.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This is a Python program that takes as input a string containing
+<a rel="external" href="https://en.wikipedia.org/wiki/Key_signature" class="link">keys</a> and
+<a rel="external" href="https://en.wikipedia.org/wiki/Roman_numeral_analysis" class="link">roman numerals</a>
+representing a chord progression, and voices the resulting chords according to
+common practice <a rel="external" href="https://en.wikipedia.org/wiki/Voice_leading" class="link">voice leading</a>
+conventions. This can be used to try out chord progressions, compose a short
+chorale, and solve music theory exercises.</p>
+<p>Parsing and interpreting the roman numerals was done with
+<a rel="external" href="https://web.mit.edu/music21/" class="link">Music21</a>. This project required satisfying a
+technical set of
+<a rel="external" href="http://derekremes.com/wp-content/uploads/voiceleadingsummary.pdf" class="link">voice leading constraints</a>,
+which I framed as a combinatorial optimization problem. Although the set of
+possible voicings is exponential in size, you can use dynamic programming on
+intermediate states for a relatively fast algorithm. See the website below for
+an interactive version deployed with Flask.</p>
+<p>The code and idea behind this project were used as the basis for an
+<a rel="external" href="https://program.ismir2020.net/lbd_432.html" class="link">abstract at ISMIR 2020</a>, written by
+computational music theory researchers at McGill University.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/harmony" class="link">GitHub</a>,
+<a rel="external" href="https://autoharmony.herokuapp.com/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/harmony.25e58fd0.png"><img src="/_app/immutable/assets/harmony.25e58fd0.png" alt="Procedural Harmony preview image" class="border"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="library"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Algorithm and Data Structure Library</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">January 2019</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/library/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">C++</div><div class="pill svelte-1d8a62h">CP</div><div class="pill svelte-1d8a62h">Algorithms</div><div class="pill svelte-1d8a62h">Angular</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">A competitive programmer's library of algorithms and data structures in C++.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>I maintain an open-source library of about thirty-five C++ templates for
+algorithms and data structures. These are fairly advanced tricks targeted toward
+top competitive programmers, including fast implementations of FFT, Aho-Corasick
+string search, and Dinic’s blocking flow algorithm, as well as data structures
+like link-cut trees and centroid decomposition.</p>
+<p>This is accessible on a static website, which I developed using Angular. The
+website also includes a searchable collection of more than 600 code samples from
+other open-source libraries.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/library" class="link">GitHub</a>,
+<a rel="external" href="https://ekzlib.netlify.app/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/library.88782b31.png"><img src="/_app/immutable/assets/library.88782b31.png" alt="Algorithm and Data Structure Library preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="game-of-life"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Canvas Hashlife</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">December 2018</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/game-of-life/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">JavaScript</div><div class="pill svelte-1d8a62h">Algorithms</div><div class="pill svelte-1d8a62h">Graphics</div><div class="pill svelte-1d8a62h">Vue</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">An ultra-fast simulation of Conway's Game of Life in the browser.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Ever wanted to simulate a 2<sup>100</sup> &times; 2<sup>100</sup> grid of cells
+over 2<sup>50</sup> generations? Well, now you can do that in just milliseconds
+without any specialized software, right in your browser!</p>
+<p>How is it possible to simulate such a massive pattern without running out of CPU
+or memory? The secret is Bill Gosper’s
+<a rel="external" href="https://en.wikipedia.org/wiki/Hashlife" class="link">Hashlife</a> algorithm, which combines
+quadtrees and memoization to
+<a rel="external" href="https://www.drdobbs.com/jvm/an-algorithm-for-compressing-space-and-t/184406478" class="link">compress space and time</a>.
+In the image, you can see a frontend web application computing the
+498,913,509,376<sup>th</sup> generation of a Turing machine pattern in just
+under a millisecond.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/game-of-life" class="link">GitHub</a>,
+<a rel="external" href="https://ekzhang.github.io/game-of-life/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/game-of-life.0c13ef05.png"><img src="/_app/immutable/assets/game-of-life.0c13ef05.png" alt="Canvas Hashlife preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="char-rnn-keras"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Char-RNN Keras</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">October 2018</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/char-rnn-keras/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Machine Learning</div><div class="pill svelte-1d8a62h">Music</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Character-level language models with recurrent neural networks in Keras.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Inspired by Andrej Karpathy’s
+<a rel="external" href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/" class="link">blog post</a>, this is
+an implementation of a multi-layer long short-term memory (LSTM) network in
+Keras, for learning and sampling from character-level patterns in text. This was
+trained to generate writing in the style of historical authors, like
+Shakespeare, Hugo, and Carroll.</p>
+<p>A really interesting application was training this model on a text-based corpus
+of folk music, from which it could compose fairly convincing new music samples.
+See the <code>music-gen</code> demo below.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/char-rnn-keras" class="link">GitHub</a>,
+<a rel="external" href="https://ekzhang.github.io/music-gen/" class="link">Demo</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/char-rnn-keras.c42f556f.png"><img src="/_app/immutable/assets/char-rnn-keras.c42f556f.png" alt="Char-RNN Keras preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="vae-cnn-mnist"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Handwriting Generator</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">August 2018</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/vae-cnn-mnist/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">Python</div><div class="pill svelte-1d8a62h">Machine Learning</div><div class="pill svelte-1d8a62h">Graphics</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Variational autoencoder that learns latent features in handwriting.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This is a neural network that encodes 28&times;28 images of handwritten
+characters in a 6-dimensional latent space using deep learning. It consists of
+two parts: an encoder block that puts the input through several convolutional
+and downsampling layers to extract latent variables, and a decoder block that
+takes latent variables and a label to reconstruct the original image, minimizing
+mean squared error. During the training process, we add some Gaussian noise to
+the latent space, which is the so-called “reparameterization trick” of a
+<a rel="external" href="https://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional" class="link">variational autoencoder</a>.</p>
+<p>I implemented the model in Keras and trained it on a dataset of over 400,000
+handwritten characters. You can see the results in the web demo below, which
+stitches the outputs together onto a canvas. Without any prior knowledge, the
+model is able to isolate six of the most important characteristics in human
+handwriting.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/vae-cnn-mnist" class="link">GitHub</a>,
+<a rel="external" href="https://ekzhang.github.io/vae-cnn-mnist/" class="link">Demo</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/vae-cnn-mnist.2c640af4.png"><img src="/_app/immutable/assets/vae-cnn-mnist.2c640af4.png" alt="Handwriting Generator preview image"></a></div></div>
+
+  
+</div></div>
+  </section><section class="py-10" id="julia-fractal"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Julia Fractal Renderers</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">April 2018</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/julia-fractal/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">C++</div><div class="pill svelte-1d8a62h">Java</div><div class="pill svelte-1d8a62h">Graphics</div><div class="pill svelte-1d8a62h">TypeScript</div><div class="pill svelte-1d8a62h">OpenGL</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Fast, interactive fractal renderers in C++, Java, and WebGL.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>Originally, this project started out as a multithreaded Julia fractal renderer
+in C++, which I used to create high-quality static images and animations.
+However, I also wanted to interactively explore the fractals by zooming and
+panning, so I created a Java Swing app with similar multithreaded performance.</p>
+<p>The speed of these implementations was heavily CPU-bound though, so I finally
+implemented an
+<a rel="external" href="https://en.wikipedia.org/wiki/OpenGL_Shading_Language" class="link">OpenGL shader</a> that
+could render Julia fractals with blazing-fast speed, fast enough to be explored
+interactively with almost no lag. I rendered using WebGL and connected it to
+mobile-friendly controls with TypeScript. You can play with this fractal
+explorer in the website linked below.</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/julia-fractal" class="link">GitHub</a>,
+<a rel="external" href="https://github.com/ekzhang/julia-viewer" class="link">GitHub (Java)</a>,
+<a rel="external" href="https://github.com/ekzhang/webgl-julia-viewer" class="link">GitHub (WebGL)</a>,
+<a rel="external" href="https://ekzhang.github.io/webgl-julia-viewer/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/julia-1.e84616bd.jpg"><img src="/_app/immutable/assets/julia-1.e84616bd.jpg" alt="Julia Fractal Renderers preview image"></a></div></div>
+
+  <div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-full md:col-span-1"><a rel="external" href="/_app/immutable/assets/julia-2.d3f67f15.jpg"><img src="/_app/immutable/assets/julia-2.d3f67f15.jpg" alt="Julia Fractal Renderers subimage"></a>
+        </div><div class="col-span-full md:col-span-1"><a rel="external" href="/_app/immutable/assets/julia-3.ec6a39cb.jpg"><img src="/_app/immutable/assets/julia-3.ec6a39cb.jpg" alt="Julia Fractal Renderers subimage"></a>
+        </div><div class="col-span-full md:col-span-1"><a rel="external" href="/_app/immutable/assets/julia-4.7de9e4df.jpg"><img src="/_app/immutable/assets/julia-4.7de9e4df.jpg" alt="Julia Fractal Renderers subimage"></a>
+        </div></div>
+</div></div>
+  </section><section class="py-10" id="gravity"><div class="mx-auto max-w-[1152px] px-4 sm:px-6">
+<h3 class="text-black text-xl font-semibold mb-2"><span class="mr-1">Universal Gravity Simulator</span>
+  <small class="whitespace-nowrap text-neutral-500 text-base font-normal">May 2016</small></h3>
+
+
+<div class="flex flex-wrap mb-1"><a class="pill hover:!bg-neutral-200 transition-colors svelte-1d8a62h" href="https://github.com/ekzhang/gravity/stargazers"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-icon lucide lucide-star fill-current"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <span>​</span></a>
+  <div class="pill svelte-1d8a62h">JavaScript</div><div class="pill svelte-1d8a62h">Graphics</div><div class="pill svelte-1d8a62h">Physics</div></div>
+
+
+<div class="space-y-4"><div class="grid grid-cols-3 gap-4 md:gap-8 lg:gap-12"><div class="col-span-3 md:col-span-2"><p class="text-lg font-light mb-3">Control hundreds of tiny planets with gravity.</p>
+      <div class="md-output svelte-19wf98v"><!-- HTML_TAG_START --><p>This was one of my first fun programming projects, a visual experiment
+simulating gravity in a system with hundreds of interacting objects.
+Calculations are done using simple physics formulas, with a bit of damping to
+make them more robust. The user can click to add an invisible mass that attracts
+all objects to the cursor. Everything is rendered in real time on a <code>&lt;canvas&gt;</code>
+element, and it’s quite satisfying to move the colorful balls around!</p>
+<p><strong>Links: <a rel="external" href="https://github.com/ekzhang/gravity" class="link">GitHub</a>,
+<a rel="external" href="https://ekzhang.github.io/gravity/" class="link">Website</a></strong></p>
+<!-- HTML_TAG_END -->
+</div></div>
+    <div class="col-span-3 md:col-span-1"><a rel="external" href="/_app/immutable/assets/gravity.bc8c441c.png"><img src="/_app/immutable/assets/gravity.bc8c441c.png" alt="Universal Gravity Simulator preview image"></a></div></div>
+
+  
+</div></div>
+  </section></main>
+
+<footer class="layout-md mt-20 text-lg flex flex-col"><div class="row svelte-1t3hv3r"><span class="svelte-1t3hv3r">Twitter</span>
+    <hr class="svelte-1t3hv3r">
+    <a class="link svelte-1t3hv3r" href="https://twitter.com/ekzhang1">@ekzhang1</a></div>
+  <div class="row svelte-1t3hv3r"><span class="svelte-1t3hv3r">GitHub</span>
+    <hr class="svelte-1t3hv3r">
+    <a class="link svelte-1t3hv3r" href="https://github.com/ekzhang">@ekzhang</a></div>
+  <div class="row svelte-1t3hv3r"><span class="svelte-1t3hv3r">Email</span>
+    <hr class="svelte-1t3hv3r">
+    <a class="link svelte-1t3hv3r" href="mailto:ekzhang1@gmail.com">ekzhang1@gmail.com</a></div>
+</footer>
+
+
+			
+			<script>
+				{
+					__sveltekit_xyfd22 = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.fdef2770.js"),
+						import("./_app/immutable/entry/app.5b92fc77.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_xyfd22.element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>
