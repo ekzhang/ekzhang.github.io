@@ -13,11 +13,16 @@
 
   <Workplace
     title="Member of Technical Staff"
-    company="Thinking Machines"
+    company="Thinking Machines Lab"
     url="https://thinkingmachines.ai/"
     dates="October 2025 – Current"
     location="New York, NY"
-  />
+  >
+    <li>
+      Research infrastructure, training and inference systems, brief stint in
+      product.
+    </li>
+  </Workplace>
 
   <Workplace
     title="Principal Engineer"
